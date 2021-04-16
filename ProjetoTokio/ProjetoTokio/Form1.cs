@@ -161,38 +161,42 @@ namespace ProjetoTokio // nome do projeto
 
             string rolar = txtDado.Text = Jogo.RolarDados(idJogador, senhaJogador);
 
-            rolar.Replace("\r", "");
-            string[] separar = rolar.Split('\n');
-            double casa1 = Convert.ToInt32(separar[0]);
-            double casa2 = Convert.ToInt32(separar[1]);
-            double casa3 = Convert.ToInt32(separar[2]);
-            double casa4 = Convert.ToInt32(separar[3]);
-
-            string casa1T = (casa1 / 10).ToString();
-            string casa2T = (casa2 / 10).ToString();
-            string casa3T = (casa3 / 10).ToString();
-            string casa4T = (casa4 / 10).ToString();
-
-            string[] dado1 = casa1T.Split(',');
-            string[] dado2 = casa2T.Split(',');
-            string[] dado3 = casa3T.Split(',');
-            string[] dado4 = casa4T.Split(',');
-
-            txtDadoRolado1.Text = dado1[1];
-            txtDadoRolado2.Text = dado2[1];
-            txtDadoRolado3.Text = dado3[1];
-            txtDadoRolado4.Text = dado4[1];
-
-            //funções de exibição dos dados na tela
-            Dice1(); //dado1
-            Dice2(); //dado2
-            Dice3(); //dado3
-            Dice4(); //dado4
+            
 
 
             if (rolar.StartsWith("ERRO"))//se as 4 letras(ERRO) = true
             {
                 MessageBox.Show(rolar);//exibe o erro na tela
+            }
+            else
+            {
+                rolar.Replace("\r", "");
+                            string[] separar = rolar.Split('\n');
+                            double casa1 = Convert.ToInt32(separar[0]);
+                            double casa2 = Convert.ToInt32(separar[1]);
+                            double casa3 = Convert.ToInt32(separar[2]);
+                            double casa4 = Convert.ToInt32(separar[3]);
+
+                            string casa1T = (casa1 / 10).ToString();
+                            string casa2T = (casa2 / 10).ToString();
+                            string casa3T = (casa3 / 10).ToString();
+                            string casa4T = (casa4 / 10).ToString();
+
+                            string[] dado1 = casa1T.Split(',');
+                            string[] dado2 = casa2T.Split(',');
+                            string[] dado3 = casa3T.Split(',');
+                            string[] dado4 = casa4T.Split(',');
+
+                            txtDadoRolado1.Text = dado1[1];
+                            txtDadoRolado2.Text = dado2[1];
+                            txtDadoRolado3.Text = dado3[1];
+                            txtDadoRolado4.Text = dado4[1];
+
+                            //funções de exibição dos dados na tela
+                            Dice1(); //dado1
+                            Dice2(); //dado2
+                            Dice3(); //dado3
+                            Dice4(); //dado4
             }
            
         }

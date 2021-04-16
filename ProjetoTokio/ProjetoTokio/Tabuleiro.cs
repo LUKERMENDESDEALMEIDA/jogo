@@ -4398,7 +4398,12 @@ namespace ProjetoTokio
             
             string exibirTabu = Jogo.ExibirTabuleiro(this.idPartida);
 
+
+
+            
             exibirTabu = exibirTabu.Replace("\r\n", "-");
+
+            
             exibirTabu = exibirTabu.Remove(exibirTabu.Length - 1);
             string[] tabuleiroSplit = exibirTabu.Split('-');
 
