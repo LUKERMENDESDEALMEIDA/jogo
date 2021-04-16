@@ -63,6 +63,20 @@ namespace ProjetoTokio
             this.lblTableaAmarelo = new System.Windows.Forms.Label();
             this.btnExibirTabuleiro = new System.Windows.Forms.Button();
             this.txtVerificaVez = new System.Windows.Forms.TextBox();
+            this.txtDadoRolado4 = new System.Windows.Forms.TextBox();
+            this.txtDadoRolado3 = new System.Windows.Forms.TextBox();
+            this.txtDadoRolado2 = new System.Windows.Forms.TextBox();
+            this.txtDadoRolado1 = new System.Windows.Forms.TextBox();
+            this.picDadoRolado4 = new System.Windows.Forms.PictureBox();
+            this.picDadoRolado3 = new System.Windows.Forms.PictureBox();
+            this.picDadoRolado2 = new System.Windows.Forms.PictureBox();
+            this.picDadoRolado1 = new System.Windows.Forms.PictureBox();
+            this.txtDado = new System.Windows.Forms.TextBox();
+            this.btnRolarDado = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.picDadoRolado4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDadoRolado3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDadoRolado2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDadoRolado1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnListaPartida
@@ -81,9 +95,9 @@ namespace ProjetoTokio
             // 
             this.BtnJogadores.BackColor = System.Drawing.Color.HotPink;
             this.BtnJogadores.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Bold);
-            this.BtnJogadores.Location = new System.Drawing.Point(610, 152);
+            this.BtnJogadores.Location = new System.Drawing.Point(645, 130);
             this.BtnJogadores.Name = "BtnJogadores";
-            this.BtnJogadores.Size = new System.Drawing.Size(160, 50);
+            this.BtnJogadores.Size = new System.Drawing.Size(100, 30);
             this.BtnJogadores.TabIndex = 2;
             this.BtnJogadores.Text = "Jogadores";
             this.BtnJogadores.UseVisualStyleBackColor = false;
@@ -166,7 +180,7 @@ namespace ProjetoTokio
             // 
             this.lblVersao.AutoSize = true;
             this.lblVersao.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Bold);
-            this.lblVersao.Location = new System.Drawing.Point(730, 487);
+            this.lblVersao.Location = new System.Drawing.Point(723, 496);
             this.lblVersao.Name = "lblVersao";
             this.lblVersao.Size = new System.Drawing.Size(47, 15);
             this.lblVersao.TabIndex = 10;
@@ -256,10 +270,10 @@ namespace ProjetoTokio
             this.txtJogadores.Cursor = System.Windows.Forms.Cursors.No;
             this.txtJogadores.Enabled = false;
             this.txtJogadores.Font = new System.Drawing.Font("Microsoft JhengHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtJogadores.Location = new System.Drawing.Point(610, 12);
+            this.txtJogadores.Location = new System.Drawing.Point(623, 12);
             this.txtJogadores.Multiline = true;
             this.txtJogadores.Name = "txtJogadores";
-            this.txtJogadores.Size = new System.Drawing.Size(160, 134);
+            this.txtJogadores.Size = new System.Drawing.Size(138, 107);
             this.txtJogadores.TabIndex = 22;
             // 
             // txtCor
@@ -337,9 +351,9 @@ namespace ProjetoTokio
             // 
             this.bntVerificaVez.BackColor = System.Drawing.Color.HotPink;
             this.bntVerificaVez.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Bold);
-            this.bntVerificaVez.Location = new System.Drawing.Point(635, 293);
+            this.bntVerificaVez.Location = new System.Drawing.Point(645, 259);
             this.bntVerificaVez.Name = "bntVerificaVez";
-            this.bntVerificaVez.Size = new System.Drawing.Size(113, 29);
+            this.bntVerificaVez.Size = new System.Drawing.Size(100, 30);
             this.bntVerificaVez.TabIndex = 30;
             this.bntVerificaVez.Text = "Verificar Vez";
             this.bntVerificaVez.UseVisualStyleBackColor = false;
@@ -420,11 +434,104 @@ namespace ProjetoTokio
             this.txtVerificaVez.Cursor = System.Windows.Forms.Cursors.No;
             this.txtVerificaVez.Enabled = false;
             this.txtVerificaVez.Font = new System.Drawing.Font("Microsoft JhengHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtVerificaVez.Location = new System.Drawing.Point(623, 211);
+            this.txtVerificaVez.Location = new System.Drawing.Point(623, 177);
             this.txtVerificaVez.Multiline = true;
             this.txtVerificaVez.Name = "txtVerificaVez";
             this.txtVerificaVez.Size = new System.Drawing.Size(138, 77);
             this.txtVerificaVez.TabIndex = 31;
+            // 
+            // txtDadoRolado4
+            // 
+            this.txtDadoRolado4.Location = new System.Drawing.Point(499, 493);
+            this.txtDadoRolado4.Multiline = true;
+            this.txtDadoRolado4.Name = "txtDadoRolado4";
+            this.txtDadoRolado4.Size = new System.Drawing.Size(26, 23);
+            this.txtDadoRolado4.TabIndex = 115;
+            this.txtDadoRolado4.Visible = false;
+            // 
+            // txtDadoRolado3
+            // 
+            this.txtDadoRolado3.Location = new System.Drawing.Point(499, 452);
+            this.txtDadoRolado3.Multiline = true;
+            this.txtDadoRolado3.Name = "txtDadoRolado3";
+            this.txtDadoRolado3.Size = new System.Drawing.Size(26, 23);
+            this.txtDadoRolado3.TabIndex = 114;
+            this.txtDadoRolado3.Visible = false;
+            // 
+            // txtDadoRolado2
+            // 
+            this.txtDadoRolado2.Location = new System.Drawing.Point(455, 493);
+            this.txtDadoRolado2.Multiline = true;
+            this.txtDadoRolado2.Name = "txtDadoRolado2";
+            this.txtDadoRolado2.Size = new System.Drawing.Size(26, 23);
+            this.txtDadoRolado2.TabIndex = 113;
+            this.txtDadoRolado2.Visible = false;
+            // 
+            // txtDadoRolado1
+            // 
+            this.txtDadoRolado1.Location = new System.Drawing.Point(455, 452);
+            this.txtDadoRolado1.Multiline = true;
+            this.txtDadoRolado1.Name = "txtDadoRolado1";
+            this.txtDadoRolado1.Size = new System.Drawing.Size(26, 23);
+            this.txtDadoRolado1.TabIndex = 112;
+            this.txtDadoRolado1.Visible = false;
+            // 
+            // picDadoRolado4
+            // 
+            this.picDadoRolado4.BackColor = System.Drawing.Color.Transparent;
+            this.picDadoRolado4.Location = new System.Drawing.Point(711, 381);
+            this.picDadoRolado4.Name = "picDadoRolado4";
+            this.picDadoRolado4.Size = new System.Drawing.Size(50, 50);
+            this.picDadoRolado4.TabIndex = 111;
+            this.picDadoRolado4.TabStop = false;
+            // 
+            // picDadoRolado3
+            // 
+            this.picDadoRolado3.BackColor = System.Drawing.Color.Transparent;
+            this.picDadoRolado3.Location = new System.Drawing.Point(711, 313);
+            this.picDadoRolado3.Name = "picDadoRolado3";
+            this.picDadoRolado3.Size = new System.Drawing.Size(50, 50);
+            this.picDadoRolado3.TabIndex = 110;
+            this.picDadoRolado3.TabStop = false;
+            // 
+            // picDadoRolado2
+            // 
+            this.picDadoRolado2.BackColor = System.Drawing.Color.Transparent;
+            this.picDadoRolado2.Location = new System.Drawing.Point(636, 381);
+            this.picDadoRolado2.Name = "picDadoRolado2";
+            this.picDadoRolado2.Size = new System.Drawing.Size(50, 50);
+            this.picDadoRolado2.TabIndex = 109;
+            this.picDadoRolado2.TabStop = false;
+            // 
+            // picDadoRolado1
+            // 
+            this.picDadoRolado1.BackColor = System.Drawing.Color.Transparent;
+            this.picDadoRolado1.Location = new System.Drawing.Point(636, 313);
+            this.picDadoRolado1.Name = "picDadoRolado1";
+            this.picDadoRolado1.Size = new System.Drawing.Size(50, 50);
+            this.picDadoRolado1.TabIndex = 108;
+            this.picDadoRolado1.TabStop = false;
+            // 
+            // txtDado
+            // 
+            this.txtDado.Location = new System.Drawing.Point(354, 457);
+            this.txtDado.Multiline = true;
+            this.txtDado.Name = "txtDado";
+            this.txtDado.Size = new System.Drawing.Size(88, 51);
+            this.txtDado.TabIndex = 107;
+            this.txtDado.Visible = false;
+            // 
+            // btnRolarDado
+            // 
+            this.btnRolarDado.BackColor = System.Drawing.Color.HotPink;
+            this.btnRolarDado.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRolarDado.Location = new System.Drawing.Point(645, 444);
+            this.btnRolarDado.Name = "btnRolarDado";
+            this.btnRolarDado.Size = new System.Drawing.Size(100, 30);
+            this.btnRolarDado.TabIndex = 106;
+            this.btnRolarDado.Text = "Rolar Dado";
+            this.btnRolarDado.UseVisualStyleBackColor = false;
+            this.btnRolarDado.Click += new System.EventHandler(this.btnRolarDado_Click);
             // 
             // Form1
             // 
@@ -432,6 +539,16 @@ namespace ProjetoTokio
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Pink;
             this.ClientSize = new System.Drawing.Size(822, 520);
+            this.Controls.Add(this.txtDadoRolado4);
+            this.Controls.Add(this.txtDadoRolado3);
+            this.Controls.Add(this.txtDadoRolado2);
+            this.Controls.Add(this.txtDadoRolado1);
+            this.Controls.Add(this.picDadoRolado4);
+            this.Controls.Add(this.picDadoRolado3);
+            this.Controls.Add(this.picDadoRolado2);
+            this.Controls.Add(this.picDadoRolado1);
+            this.Controls.Add(this.txtDado);
+            this.Controls.Add(this.btnRolarDado);
             this.Controls.Add(this.btnExibirTabuleiro);
             this.Controls.Add(this.txtVerificaVez);
             this.Controls.Add(this.bntVerificaVez);
@@ -461,6 +578,10 @@ namespace ProjetoTokio
             this.Name = "Form1";
             this.Text = "Projeto Tokyo";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.picDadoRolado4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDadoRolado3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDadoRolado2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDadoRolado1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -502,6 +623,16 @@ namespace ProjetoTokio
         public System.Windows.Forms.Button btnExibirTabuleiro;
         public System.Windows.Forms.ListBox lstListaPartida;
         public System.Windows.Forms.TextBox txtVerificaVez;
+        private System.Windows.Forms.TextBox txtDadoRolado4;
+        private System.Windows.Forms.TextBox txtDadoRolado3;
+        private System.Windows.Forms.TextBox txtDadoRolado2;
+        private System.Windows.Forms.TextBox txtDadoRolado1;
+        private System.Windows.Forms.PictureBox picDadoRolado4;
+        private System.Windows.Forms.PictureBox picDadoRolado3;
+        private System.Windows.Forms.PictureBox picDadoRolado2;
+        private System.Windows.Forms.PictureBox picDadoRolado1;
+        private System.Windows.Forms.TextBox txtDado;
+        private System.Windows.Forms.Button btnRolarDado;
     }
 }
 

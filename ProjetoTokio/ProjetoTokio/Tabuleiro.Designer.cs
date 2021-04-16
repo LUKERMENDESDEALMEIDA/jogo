@@ -122,16 +122,6 @@ namespace ProjetoTokio
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.tmExibirTabu = new System.Windows.Forms.Timer(this.components);
-            this.btnRolarDado = new System.Windows.Forms.Button();
-            this.txtDice = new System.Windows.Forms.TextBox();
-            this.picDadoRolado1 = new System.Windows.Forms.PictureBox();
-            this.picDadoRolado2 = new System.Windows.Forms.PictureBox();
-            this.picDadoRolado3 = new System.Windows.Forms.PictureBox();
-            this.picDadoRolado4 = new System.Windows.Forms.PictureBox();
-            this.txtDadoRolado1 = new System.Windows.Forms.TextBox();
-            this.txtDadoRolado2 = new System.Windows.Forms.TextBox();
-            this.txtDadoRolado3 = new System.Windows.Forms.TextBox();
-            this.txtDadoRolado4 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pct2_1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct3_1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct4_1)).BeginInit();
@@ -215,10 +205,6 @@ namespace ProjetoTokio
             ((System.ComponentModel.ISupportInitialize)(this.pct10_final)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct9_final)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct8_final)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picDadoRolado1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picDadoRolado2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picDadoRolado3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picDadoRolado4)).BeginInit();
             this.SuspendLayout();
             // 
             // pct2_1
@@ -1303,109 +1289,11 @@ namespace ProjetoTokio
             this.tmExibirTabu.Interval = 2000;
             this.tmExibirTabu.Tick += new System.EventHandler(this.tmExibirTabu_Tick);
             // 
-            // btnRolarDado
-            // 
-            this.btnRolarDado.Location = new System.Drawing.Point(23, 90);
-            this.btnRolarDado.Name = "btnRolarDado";
-            this.btnRolarDado.Size = new System.Drawing.Size(75, 23);
-            this.btnRolarDado.TabIndex = 96;
-            this.btnRolarDado.Text = "Rolar Dado";
-            this.btnRolarDado.UseVisualStyleBackColor = true;
-            this.btnRolarDado.Click += new System.EventHandler(this.btnRolarDado_Click);
-            // 
-            // txtDice
-            // 
-            this.txtDice.Location = new System.Drawing.Point(12, 12);
-            this.txtDice.Multiline = true;
-            this.txtDice.Name = "txtDice";
-            this.txtDice.Size = new System.Drawing.Size(100, 63);
-            this.txtDice.TabIndex = 97;
-            this.txtDice.Visible = false;
-            // 
-            // picDadoRolado1
-            // 
-            this.picDadoRolado1.Location = new System.Drawing.Point(157, 22);
-            this.picDadoRolado1.Name = "picDadoRolado1";
-            this.picDadoRolado1.Size = new System.Drawing.Size(50, 50);
-            this.picDadoRolado1.TabIndex = 98;
-            this.picDadoRolado1.TabStop = false;
-            // 
-            // picDadoRolado2
-            // 
-            this.picDadoRolado2.Location = new System.Drawing.Point(226, 22);
-            this.picDadoRolado2.Name = "picDadoRolado2";
-            this.picDadoRolado2.Size = new System.Drawing.Size(50, 50);
-            this.picDadoRolado2.TabIndex = 99;
-            this.picDadoRolado2.TabStop = false;
-            // 
-            // picDadoRolado3
-            // 
-            this.picDadoRolado3.Location = new System.Drawing.Point(296, 22);
-            this.picDadoRolado3.Name = "picDadoRolado3";
-            this.picDadoRolado3.Size = new System.Drawing.Size(50, 50);
-            this.picDadoRolado3.TabIndex = 100;
-            this.picDadoRolado3.TabStop = false;
-            // 
-            // picDadoRolado4
-            // 
-            this.picDadoRolado4.Location = new System.Drawing.Point(365, 21);
-            this.picDadoRolado4.Name = "picDadoRolado4";
-            this.picDadoRolado4.Size = new System.Drawing.Size(50, 50);
-            this.picDadoRolado4.TabIndex = 101;
-            this.picDadoRolado4.TabStop = false;
-            this.picDadoRolado4.Click += new System.EventHandler(this.picDadoRolado4_Click);
-            // 
-            // txtDadoRolado1
-            // 
-            this.txtDadoRolado1.Location = new System.Drawing.Point(50, 146);
-            this.txtDadoRolado1.Multiline = true;
-            this.txtDadoRolado1.Name = "txtDadoRolado1";
-            this.txtDadoRolado1.Size = new System.Drawing.Size(38, 35);
-            this.txtDadoRolado1.TabIndex = 102;
-            this.txtDadoRolado1.Visible = false;
-            // 
-            // txtDadoRolado2
-            // 
-            this.txtDadoRolado2.Location = new System.Drawing.Point(50, 207);
-            this.txtDadoRolado2.Multiline = true;
-            this.txtDadoRolado2.Name = "txtDadoRolado2";
-            this.txtDadoRolado2.Size = new System.Drawing.Size(38, 35);
-            this.txtDadoRolado2.TabIndex = 103;
-            this.txtDadoRolado2.Visible = false;
-            // 
-            // txtDadoRolado3
-            // 
-            this.txtDadoRolado3.Location = new System.Drawing.Point(50, 265);
-            this.txtDadoRolado3.Multiline = true;
-            this.txtDadoRolado3.Name = "txtDadoRolado3";
-            this.txtDadoRolado3.Size = new System.Drawing.Size(38, 35);
-            this.txtDadoRolado3.TabIndex = 104;
-            this.txtDadoRolado3.Visible = false;
-            // 
-            // txtDadoRolado4
-            // 
-            this.txtDadoRolado4.Location = new System.Drawing.Point(50, 327);
-            this.txtDadoRolado4.Multiline = true;
-            this.txtDadoRolado4.Name = "txtDadoRolado4";
-            this.txtDadoRolado4.Size = new System.Drawing.Size(38, 35);
-            this.txtDadoRolado4.TabIndex = 105;
-            this.txtDadoRolado4.Visible = false;
-            // 
             // Tabuleiro
             // 
             this.BackColor = System.Drawing.Color.LightSteelBlue;
             this.BackgroundImage = global::ProjetoTokio.Properties.Resources.tons_de_azul_das_montanhas_paisagem_23_2148273707;
             this.ClientSize = new System.Drawing.Size(834, 611);
-            this.Controls.Add(this.txtDadoRolado4);
-            this.Controls.Add(this.txtDadoRolado3);
-            this.Controls.Add(this.txtDadoRolado2);
-            this.Controls.Add(this.txtDadoRolado1);
-            this.Controls.Add(this.picDadoRolado4);
-            this.Controls.Add(this.picDadoRolado3);
-            this.Controls.Add(this.picDadoRolado2);
-            this.Controls.Add(this.picDadoRolado1);
-            this.Controls.Add(this.txtDice);
-            this.Controls.Add(this.btnRolarDado);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
@@ -1585,10 +1473,6 @@ namespace ProjetoTokio
             ((System.ComponentModel.ISupportInitialize)(this.pct10_final)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct9_final)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct8_final)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picDadoRolado1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picDadoRolado2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picDadoRolado3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picDadoRolado4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1707,15 +1591,5 @@ namespace ProjetoTokio
         public System.Windows.Forms.Label label10;
         private System.Windows.Forms.Timer tmExibirTabu;
         private System.ComponentModel.IContainer components;
-        private System.Windows.Forms.Button btnRolarDado;
-        private System.Windows.Forms.TextBox txtDice;
-        private System.Windows.Forms.PictureBox picDadoRolado1;
-        private System.Windows.Forms.PictureBox picDadoRolado2;
-        private System.Windows.Forms.PictureBox picDadoRolado3;
-        private System.Windows.Forms.PictureBox picDadoRolado4;
-        private System.Windows.Forms.TextBox txtDadoRolado1;
-        private System.Windows.Forms.TextBox txtDadoRolado2;
-        private System.Windows.Forms.TextBox txtDadoRolado3;
-        private System.Windows.Forms.TextBox txtDadoRolado4;
     }
 }
