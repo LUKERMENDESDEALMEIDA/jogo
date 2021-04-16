@@ -16,6 +16,7 @@ namespace ProjetoTokio
         public Tabuleiro()
         {
             InitializeComponent();
+            
 
             //this.pictureBox78.Image = ProjetoTokio.Properties.Resources.alpinista;
 
@@ -32,6 +33,9 @@ namespace ProjetoTokio
         //declarar imagem em picturebox
         //this.pct2_1.Image = ProjetoTokio.Properties.Resources.alpinista;
         public int idPartida { get; set; }
+        
+
+
 
         public DataTable tabuleiro { get; set; }
         public void mapaTabu(string trilha, string posicao, string jogador, string tipo)
@@ -4414,6 +4418,169 @@ namespace ProjetoTokio
                 this.mapaTabu(valor[0], valor[1], valor[2], valor[3]);
 
             }
+        }
+
+        public void btnRolarDado_Click(object sender, EventArgs e)
+        {
+            Form1 form1 = new Form1();
+            
+            txtDado.Clear(); //limpar textbox
+
+            int idJogador = Convert.ToInt32(form1.txtIdJogador.Text);//converte o primeiro item[0] do vetor em numero inteiro
+            string senhaJogador = form1.txtSenhaJogador.Text;
+
+            string rolar = txtDado.Text = Jogo.RolarDados(idJogador, senhaJogador);
+
+            rolar.Replace("\r", "");
+            string[] separar = rolar.Split('\n');
+            double casa1 = Convert.ToInt32(separar[0]);
+            double casa2 = Convert.ToInt32(separar[1]);
+            double casa3 = Convert.ToInt32(separar[2]);
+            double casa4 = Convert.ToInt32(separar[3]);
+
+            string casa1T = (casa1 / 10).ToString();
+            string casa2T = (casa2 / 10).ToString();
+            string casa3T = (casa3 / 10).ToString();
+            string casa4T = (casa4 / 10).ToString();
+
+            string[] dado1 = casa1T.Split(',');
+            string[] dado2 = casa2T.Split(',');
+            string[] dado3 = casa3T.Split(',');
+            string[] dado4 = casa4T.Split(',');
+
+            txtDadoRolado1.Text = dado1[1];
+            txtDadoRolado2.Text = dado2[1];
+            txtDadoRolado3.Text = dado3[1];
+            txtDadoRolado4.Text = dado4[1];
+
+            //funções de exibição dos dados na tela
+            Dice1(); //dado1
+            Dice2(); //dado2
+            Dice3(); //dado3
+            Dice4(); //dado4
+
+
+            if (rolar.StartsWith("ERRO"))//se as 4 letras(ERRO) = true
+            {
+                MessageBox.Show(rolar); //exibe o erro na tela
+            }
+        }
+        void Dice1()
+        {
+
+            if (txtDadoRolado1.Text == "1")
+            {
+                picDadoRolado1.Image = ProjetoTokio.Properties.Resources.dado1;
+            }
+            if (txtDadoRolado1.Text == "2")
+            {
+                picDadoRolado2.Image = ProjetoTokio.Properties.Resources.dado2;
+            }
+            if (txtDadoRolado1.Text == "3")
+            {
+                picDadoRolado3.Image = ProjetoTokio.Properties.Resources.dado3;
+            }
+            if (txtDadoRolado1.Text == "4")
+            {
+                picDadoRolado1.Image = ProjetoTokio.Properties.Resources.dado4;
+            }
+            if (txtDadoRolado1.Text == "5")
+            {
+                picDadoRolado1.Image = ProjetoTokio.Properties.Resources.dado5;
+            }
+            if (txtDadoRolado1.Text == "6")
+            {
+                picDadoRolado1.Image = ProjetoTokio.Properties.Resources.dado6;
+            }
+        }
+        void Dice2()
+        {
+
+            if (txtDadoRolado2.Text == "1")
+            {
+                picDadoRolado2.Image = ProjetoTokio.Properties.Resources.dado1;
+            }
+            if (txtDadoRolado2.Text == "2")
+            {
+                picDadoRolado2.Image = ProjetoTokio.Properties.Resources.dado2;
+            }
+            if (txtDadoRolado2.Text == "3")
+            {
+                picDadoRolado2.Image = ProjetoTokio.Properties.Resources.dado3;
+            }
+            if (txtDadoRolado2.Text == "4")
+            {
+                picDadoRolado2.Image = ProjetoTokio.Properties.Resources.dado4;
+            }
+            if (txtDadoRolado2.Text == "5")
+            {
+                picDadoRolado2.Image = ProjetoTokio.Properties.Resources.dado5;
+            }
+            if (txtDadoRolado2.Text == "6")
+            {
+                picDadoRolado2.Image = ProjetoTokio.Properties.Resources.dado6;
+            }
+        }
+        void Dice3()
+        {
+
+            if (txtDadoRolado3.Text == "1")
+            {
+                picDadoRolado3.Image = ProjetoTokio.Properties.Resources.dado1;
+            }
+            if (txtDadoRolado3.Text == "2")
+            {
+                picDadoRolado3.Image = ProjetoTokio.Properties.Resources.dado2;
+            }
+            if (txtDadoRolado3.Text == "3")
+            {
+                picDadoRolado3.Image = ProjetoTokio.Properties.Resources.dado3;
+            }
+            if (txtDadoRolado3.Text == "4")
+            {
+                picDadoRolado3.Image = ProjetoTokio.Properties.Resources.dado4;
+            }
+            if (txtDadoRolado3.Text == "5")
+            {
+                picDadoRolado3.Image = ProjetoTokio.Properties.Resources.dado5;
+            }
+            if (txtDadoRolado3.Text == "6")
+            {
+                picDadoRolado3.Image = ProjetoTokio.Properties.Resources.dado6;
+            }
+        }
+        void Dice4()
+        {
+
+            if (txtDadoRolado4.Text == "1")
+            {
+                picDadoRolado4.Image = ProjetoTokio.Properties.Resources.dado1;
+            }
+            if (txtDadoRolado4.Text == "2")
+            {
+                picDadoRolado4.Image = ProjetoTokio.Properties.Resources.dado2;
+            }
+            if (txtDadoRolado4.Text == "3")
+            {
+                picDadoRolado4.Image = ProjetoTokio.Properties.Resources.dado3;
+            }
+            if (txtDadoRolado4.Text == "4")
+            {
+                picDadoRolado4.Image = ProjetoTokio.Properties.Resources.dado4;
+            }
+            if (txtDadoRolado4.Text == "5")
+            {
+                picDadoRolado4.Image = ProjetoTokio.Properties.Resources.dado5;
+            }
+            if (txtDadoRolado4.Text == "6")
+            {
+                picDadoRolado4.Image = ProjetoTokio.Properties.Resources.dado6;
+            }
+        }
+
+        private void picDadoRolado4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

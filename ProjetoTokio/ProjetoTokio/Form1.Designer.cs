@@ -1,7 +1,7 @@
 ﻿
 namespace ProjetoTokio
 {
-    partial class formPrincipal
+    partial class Form1
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -53,8 +53,6 @@ namespace ProjetoTokio
             this.lblCor = new System.Windows.Forms.Label();
             this.lblIdJogador = new System.Windows.Forms.Label();
             this.bntVerificaVez = new System.Windows.Forms.Button();
-            this.txtDado = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.lblTabelaTrilha = new System.Windows.Forms.Label();
             this.lblTabelaPosicao = new System.Windows.Forms.Label();
             this.lblTabelaJogador = new System.Windows.Forms.Label();
@@ -347,31 +345,6 @@ namespace ProjetoTokio
             this.bntVerificaVez.UseVisualStyleBackColor = false;
             this.bntVerificaVez.Click += new System.EventHandler(this.bntVerificaVez_Click);
             // 
-            // txtDado
-            // 
-            this.txtDado.BackColor = System.Drawing.Color.LavenderBlush;
-            this.txtDado.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtDado.Cursor = System.Windows.Forms.Cursors.No;
-            this.txtDado.Enabled = false;
-            this.txtDado.Font = new System.Drawing.Font("Microsoft JhengHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDado.Location = new System.Drawing.Point(651, 330);
-            this.txtDado.Multiline = true;
-            this.txtDado.Name = "txtDado";
-            this.txtDado.Size = new System.Drawing.Size(84, 77);
-            this.txtDado.TabIndex = 32;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.HotPink;
-            this.button1.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Bold);
-            this.button1.Location = new System.Drawing.Point(635, 413);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(113, 29);
-            this.button1.TabIndex = 33;
-            this.button1.Text = "Rolar Dados";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
             // lblTabelaTrilha
             // 
             this.lblTabelaTrilha.Location = new System.Drawing.Point(0, 0);
@@ -432,7 +405,7 @@ namespace ProjetoTokio
             // 
             this.btnExibirTabuleiro.BackColor = System.Drawing.Color.HotPink;
             this.btnExibirTabuleiro.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Bold);
-            this.btnExibirTabuleiro.Location = new System.Drawing.Point(342, 371);
+            this.btnExibirTabuleiro.Location = new System.Drawing.Point(354, 345);
             this.btnExibirTabuleiro.Name = "btnExibirTabuleiro";
             this.btnExibirTabuleiro.Size = new System.Drawing.Size(160, 50);
             this.btnExibirTabuleiro.TabIndex = 43;
@@ -453,15 +426,13 @@ namespace ProjetoTokio
             this.txtVerificaVez.Size = new System.Drawing.Size(138, 77);
             this.txtVerificaVez.TabIndex = 31;
             // 
-            // formPrincipal
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Pink;
             this.ClientSize = new System.Drawing.Size(822, 520);
             this.Controls.Add(this.btnExibirTabuleiro);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.txtDado);
             this.Controls.Add(this.txtVerificaVez);
             this.Controls.Add(this.bntVerificaVez);
             this.Controls.Add(this.lblIdJogador);
@@ -487,7 +458,7 @@ namespace ProjetoTokio
             this.Controls.Add(this.BtnJogadores);
             this.Controls.Add(this.lstListaPartida);
             this.Controls.Add(this.btnListaPartida);
-            this.Name = "formPrincipal";
+            this.Name = "Form1";
             this.Text = "Projeto Tokyo";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
@@ -520,8 +491,6 @@ namespace ProjetoTokio
         public System.Windows.Forms.Label lblCor;
         public System.Windows.Forms.Label lblIdJogador;
         public System.Windows.Forms.Button bntVerificaVez;
-        public System.Windows.Forms.TextBox txtDado;
-        public System.Windows.Forms.Button button1;
         public System.Windows.Forms.Label lblTabelaTrilha;
         public System.Windows.Forms.Label lblTabelaPosicao;
         public System.Windows.Forms.Label lblTabelaJogador;

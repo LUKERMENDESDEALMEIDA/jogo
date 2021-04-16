@@ -12,16 +12,16 @@ using CantStopServer; //inclusão do using para usar o servidor
 namespace ProjetoTokio // nome do projeto
 {
 
-    public partial class formPrincipal : Form
+    public partial class Form1 : Form
     {
 
-        public formPrincipal()
+        public Form1()
         {
 
             InitializeComponent();// inicia o form
             lblVersao.Text = "Versão: " + Jogo.Versao;//exibe a versão da dll na tela
         }
-
+        
         //formulario principal 
         public void Form1_Load(object sender, EventArgs e)
         {
@@ -141,29 +141,11 @@ namespace ProjetoTokio // nome do projeto
 
         /**************************BOTÃO DE ROLAR DADOS**************************/
 
-        public void button1_Click(object sender, EventArgs e)
-        {
-            txtDado.Clear(); //limpar textbox
-
-
-            int idJogador = Convert.ToInt32(txtIdJogador.Text); //converter texto textbox em inteiro
-            
-            string senhaJogador = txtSenhaJogador.Text; //atribuir no parametro senha do jogador
-
-
-            string rolar = txtDado.Text = Jogo.RolarDados(idJogador, senhaJogador); //passar os paraametros para rolagem do dado
-            
-            if (rolar.StartsWith("ERRO"))//se as 4 letras(ERRO) = true
-            {
-                MessageBox.Show(rolar); //exibe o erro na tela
-            }
-
-          
-        }
 
         /**************************BOTÃO EXIBIR TABULEIRO*****************************/
         public void btnExibirTabuleiro_Click(object sender, EventArgs e)
         {
+            
             string linha = lstListaPartida.SelectedItem.ToString();//seleciona a partida e transforma em string
             string[] itens = linha.Split(','); //separa os as informaçãos (id, nome, Status)
             int id = Convert.ToInt32(itens[0]);//converte id(string) em id (numero inteiro)
@@ -180,7 +162,9 @@ namespace ProjetoTokio // nome do projeto
                 Tabuleiro formTabuleiro = new Tabuleiro();
 
                 formTabuleiro.idPartida = id;
-                
+               
+
+
                 formTabuleiro.ShowDialog();
 
             }
