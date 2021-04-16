@@ -275,6 +275,20 @@ namespace ProjetoTokio // nome do projeto
 
         }
 
+        /*public void somaDados(int []valores, int resultado)
+        {
+            
+
+            valor1 = Convert.ToInt32(txtDadoRolado1.Text);
+            valor2 = Convert.ToInt32(txtDadoRolado2.Text);
+            valor3 = Convert.ToInt32(txtDadoRolado3.Text);
+            valor4 = Convert.ToInt32(txtDadoRolado3.Text);
+
+
+
+            
+
+        }*/
         void Dice1()
         {
 
