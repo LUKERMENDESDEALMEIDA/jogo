@@ -1,0 +1,15 @@
+C:\Users\rosam\source\repos\ProjetoTokio\ProjetoTokio\obj\Debug\ProjetoTokio.csprojAssemblyReference.cache
+C:\Users\rosam\source\repos\ProjetoTokio\ProjetoTokio\obj\Debug\ProjetoTokio.Properties.Resources.resources
+C:\Users\rosam\source\repos\ProjetoTokio\ProjetoTokio\obj\Debug\ProjetoTokio.csproj.GenerateResource.cache
+C:\Users\rosam\source\repos\ProjetoTokio\ProjetoTokio\bin\Debug\ProjetoTokio.exe.config
+C:\Users\rosam\source\repos\ProjetoTokio\ProjetoTokio\bin\Debug\ProjetoTokio.exe
+C:\Users\rosam\source\repos\ProjetoTokio\ProjetoTokio\bin\Debug\ProjetoTokio.pdb
+C:\Users\rosam\source\repos\ProjetoTokio\ProjetoTokio\bin\Debug\CantStopServer.dll
+C:\Users\rosam\source\repos\ProjetoTokio\ProjetoTokio\bin\Debug\CantStopServer.xml
+C:\Users\rosam\source\repos\ProjetoTokio\ProjetoTokio\obj\Debug\ProjetoTokio.csproj.CoreCompileInputs.cache
+C:\Users\rosam\source\repos\ProjetoTokio\ProjetoTokio\obj\Debug\ProjetoTokio.csproj.CopyComplete
+C:\Users\rosam\source\repos\ProjetoTokio\ProjetoTokio\obj\Debug\ProjetoTokio.exe
+C:\Users\rosam\source\repos\ProjetoTokio\ProjetoTokio\obj\Debug\ProjetoTokio.pdb
+C:\Users\rosam\source\repos\ProjetoTokio\ProjetoTokio\obj\Debug\ProjetoTokio.formPrincipal.resources
+C:\Users\rosam\source\repos\ProjetoTokio\ProjetoTokio\obj\Debug\ProjetoTokio.UserControl1.resources
+C:\Users\rosam\source\repos\ProjetoTokio\ProjetoTokio\obj\Debug\ProjetoTokio.Tabuleiro.resources
