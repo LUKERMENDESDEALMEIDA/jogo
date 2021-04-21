@@ -83,7 +83,7 @@ namespace ProjetoTokio // nome do projeto
             string senhaJogador = txtSenhaJogador.Text;//pega a senha do jogador da textbox
             int idDoJogador = Convert.ToInt32(txtIdJogador.Text); //converte o id da textbox em inteiro
             
-            string inicio = Jogo.IniciarPartida(idDoJogador,senhaJogador);//id do jogador e snnha gerado ai cria-lo
+            string inicio = Jogo.IniciarPartida(idDoJogador,senhaJogador);//id do jogador e senha gerado ai cria-lo
 
 
             if (inicio.StartsWith("ERRO"))//se as 4 letras(ERRO) = true
@@ -275,16 +275,21 @@ namespace ProjetoTokio // nome do projeto
 
         }
 
-        /*public void somaDados(int []valores, int resultado)
+        /*public void somaDados(int []valores, int [] resultado)
         {
             
 
-            valor1 = Convert.ToInt32(txtDadoRolado1.Text);
-            valor2 = Convert.ToInt32(txtDadoRolado2.Text);
-            valor3 = Convert.ToInt32(txtDadoRolado3.Text);
-            valor4 = Convert.ToInt32(txtDadoRolado3.Text);
+            valores [0] = Convert.ToInt32(txtDadoRolado1.Text);
+            valores [1] = Convert.ToInt32(txtDadoRolado2.Text);
+            valores [2] = Convert.ToInt32(txtDadoRolado3.Text);
+            valores [3]= Convert.ToInt32(txtDadoRolado4.Text);
 
-
+        resultado [0] = valores [0] + valores [1]
+        resultado [1] = valores [2] + valores [3]
+        resultado [2] = valores [1] + valores [3]
+        resultado [3] = valores [0] + valores [2]
+        resultado [4] = valores [0] + valores [3]
+        resultado [5] = valores [1] + valores [2]
 
             
 
@@ -298,11 +303,11 @@ namespace ProjetoTokio // nome do projeto
             }
             if (txtDadoRolado1.Text == "2")
             {
-                picDadoRolado2.Image = ProjetoTokio.Properties.Resources.dado2;
+                picDadoRolado1.Image = ProjetoTokio.Properties.Resources.dado2;
             }
             if (txtDadoRolado1.Text == "3")
             {
-                picDadoRolado3.Image = ProjetoTokio.Properties.Resources.dado3;
+                picDadoRolado1.Image = ProjetoTokio.Properties.Resources.dado3;
             }
             if (txtDadoRolado1.Text == "4")
             {

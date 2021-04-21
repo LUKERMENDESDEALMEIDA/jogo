@@ -124,14 +124,11 @@
   <data name="fundo_linha-coluna1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fundo_linha-coluna.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dado5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\dados\dado5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="baseVermelho" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\baseVermelho.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="alpinista1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\alpinista1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="layoutJogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\layoutJogo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="dado2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\dados\dado2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,8 +139,8 @@
   <data name="baseAmarela" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\baseAmarela.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dado1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\dados\dado1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="dado5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\dados\dado5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="dado3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\dados\dado3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -157,13 +154,22 @@
   <data name="baseAzul" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\baseAzul.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="layoutJogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\layoutJogo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="dado4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\dados\dado4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="alpinista1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alpinista1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dado1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\dados\dado1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tons-de-azul-das-montanhas-paisagem_23-2148273707" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tons-de-azul-das-montanhas-paisagem_23-2148273707.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="dado4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\dados\dado4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="baseAmarela1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\baseAmarela.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baseVerde1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\baseVerde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

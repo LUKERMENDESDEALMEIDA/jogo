@@ -93,6 +93,16 @@ namespace ProjetoTokio.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap baseAmarela1 {
+            get {
+                object obj = ResourceManager.GetObject("baseAmarela1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap baseAzul {
             get {
                 object obj = ResourceManager.GetObject("baseAzul", resourceCulture);
@@ -106,6 +116,16 @@ namespace ProjetoTokio.Properties {
         internal static System.Drawing.Bitmap baseVerde {
             get {
                 object obj = ResourceManager.GetObject("baseVerde", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap baseVerde1 {
+            get {
+                object obj = ResourceManager.GetObject("baseVerde1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

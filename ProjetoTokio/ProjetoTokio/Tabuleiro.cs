@@ -34,7 +34,7 @@ namespace ProjetoTokio
         //this.pct2_1.Image = ProjetoTokio.Properties.Resources.alpinista;
         public int idPartida { get; set; }
         
-
+        public string cor { get; set; }
 
 
         public DataTable tabuleiro { get; set; }
@@ -4234,7 +4234,6 @@ namespace ProjetoTokio
                         }
 
 
-
                     }
 
                     //POSICAO 2
@@ -4398,31 +4397,38 @@ namespace ProjetoTokio
             
             string exibirTabu = Jogo.ExibirTabuleiro(this.idPartida);
 
+            if(exibirTabu == "")
+            {
+                InitializeComponent() ;
+            }
+            else
+            {
 
-
-            
             exibirTabu = exibirTabu.Replace("\r\n", "-");
-
             
             exibirTabu = exibirTabu.Remove(exibirTabu.Length - 1);
             string[] tabuleiroSplit = exibirTabu.Split('-');
 
-            foreach (string linhaTabu in tabuleiroSplit)
-            {
+                foreach (string linhaTabu in tabuleiroSplit)
+                {
 
-                string[] valor = linhaTabu.Split(',');
+                    string[] valor = linhaTabu.Split(',');
 
-                DataRow datarow = tabuleiro.NewRow();
-                datarow["Trilha"] = valor[0];
-                datarow["Posicao"] = valor[1];
-                datarow["Jogador"] = valor[2];
-                datarow["Tipo"] = valor[3];
+                    DataRow datarow = tabuleiro.NewRow();
+                    datarow["Trilha"] = valor[0];
+                    datarow["Posicao"] = valor[1];
+                    datarow["Jogador"] = valor[2];
+                    datarow["Tipo"] = valor[3];
+                    
+      
 
-                tabuleiro.Rows.Add(datarow);
+                    tabuleiro.Rows.Add(datarow);
 
-                this.mapaTabu(valor[0], valor[1], valor[2], valor[3]);
+                    this.mapaTabu(valor[0], valor[1], valor[2], valor[3]);
 
+                }
             }
+
         }     
 
        
