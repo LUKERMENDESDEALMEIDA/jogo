@@ -4429,8 +4429,11 @@ namespace ProjetoTokio
                 }
             }
 
-        }     
+        }
 
-       
+        private void txtCombinacao1_TextChanged(object sender, EventArgs e)
+        {
+             
+        }
     }
 }

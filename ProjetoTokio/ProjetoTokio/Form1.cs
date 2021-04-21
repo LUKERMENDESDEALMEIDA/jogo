@@ -274,8 +274,8 @@ namespace ProjetoTokio // nome do projeto
         {
 
         }
-
-        /*public void somaDados(int []valores, int [] resultado)
+        // """""""""""""""""""SOMAR DADOS""""""""""""""""""""""""""""""
+        public void somaDados(int []valores, int [] resultado)
         {
             
 
@@ -284,16 +284,22 @@ namespace ProjetoTokio // nome do projeto
             valores [2] = Convert.ToInt32(txtDadoRolado3.Text);
             valores [3]= Convert.ToInt32(txtDadoRolado4.Text);
 
-        resultado [0] = valores [0] + valores [1]
-        resultado [1] = valores [2] + valores [3]
-        resultado [2] = valores [1] + valores [3]
-        resultado [3] = valores [0] + valores [2]
-        resultado [4] = valores [0] + valores [3]
-        resultado [5] = valores [1] + valores [2]
+            resultado[0] = valores[0] + valores[1];
+            resultado[1] = valores[2] + valores[3];
+            resultado[2] = valores[1] + valores[3];
+            resultado[3] = valores[0] + valores[2];
+            resultado[4] = valores[0] + valores[3];
+            resultado[5] = valores[1] + valores[2];
 
+            resultado[0] = Convert.ToInt32(txtCombinacao0.Text);
+            resultado[1] = Convert.ToInt32(txtCombinacao1.Text);
+            resultado[2] = Convert.ToInt32(txtCombinacao2.Text);
+            resultado[3] = Convert.ToInt32(txtCombinacao3.Text);
+            resultado[4] = Convert.ToInt32(txtCombinacao4.Text);
+            resultado[5] = Convert.ToInt32(txtCombinacao5.Text);
             
 
-        }*/
+        }
         void Dice1()
         {
 
@@ -405,6 +411,16 @@ namespace ProjetoTokio // nome do projeto
             {
                 picDadoRolado4.Image = ProjetoTokio.Properties.Resources.dado6;
             }
+        }
+
+        private void txtDadoRolado1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtCombinacao1_TextChanged(object sender, EventArgs e)
+        {
+          
         }
     }
 }

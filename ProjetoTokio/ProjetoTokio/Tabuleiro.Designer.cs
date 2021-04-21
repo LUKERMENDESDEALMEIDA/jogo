@@ -122,6 +122,14 @@ namespace ProjetoTokio
             this.label10 = new System.Windows.Forms.Label();
             this.tmExibirTabu = new System.Windows.Forms.Timer(this.components);
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtCombinacao1 = new System.Windows.Forms.TextBox();
+            this.txtCombinacao2 = new System.Windows.Forms.TextBox();
+            this.txtCombinacao3 = new System.Windows.Forms.TextBox();
+            this.txtCombinacao4 = new System.Windows.Forms.TextBox();
+            this.txtCombinacao5 = new System.Windows.Forms.TextBox();
+            this.txtCombinacao7 = new System.Windows.Forms.TextBox();
+            this.txtCombinacao6 = new System.Windows.Forms.TextBox();
+            this.txtCombinacao8 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pct2_1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct3_1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct4_1)).BeginInit();
@@ -1128,7 +1136,7 @@ namespace ProjetoTokio
             this.lblTrilha2.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.lblTrilha2.Location = new System.Drawing.Point(275, 573);
             this.lblTrilha2.Name = "lblTrilha2";
-            this.lblTrilha2.Size = new System.Drawing.Size(17, 19);
+            this.lblTrilha2.Size = new System.Drawing.Size(25, 29);
             this.lblTrilha2.TabIndex = 84;
             this.lblTrilha2.Text = "2";
             // 
@@ -1140,7 +1148,7 @@ namespace ProjetoTokio
             this.label1.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.label1.Location = new System.Drawing.Point(329, 573);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(17, 19);
+            this.label1.Size = new System.Drawing.Size(24, 29);
             this.label1.TabIndex = 85;
             this.label1.Text = "3";
             // 
@@ -1152,7 +1160,7 @@ namespace ProjetoTokio
             this.label2.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.label2.Location = new System.Drawing.Point(383, 573);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(18, 19);
+            this.label2.Size = new System.Drawing.Size(26, 29);
             this.label2.TabIndex = 86;
             this.label2.Text = "4";
             // 
@@ -1164,7 +1172,7 @@ namespace ProjetoTokio
             this.label3.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.label3.Location = new System.Drawing.Point(433, 573);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(17, 19);
+            this.label3.Size = new System.Drawing.Size(24, 29);
             this.label3.TabIndex = 87;
             this.label3.Text = "5";
             // 
@@ -1176,7 +1184,7 @@ namespace ProjetoTokio
             this.label4.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.label4.Location = new System.Drawing.Point(482, 573);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(17, 19);
+            this.label4.Size = new System.Drawing.Size(26, 29);
             this.label4.TabIndex = 88;
             this.label4.Text = "6";
             // 
@@ -1188,7 +1196,7 @@ namespace ProjetoTokio
             this.label5.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.label5.Location = new System.Drawing.Point(533, 573);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(16, 19);
+            this.label5.Size = new System.Drawing.Size(24, 29);
             this.label5.TabIndex = 89;
             this.label5.Text = "7";
             this.label5.Click += new System.EventHandler(this.label5_Click);
@@ -1201,7 +1209,7 @@ namespace ProjetoTokio
             this.label6.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.label6.Location = new System.Drawing.Point(582, 573);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(18, 19);
+            this.label6.Size = new System.Drawing.Size(26, 29);
             this.label6.TabIndex = 90;
             this.label6.Text = "8";
             // 
@@ -1213,7 +1221,7 @@ namespace ProjetoTokio
             this.label7.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.label7.Location = new System.Drawing.Point(632, 573);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(17, 19);
+            this.label7.Size = new System.Drawing.Size(26, 29);
             this.label7.TabIndex = 91;
             this.label7.Text = "9";
             // 
@@ -1225,7 +1233,7 @@ namespace ProjetoTokio
             this.label8.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.label8.Location = new System.Drawing.Point(682, 573);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(23, 19);
+            this.label8.Size = new System.Drawing.Size(34, 29);
             this.label8.TabIndex = 92;
             this.label8.Text = "10";
             this.label8.Click += new System.EventHandler(this.label8_Click);
@@ -1238,7 +1246,7 @@ namespace ProjetoTokio
             this.label9.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.label9.Location = new System.Drawing.Point(732, 573);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(19, 19);
+            this.label9.Size = new System.Drawing.Size(29, 29);
             this.label9.TabIndex = 93;
             this.label9.Text = "11";
             // 
@@ -1250,7 +1258,7 @@ namespace ProjetoTokio
             this.label10.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.label10.Location = new System.Drawing.Point(780, 573);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(22, 19);
+            this.label10.Size = new System.Drawing.Size(33, 29);
             this.label10.TabIndex = 94;
             this.label10.Text = "12";
             this.label10.Click += new System.EventHandler(this.label10_Click);
@@ -1264,13 +1272,102 @@ namespace ProjetoTokio
             // 
             this.textBox1.Location = new System.Drawing.Point(12, 23);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.Size = new System.Drawing.Size(100, 26);
             this.textBox1.TabIndex = 95;
+            // 
+            // txtCombinacao1
+            // 
+            this.txtCombinacao1.Location = new System.Drawing.Point(23, 114);
+            this.txtCombinacao1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtCombinacao1.Multiline = true;
+            this.txtCombinacao1.Name = "txtCombinacao1";
+            this.txtCombinacao1.Size = new System.Drawing.Size(27, 27);
+            this.txtCombinacao1.TabIndex = 113;
+            this.txtCombinacao1.Visible = false;
+            this.txtCombinacao1.TextChanged += new System.EventHandler(this.txtCombinacao1_TextChanged);
+            // 
+            // txtCombinacao2
+            // 
+            this.txtCombinacao2.Location = new System.Drawing.Point(23, 151);
+            this.txtCombinacao2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtCombinacao2.Multiline = true;
+            this.txtCombinacao2.Name = "txtCombinacao2";
+            this.txtCombinacao2.Size = new System.Drawing.Size(27, 27);
+            this.txtCombinacao2.TabIndex = 114;
+            this.txtCombinacao2.Visible = false;
+            // 
+            // txtCombinacao3
+            // 
+            this.txtCombinacao3.Location = new System.Drawing.Point(23, 188);
+            this.txtCombinacao3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtCombinacao3.Multiline = true;
+            this.txtCombinacao3.Name = "txtCombinacao3";
+            this.txtCombinacao3.Size = new System.Drawing.Size(27, 27);
+            this.txtCombinacao3.TabIndex = 115;
+            this.txtCombinacao3.Visible = false;
+            // 
+            // txtCombinacao4
+            // 
+            this.txtCombinacao4.Location = new System.Drawing.Point(23, 223);
+            this.txtCombinacao4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtCombinacao4.Multiline = true;
+            this.txtCombinacao4.Name = "txtCombinacao4";
+            this.txtCombinacao4.Size = new System.Drawing.Size(27, 27);
+            this.txtCombinacao4.TabIndex = 116;
+            this.txtCombinacao4.Visible = false;
+            // 
+            // txtCombinacao5
+            // 
+            this.txtCombinacao5.Location = new System.Drawing.Point(23, 263);
+            this.txtCombinacao5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtCombinacao5.Multiline = true;
+            this.txtCombinacao5.Name = "txtCombinacao5";
+            this.txtCombinacao5.Size = new System.Drawing.Size(27, 27);
+            this.txtCombinacao5.TabIndex = 117;
+            this.txtCombinacao5.Visible = false;
+            // 
+            // txtCombinacao7
+            // 
+            this.txtCombinacao7.Location = new System.Drawing.Point(58, 263);
+            this.txtCombinacao7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtCombinacao7.Multiline = true;
+            this.txtCombinacao7.Name = "txtCombinacao7";
+            this.txtCombinacao7.Size = new System.Drawing.Size(27, 27);
+            this.txtCombinacao7.TabIndex = 118;
+            this.txtCombinacao7.Visible = false;
+            // 
+            // txtCombinacao6
+            // 
+            this.txtCombinacao6.Location = new System.Drawing.Point(23, 313);
+            this.txtCombinacao6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtCombinacao6.Multiline = true;
+            this.txtCombinacao6.Name = "txtCombinacao6";
+            this.txtCombinacao6.Size = new System.Drawing.Size(27, 27);
+            this.txtCombinacao6.TabIndex = 119;
+            this.txtCombinacao6.Visible = false;
+            // 
+            // txtCombinacao8
+            // 
+            this.txtCombinacao8.Location = new System.Drawing.Point(58, 313);
+            this.txtCombinacao8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtCombinacao8.Multiline = true;
+            this.txtCombinacao8.Name = "txtCombinacao8";
+            this.txtCombinacao8.Size = new System.Drawing.Size(27, 27);
+            this.txtCombinacao8.TabIndex = 120;
+            this.txtCombinacao8.Visible = false;
             // 
             // Tabuleiro
             // 
             this.BackColor = System.Drawing.Color.LightSteelBlue;
             this.ClientSize = new System.Drawing.Size(834, 611);
+            this.Controls.Add(this.txtCombinacao8);
+            this.Controls.Add(this.txtCombinacao6);
+            this.Controls.Add(this.txtCombinacao7);
+            this.Controls.Add(this.txtCombinacao5);
+            this.Controls.Add(this.txtCombinacao4);
+            this.Controls.Add(this.txtCombinacao3);
+            this.Controls.Add(this.txtCombinacao2);
+            this.Controls.Add(this.txtCombinacao1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
@@ -1570,5 +1667,13 @@ namespace ProjetoTokio
         private System.Windows.Forms.Timer tmExibirTabu;
         private System.ComponentModel.IContainer components;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtCombinacao1;
+        private System.Windows.Forms.TextBox txtCombinacao2;
+        private System.Windows.Forms.TextBox txtCombinacao3;
+        private System.Windows.Forms.TextBox txtCombinacao4;
+        private System.Windows.Forms.TextBox txtCombinacao5;
+        private System.Windows.Forms.TextBox txtCombinacao7;
+        private System.Windows.Forms.TextBox txtCombinacao6;
+        private System.Windows.Forms.TextBox txtCombinacao8;
     }
 }
