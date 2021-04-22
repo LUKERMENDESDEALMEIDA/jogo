@@ -89,10 +89,9 @@ namespace ProjetoTokio
             // 
             this.btnListaPartida.BackColor = System.Drawing.Color.HotPink;
             this.btnListaPartida.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Bold);
-            this.btnListaPartida.Location = new System.Drawing.Point(112, 225);
-            this.btnListaPartida.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnListaPartida.Location = new System.Drawing.Point(75, 146);
             this.btnListaPartida.Name = "btnListaPartida";
-            this.btnListaPartida.Size = new System.Drawing.Size(232, 60);
+            this.btnListaPartida.Size = new System.Drawing.Size(155, 39);
             this.btnListaPartida.TabIndex = 0;
             this.btnListaPartida.Text = "Partidas";
             this.btnListaPartida.UseVisualStyleBackColor = false;
@@ -102,10 +101,9 @@ namespace ProjetoTokio
             // 
             this.BtnJogadores.BackColor = System.Drawing.Color.HotPink;
             this.BtnJogadores.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Bold);
-            this.BtnJogadores.Location = new System.Drawing.Point(968, 200);
-            this.BtnJogadores.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.BtnJogadores.Location = new System.Drawing.Point(645, 130);
             this.BtnJogadores.Name = "BtnJogadores";
-            this.BtnJogadores.Size = new System.Drawing.Size(150, 46);
+            this.BtnJogadores.Size = new System.Drawing.Size(100, 30);
             this.BtnJogadores.TabIndex = 2;
             this.BtnJogadores.Text = "Jogadores";
             this.BtnJogadores.UseVisualStyleBackColor = false;
@@ -115,10 +113,9 @@ namespace ProjetoTokio
             // 
             this.btnEntraPartida.BackColor = System.Drawing.Color.HotPink;
             this.btnEntraPartida.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Bold);
-            this.btnEntraPartida.Location = new System.Drawing.Point(116, 683);
-            this.btnEntraPartida.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnEntraPartida.Location = new System.Drawing.Point(77, 444);
             this.btnEntraPartida.Name = "btnEntraPartida";
-            this.btnEntraPartida.Size = new System.Drawing.Size(230, 54);
+            this.btnEntraPartida.Size = new System.Drawing.Size(153, 35);
             this.btnEntraPartida.TabIndex = 4;
             this.btnEntraPartida.Text = "Entrar na Partida";
             this.btnEntraPartida.UseVisualStyleBackColor = false;
@@ -128,10 +125,9 @@ namespace ProjetoTokio
             // 
             this.bntCriarPartida.BackColor = System.Drawing.Color.HotPink;
             this.bntCriarPartida.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Bold);
-            this.bntCriarPartida.Location = new System.Drawing.Point(112, 477);
-            this.bntCriarPartida.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.bntCriarPartida.Location = new System.Drawing.Point(75, 310);
             this.bntCriarPartida.Name = "bntCriarPartida";
-            this.bntCriarPartida.Size = new System.Drawing.Size(232, 63);
+            this.bntCriarPartida.Size = new System.Drawing.Size(155, 41);
             this.bntCriarPartida.TabIndex = 5;
             this.bntCriarPartida.Text = "Criar Partida";
             this.bntCriarPartida.UseVisualStyleBackColor = false;
@@ -142,11 +138,10 @@ namespace ProjetoTokio
             this.txtNomeJogador.BackColor = System.Drawing.Color.LavenderBlush;
             this.txtNomeJogador.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtNomeJogador.Font = new System.Drawing.Font("Microsoft JhengHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNomeJogador.Location = new System.Drawing.Point(114, 571);
-            this.txtNomeJogador.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtNomeJogador.Location = new System.Drawing.Point(76, 371);
             this.txtNomeJogador.Multiline = true;
             this.txtNomeJogador.Name = "txtNomeJogador";
-            this.txtNomeJogador.Size = new System.Drawing.Size(238, 37);
+            this.txtNomeJogador.Size = new System.Drawing.Size(159, 24);
             this.txtNomeJogador.TabIndex = 6;
             this.txtNomeJogador.TextChanged += new System.EventHandler(this.txtNomeJogador_TextChanged);
             // 
@@ -155,11 +150,10 @@ namespace ProjetoTokio
             this.txtCriacao.BackColor = System.Drawing.Color.LavenderBlush;
             this.txtCriacao.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtCriacao.Font = new System.Drawing.Font("Microsoft JhengHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCriacao.Location = new System.Drawing.Point(112, 325);
-            this.txtCriacao.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtCriacao.Location = new System.Drawing.Point(75, 211);
             this.txtCriacao.Multiline = true;
             this.txtCriacao.Name = "txtCriacao";
-            this.txtCriacao.Size = new System.Drawing.Size(238, 42);
+            this.txtCriacao.Size = new System.Drawing.Size(159, 27);
             this.txtCriacao.TabIndex = 7;
             this.txtCriacao.TextChanged += new System.EventHandler(this.txtCriacao_TextChanged);
             // 
@@ -170,11 +164,10 @@ namespace ProjetoTokio
             this.lstListaPartida.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lstListaPartida.Font = new System.Drawing.Font("Microsoft JhengHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lstListaPartida.FormattingEnabled = true;
-            this.lstListaPartida.ItemHeight = 23;
-            this.lstListaPartida.Location = new System.Drawing.Point(70, 18);
-            this.lstListaPartida.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.lstListaPartida.ItemHeight = 16;
+            this.lstListaPartida.Location = new System.Drawing.Point(47, 12);
             this.lstListaPartida.Name = "lstListaPartida";
-            this.lstListaPartida.Size = new System.Drawing.Size(344, 184);
+            this.lstListaPartida.Size = new System.Drawing.Size(229, 112);
             this.lstListaPartida.TabIndex = 1;
             this.lstListaPartida.SelectedIndexChanged += new System.EventHandler(this.lstListaPartida_SelectedIndexChanged);
             // 
@@ -183,10 +176,9 @@ namespace ProjetoTokio
             this.lblNome.AutoSize = true;
             this.lblNome.Font = new System.Drawing.Font("Candara", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNome.ForeColor = System.Drawing.Color.White;
-            this.lblNome.Location = new System.Drawing.Point(465, 14);
-            this.lblNome.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblNome.Location = new System.Drawing.Point(310, 9);
             this.lblNome.Name = "lblNome";
-            this.lblNome.Size = new System.Drawing.Size(357, 88);
+            this.lblNome.Size = new System.Drawing.Size(237, 59);
             this.lblNome.TabIndex = 9;
             this.lblNome.Text = "Can\'t Stop";
             // 
@@ -194,10 +186,9 @@ namespace ProjetoTokio
             // 
             this.lblVersao.AutoSize = true;
             this.lblVersao.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Bold);
-            this.lblVersao.Location = new System.Drawing.Point(1084, 763);
-            this.lblVersao.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblVersao.Location = new System.Drawing.Point(723, 496);
             this.lblVersao.Name = "lblVersao";
-            this.lblVersao.Size = new System.Drawing.Size(72, 24);
+            this.lblVersao.Size = new System.Drawing.Size(47, 15);
             this.lblVersao.TabIndex = 10;
             this.lblVersao.Text = "Versão:";
             this.lblVersao.Click += new System.EventHandler(this.lblVersao_Click);
@@ -207,11 +198,10 @@ namespace ProjetoTokio
             this.txtSenhaCriacao.BackColor = System.Drawing.Color.LavenderBlush;
             this.txtSenhaCriacao.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtSenhaCriacao.Font = new System.Drawing.Font("Microsoft JhengHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSenhaCriacao.Location = new System.Drawing.Point(112, 411);
-            this.txtSenhaCriacao.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtSenhaCriacao.Location = new System.Drawing.Point(75, 267);
             this.txtSenhaCriacao.Multiline = true;
             this.txtSenhaCriacao.Name = "txtSenhaCriacao";
-            this.txtSenhaCriacao.Size = new System.Drawing.Size(238, 42);
+            this.txtSenhaCriacao.Size = new System.Drawing.Size(159, 27);
             this.txtSenhaCriacao.TabIndex = 11;
             this.txtSenhaCriacao.TextChanged += new System.EventHandler(this.txtSenhaCriacao_TextChanged);
             // 
@@ -219,10 +209,9 @@ namespace ProjetoTokio
             // 
             this.lblPartida.AutoSize = true;
             this.lblPartida.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Bold);
-            this.lblPartida.Location = new System.Drawing.Point(36, 329);
-            this.lblPartida.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblPartida.Location = new System.Drawing.Point(24, 214);
             this.lblPartida.Name = "lblPartida";
-            this.lblPartida.Size = new System.Drawing.Size(72, 24);
+            this.lblPartida.Size = new System.Drawing.Size(46, 15);
             this.lblPartida.TabIndex = 12;
             this.lblPartida.Text = "Partida";
             // 
@@ -230,10 +219,9 @@ namespace ProjetoTokio
             // 
             this.lblSenha.AutoSize = true;
             this.lblSenha.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Bold);
-            this.lblSenha.Location = new System.Drawing.Point(36, 415);
-            this.lblSenha.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblSenha.Location = new System.Drawing.Point(24, 270);
             this.lblSenha.Name = "lblSenha";
-            this.lblSenha.Size = new System.Drawing.Size(62, 24);
+            this.lblSenha.Size = new System.Drawing.Size(41, 15);
             this.lblSenha.TabIndex = 13;
             this.lblSenha.Text = "Senha";
             // 
@@ -242,11 +230,10 @@ namespace ProjetoTokio
             this.txtSenhaEntrar.BackColor = System.Drawing.Color.LavenderBlush;
             this.txtSenhaEntrar.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtSenhaEntrar.Font = new System.Drawing.Font("Microsoft JhengHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSenhaEntrar.Location = new System.Drawing.Point(114, 617);
-            this.txtSenhaEntrar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtSenhaEntrar.Location = new System.Drawing.Point(76, 401);
             this.txtSenhaEntrar.Multiline = true;
             this.txtSenhaEntrar.Name = "txtSenhaEntrar";
-            this.txtSenhaEntrar.Size = new System.Drawing.Size(238, 43);
+            this.txtSenhaEntrar.Size = new System.Drawing.Size(159, 28);
             this.txtSenhaEntrar.TabIndex = 14;
             this.txtSenhaEntrar.TextChanged += new System.EventHandler(this.txtSenhaEntrar_TextChanged);
             // 
@@ -254,10 +241,9 @@ namespace ProjetoTokio
             // 
             this.lblSenhaEntrar.AutoSize = true;
             this.lblSenhaEntrar.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Bold);
-            this.lblSenhaEntrar.Location = new System.Drawing.Point(28, 617);
-            this.lblSenhaEntrar.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblSenhaEntrar.Location = new System.Drawing.Point(19, 401);
             this.lblSenhaEntrar.Name = "lblSenhaEntrar";
-            this.lblSenhaEntrar.Size = new System.Drawing.Size(72, 48);
+            this.lblSenhaEntrar.Size = new System.Drawing.Size(46, 30);
             this.lblSenhaEntrar.TabIndex = 15;
             this.lblSenhaEntrar.Text = "Senha \r\nPartida";
             // 
@@ -265,10 +251,9 @@ namespace ProjetoTokio
             // 
             this.lblJogador.AutoSize = true;
             this.lblJogador.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Bold);
-            this.lblJogador.Location = new System.Drawing.Point(28, 575);
-            this.lblJogador.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblJogador.Location = new System.Drawing.Point(19, 374);
             this.lblJogador.Name = "lblJogador";
-            this.lblJogador.Size = new System.Drawing.Size(80, 24);
+            this.lblJogador.Size = new System.Drawing.Size(51, 15);
             this.lblJogador.TabIndex = 16;
             this.lblJogador.Text = "Jogador";
             // 
@@ -276,10 +261,9 @@ namespace ProjetoTokio
             // 
             this.btnIniciaPartida.BackColor = System.Drawing.Color.HotPink;
             this.btnIniciaPartida.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Bold);
-            this.btnIniciaPartida.Location = new System.Drawing.Point(536, 163);
-            this.btnIniciaPartida.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnIniciaPartida.Location = new System.Drawing.Point(357, 106);
             this.btnIniciaPartida.Name = "btnIniciaPartida";
-            this.btnIniciaPartida.Size = new System.Drawing.Size(236, 122);
+            this.btnIniciaPartida.Size = new System.Drawing.Size(157, 79);
             this.btnIniciaPartida.TabIndex = 17;
             this.btnIniciaPartida.Text = "Iniciar Partida";
             this.btnIniciaPartida.UseVisualStyleBackColor = false;
@@ -292,11 +276,10 @@ namespace ProjetoTokio
             this.txtJogadores.Cursor = System.Windows.Forms.Cursors.No;
             this.txtJogadores.Enabled = false;
             this.txtJogadores.Font = new System.Drawing.Font("Microsoft JhengHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtJogadores.Location = new System.Drawing.Point(934, 18);
-            this.txtJogadores.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtJogadores.Location = new System.Drawing.Point(623, 12);
             this.txtJogadores.Multiline = true;
             this.txtJogadores.Name = "txtJogadores";
-            this.txtJogadores.Size = new System.Drawing.Size(207, 165);
+            this.txtJogadores.Size = new System.Drawing.Size(138, 107);
             this.txtJogadores.TabIndex = 22;
             // 
             // txtCor
@@ -307,10 +290,9 @@ namespace ProjetoTokio
             this.txtCor.Enabled = false;
             this.txtCor.Font = new System.Drawing.Font("Microsoft JhengHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCor.ForeColor = System.Drawing.Color.Red;
-            this.txtCor.Location = new System.Drawing.Point(478, 372);
-            this.txtCor.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtCor.Location = new System.Drawing.Point(319, 242);
             this.txtCor.Name = "txtCor";
-            this.txtCor.Size = new System.Drawing.Size(150, 24);
+            this.txtCor.Size = new System.Drawing.Size(100, 16);
             this.txtCor.TabIndex = 23;
             // 
             // txtSenhaJogador
@@ -321,10 +303,9 @@ namespace ProjetoTokio
             this.txtSenhaJogador.Enabled = false;
             this.txtSenhaJogador.Font = new System.Drawing.Font("Microsoft JhengHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSenhaJogador.ForeColor = System.Drawing.Color.Red;
-            this.txtSenhaJogador.Location = new System.Drawing.Point(663, 372);
-            this.txtSenhaJogador.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtSenhaJogador.Location = new System.Drawing.Point(442, 242);
             this.txtSenhaJogador.Name = "txtSenhaJogador";
-            this.txtSenhaJogador.Size = new System.Drawing.Size(150, 24);
+            this.txtSenhaJogador.Size = new System.Drawing.Size(100, 16);
             this.txtSenhaJogador.TabIndex = 24;
             // 
             // txtIdJogador
@@ -335,11 +316,10 @@ namespace ProjetoTokio
             this.txtIdJogador.Enabled = false;
             this.txtIdJogador.Font = new System.Drawing.Font("Microsoft JhengHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtIdJogador.ForeColor = System.Drawing.Color.Red;
-            this.txtIdJogador.Location = new System.Drawing.Point(564, 454);
-            this.txtIdJogador.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtIdJogador.Location = new System.Drawing.Point(376, 295);
             this.txtIdJogador.Name = "txtIdJogador";
             this.txtIdJogador.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.txtIdJogador.Size = new System.Drawing.Size(150, 24);
+            this.txtIdJogador.Size = new System.Drawing.Size(100, 16);
             this.txtIdJogador.TabIndex = 25;
             this.txtIdJogador.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -347,10 +327,9 @@ namespace ProjetoTokio
             // 
             this.lblSenhaJogadorEntrada.AutoSize = true;
             this.lblSenhaJogadorEntrada.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Bold);
-            this.lblSenhaJogadorEntrada.Location = new System.Drawing.Point(652, 345);
-            this.lblSenhaJogadorEntrada.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblSenhaJogadorEntrada.Location = new System.Drawing.Point(435, 224);
             this.lblSenhaJogadorEntrada.Name = "lblSenhaJogadorEntrada";
-            this.lblSenhaJogadorEntrada.Size = new System.Drawing.Size(162, 24);
+            this.lblSenhaJogadorEntrada.Size = new System.Drawing.Size(105, 15);
             this.lblSenhaJogadorEntrada.TabIndex = 27;
             this.lblSenhaJogadorEntrada.Text = "Senha do Jogador";
             // 
@@ -358,10 +337,9 @@ namespace ProjetoTokio
             // 
             this.lblCor.AutoSize = true;
             this.lblCor.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Bold);
-            this.lblCor.Location = new System.Drawing.Point(474, 345);
-            this.lblCor.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblCor.Location = new System.Drawing.Point(316, 224);
             this.lblCor.Name = "lblCor";
-            this.lblCor.Size = new System.Drawing.Size(140, 24);
+            this.lblCor.Size = new System.Drawing.Size(90, 15);
             this.lblCor.TabIndex = 28;
             this.lblCor.Text = "Cor do Jogador";
             // 
@@ -369,10 +347,9 @@ namespace ProjetoTokio
             // 
             this.lblIdJogador.AutoSize = true;
             this.lblIdJogador.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Bold);
-            this.lblIdJogador.Location = new System.Drawing.Point(584, 429);
-            this.lblIdJogador.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblIdJogador.Location = new System.Drawing.Point(389, 279);
             this.lblIdJogador.Name = "lblIdJogador";
-            this.lblIdJogador.Size = new System.Drawing.Size(129, 24);
+            this.lblIdJogador.Size = new System.Drawing.Size(83, 15);
             this.lblIdJogador.TabIndex = 29;
             this.lblIdJogador.Text = "ID do Jogador";
             // 
@@ -380,10 +357,9 @@ namespace ProjetoTokio
             // 
             this.bntVerificaVez.BackColor = System.Drawing.Color.HotPink;
             this.bntVerificaVez.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Bold);
-            this.bntVerificaVez.Location = new System.Drawing.Point(968, 398);
-            this.bntVerificaVez.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.bntVerificaVez.Location = new System.Drawing.Point(645, 259);
             this.bntVerificaVez.Name = "bntVerificaVez";
-            this.bntVerificaVez.Size = new System.Drawing.Size(150, 46);
+            this.bntVerificaVez.Size = new System.Drawing.Size(100, 30);
             this.bntVerificaVez.TabIndex = 30;
             this.bntVerificaVez.Text = "Verificar Vez";
             this.bntVerificaVez.UseVisualStyleBackColor = false;
@@ -449,10 +425,9 @@ namespace ProjetoTokio
             // 
             this.btnExibirTabuleiro.BackColor = System.Drawing.Color.HotPink;
             this.btnExibirTabuleiro.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Bold);
-            this.btnExibirTabuleiro.Location = new System.Drawing.Point(531, 531);
-            this.btnExibirTabuleiro.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnExibirTabuleiro.Location = new System.Drawing.Point(354, 345);
             this.btnExibirTabuleiro.Name = "btnExibirTabuleiro";
-            this.btnExibirTabuleiro.Size = new System.Drawing.Size(240, 77);
+            this.btnExibirTabuleiro.Size = new System.Drawing.Size(160, 50);
             this.btnExibirTabuleiro.TabIndex = 43;
             this.btnExibirTabuleiro.Text = "Exibir Tabuleiro";
             this.btnExibirTabuleiro.UseVisualStyleBackColor = false;
@@ -465,50 +440,45 @@ namespace ProjetoTokio
             this.txtVerificaVez.Cursor = System.Windows.Forms.Cursors.No;
             this.txtVerificaVez.Enabled = false;
             this.txtVerificaVez.Font = new System.Drawing.Font("Microsoft JhengHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtVerificaVez.Location = new System.Drawing.Point(934, 272);
-            this.txtVerificaVez.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtVerificaVez.Location = new System.Drawing.Point(623, 177);
             this.txtVerificaVez.Multiline = true;
             this.txtVerificaVez.Name = "txtVerificaVez";
-            this.txtVerificaVez.Size = new System.Drawing.Size(207, 118);
+            this.txtVerificaVez.Size = new System.Drawing.Size(138, 77);
             this.txtVerificaVez.TabIndex = 31;
             // 
             // txtDadoRolado4
             // 
-            this.txtDadoRolado4.Location = new System.Drawing.Point(748, 758);
-            this.txtDadoRolado4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtDadoRolado4.Location = new System.Drawing.Point(499, 493);
             this.txtDadoRolado4.Multiline = true;
             this.txtDadoRolado4.Name = "txtDadoRolado4";
-            this.txtDadoRolado4.Size = new System.Drawing.Size(37, 33);
+            this.txtDadoRolado4.Size = new System.Drawing.Size(26, 23);
             this.txtDadoRolado4.TabIndex = 115;
             this.txtDadoRolado4.Visible = false;
             // 
             // txtDadoRolado3
             // 
-            this.txtDadoRolado3.Location = new System.Drawing.Point(748, 695);
-            this.txtDadoRolado3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtDadoRolado3.Location = new System.Drawing.Point(498, 428);
             this.txtDadoRolado3.Multiline = true;
             this.txtDadoRolado3.Name = "txtDadoRolado3";
-            this.txtDadoRolado3.Size = new System.Drawing.Size(37, 33);
+            this.txtDadoRolado3.Size = new System.Drawing.Size(26, 23);
             this.txtDadoRolado3.TabIndex = 114;
             this.txtDadoRolado3.Visible = false;
             // 
             // txtDadoRolado2
             // 
-            this.txtDadoRolado2.Location = new System.Drawing.Point(682, 758);
-            this.txtDadoRolado2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtDadoRolado2.Location = new System.Drawing.Point(455, 493);
             this.txtDadoRolado2.Multiline = true;
             this.txtDadoRolado2.Name = "txtDadoRolado2";
-            this.txtDadoRolado2.Size = new System.Drawing.Size(37, 33);
+            this.txtDadoRolado2.Size = new System.Drawing.Size(26, 23);
             this.txtDadoRolado2.TabIndex = 113;
             this.txtDadoRolado2.Visible = false;
             // 
             // txtDadoRolado1
             // 
-            this.txtDadoRolado1.Location = new System.Drawing.Point(682, 695);
-            this.txtDadoRolado1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtDadoRolado1.Location = new System.Drawing.Point(454, 428);
             this.txtDadoRolado1.Multiline = true;
             this.txtDadoRolado1.Name = "txtDadoRolado1";
-            this.txtDadoRolado1.Size = new System.Drawing.Size(37, 33);
+            this.txtDadoRolado1.Size = new System.Drawing.Size(26, 23);
             this.txtDadoRolado1.TabIndex = 112;
             this.txtDadoRolado1.Visible = false;
             this.txtDadoRolado1.TextChanged += new System.EventHandler(this.txtDadoRolado1_TextChanged);
@@ -516,50 +486,45 @@ namespace ProjetoTokio
             // picDadoRolado4
             // 
             this.picDadoRolado4.BackColor = System.Drawing.Color.Transparent;
-            this.picDadoRolado4.Location = new System.Drawing.Point(1066, 586);
-            this.picDadoRolado4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.picDadoRolado4.Location = new System.Drawing.Point(711, 381);
             this.picDadoRolado4.Name = "picDadoRolado4";
-            this.picDadoRolado4.Size = new System.Drawing.Size(75, 77);
+            this.picDadoRolado4.Size = new System.Drawing.Size(50, 50);
             this.picDadoRolado4.TabIndex = 111;
             this.picDadoRolado4.TabStop = false;
             // 
             // picDadoRolado3
             // 
             this.picDadoRolado3.BackColor = System.Drawing.Color.Transparent;
-            this.picDadoRolado3.Location = new System.Drawing.Point(1066, 482);
-            this.picDadoRolado3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.picDadoRolado3.Location = new System.Drawing.Point(711, 313);
             this.picDadoRolado3.Name = "picDadoRolado3";
-            this.picDadoRolado3.Size = new System.Drawing.Size(75, 77);
+            this.picDadoRolado3.Size = new System.Drawing.Size(50, 50);
             this.picDadoRolado3.TabIndex = 110;
             this.picDadoRolado3.TabStop = false;
             // 
             // picDadoRolado2
             // 
             this.picDadoRolado2.BackColor = System.Drawing.Color.Transparent;
-            this.picDadoRolado2.Location = new System.Drawing.Point(954, 586);
-            this.picDadoRolado2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.picDadoRolado2.Location = new System.Drawing.Point(636, 381);
             this.picDadoRolado2.Name = "picDadoRolado2";
-            this.picDadoRolado2.Size = new System.Drawing.Size(75, 77);
+            this.picDadoRolado2.Size = new System.Drawing.Size(50, 50);
             this.picDadoRolado2.TabIndex = 109;
             this.picDadoRolado2.TabStop = false;
             // 
             // picDadoRolado1
             // 
             this.picDadoRolado1.BackColor = System.Drawing.Color.Transparent;
-            this.picDadoRolado1.Location = new System.Drawing.Point(954, 482);
-            this.picDadoRolado1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.picDadoRolado1.Location = new System.Drawing.Point(636, 313);
             this.picDadoRolado1.Name = "picDadoRolado1";
-            this.picDadoRolado1.Size = new System.Drawing.Size(75, 77);
+            this.picDadoRolado1.Size = new System.Drawing.Size(50, 50);
             this.picDadoRolado1.TabIndex = 108;
             this.picDadoRolado1.TabStop = false;
             // 
             // txtDado
             // 
-            this.txtDado.Location = new System.Drawing.Point(531, 703);
-            this.txtDado.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtDado.Location = new System.Drawing.Point(354, 428);
             this.txtDado.Multiline = true;
             this.txtDado.Name = "txtDado";
-            this.txtDado.Size = new System.Drawing.Size(130, 76);
+            this.txtDado.Size = new System.Drawing.Size(88, 51);
             this.txtDado.TabIndex = 107;
             this.txtDado.Visible = false;
             // 
@@ -567,10 +532,9 @@ namespace ProjetoTokio
             // 
             this.btnRolarDado.BackColor = System.Drawing.Color.HotPink;
             this.btnRolarDado.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRolarDado.Location = new System.Drawing.Point(968, 683);
-            this.btnRolarDado.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnRolarDado.Location = new System.Drawing.Point(645, 444);
             this.btnRolarDado.Name = "btnRolarDado";
-            this.btnRolarDado.Size = new System.Drawing.Size(150, 46);
+            this.btnRolarDado.Size = new System.Drawing.Size(100, 30);
             this.btnRolarDado.TabIndex = 106;
             this.btnRolarDado.Text = "Rolar Dado";
             this.btnRolarDado.UseVisualStyleBackColor = false;
@@ -578,65 +542,59 @@ namespace ProjetoTokio
             // 
             // txtCombinacao0
             // 
-            this.txtCombinacao0.Location = new System.Drawing.Point(880, 467);
-            this.txtCombinacao0.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtCombinacao0.Location = new System.Drawing.Point(569, 291);
             this.txtCombinacao0.Multiline = true;
             this.txtCombinacao0.Name = "txtCombinacao0";
-            this.txtCombinacao0.Size = new System.Drawing.Size(27, 27);
+            this.txtCombinacao0.Size = new System.Drawing.Size(35, 26);
             this.txtCombinacao0.TabIndex = 116;
             this.txtCombinacao0.TextChanged += new System.EventHandler(this.txtCombinacao1_TextChanged);
             // 
             // txtCombinacao1
             // 
-            this.txtCombinacao1.Location = new System.Drawing.Point(880, 504);
-            this.txtCombinacao1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtCombinacao1.Location = new System.Drawing.Point(569, 326);
             this.txtCombinacao1.Multiline = true;
             this.txtCombinacao1.Name = "txtCombinacao1";
-            this.txtCombinacao1.Size = new System.Drawing.Size(27, 27);
+            this.txtCombinacao1.Size = new System.Drawing.Size(35, 26);
             this.txtCombinacao1.TabIndex = 117;
             // 
             // txtCombinacao2
             // 
-            this.txtCombinacao2.Location = new System.Drawing.Point(880, 541);
-            this.txtCombinacao2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtCombinacao2.Location = new System.Drawing.Point(569, 362);
             this.txtCombinacao2.Multiline = true;
             this.txtCombinacao2.Name = "txtCombinacao2";
-            this.txtCombinacao2.Size = new System.Drawing.Size(27, 27);
+            this.txtCombinacao2.Size = new System.Drawing.Size(35, 26);
             this.txtCombinacao2.TabIndex = 118;
             // 
             // txtCombinacao3
             // 
-            this.txtCombinacao3.Location = new System.Drawing.Point(880, 581);
-            this.txtCombinacao3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtCombinacao3.Location = new System.Drawing.Point(569, 392);
             this.txtCombinacao3.Multiline = true;
             this.txtCombinacao3.Name = "txtCombinacao3";
-            this.txtCombinacao3.Size = new System.Drawing.Size(27, 27);
+            this.txtCombinacao3.Size = new System.Drawing.Size(35, 26);
             this.txtCombinacao3.TabIndex = 119;
             // 
             // txtCombinacao4
             // 
-            this.txtCombinacao4.Location = new System.Drawing.Point(880, 618);
-            this.txtCombinacao4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtCombinacao4.Location = new System.Drawing.Point(569, 421);
             this.txtCombinacao4.Multiline = true;
             this.txtCombinacao4.Name = "txtCombinacao4";
-            this.txtCombinacao4.Size = new System.Drawing.Size(27, 27);
+            this.txtCombinacao4.Size = new System.Drawing.Size(35, 26);
             this.txtCombinacao4.TabIndex = 120;
             // 
             // txtCombinacao5
             // 
-            this.txtCombinacao5.Location = new System.Drawing.Point(880, 655);
-            this.txtCombinacao5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtCombinacao5.Location = new System.Drawing.Point(569, 451);
             this.txtCombinacao5.Multiline = true;
             this.txtCombinacao5.Name = "txtCombinacao5";
-            this.txtCombinacao5.Size = new System.Drawing.Size(27, 27);
+            this.txtCombinacao5.Size = new System.Drawing.Size(35, 26);
             this.txtCombinacao5.TabIndex = 121;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Pink;
-            this.ClientSize = new System.Drawing.Size(1233, 800);
+            this.ClientSize = new System.Drawing.Size(822, 487);
             this.Controls.Add(this.txtCombinacao5);
             this.Controls.Add(this.txtCombinacao4);
             this.Controls.Add(this.txtCombinacao3);
@@ -679,7 +637,6 @@ namespace ProjetoTokio
             this.Controls.Add(this.BtnJogadores);
             this.Controls.Add(this.lstListaPartida);
             this.Controls.Add(this.btnListaPartida);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Projeto Tokyo";
             this.Load += new System.EventHandler(this.Form1_Load);

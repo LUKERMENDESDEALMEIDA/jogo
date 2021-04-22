@@ -192,14 +192,46 @@ namespace ProjetoTokio // nome do projeto
                             txtDadoRolado3.Text = dado3[1];
                             txtDadoRolado4.Text = dado4[1];
 
+
                             //funções de exibição dos dados na tela
                             Dice1(); //dado1
                             Dice2(); //dado2
                             Dice3(); //dado3
                             Dice4(); //dado4
+
+                int valores1 = Convert.ToInt32(txtDadoRolado1.Text);
+                int valores2 = Convert.ToInt32(txtDadoRolado2.Text);
+                int valores3 = Convert.ToInt32(txtDadoRolado3.Text);
+                int valores4 = Convert.ToInt32(txtDadoRolado4.Text);
+
+                int resultado0 = valores1 + valores2;
+                int resultado1 = valores3 + valores4;
+                int resultado2 = valores2 + valores4;
+                int resultado3 = valores1 + valores3;
+                int resultado4 = valores1 + valores4;
+                int resultado5 = valores2 + valores3;
+
+                string res1 = resultado0.ToString();
+                txtCombinacao0.Text = res1;
+
+                string res2 = resultado1.ToString();
+                txtCombinacao1.Text = res2;
+
+                string res3 = resultado2.ToString();
+                txtCombinacao2.Text = res3;
+
+                string res4 = resultado3.ToString();
+                txtCombinacao3.Text = res4;
+
+                string res5 = resultado4.ToString();
+                txtCombinacao4.Text = res5;
+
+                string res6 = resultado5.ToString();
+                txtCombinacao5.Text = res6;
             }
            
         }
+
 
         /**************************BOTÃO EXIBIR TABULEIRO*****************************/
         public void btnExibirTabuleiro_Click(object sender, EventArgs e)
@@ -229,77 +261,9 @@ namespace ProjetoTokio // nome do projeto
             }
 
         }
-        //Tabuleiro deve ter 11 colunas
-
-        public void txtNomeJogador_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        public void txtSenhaEntrar_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        public void lblVersao_Click(object sender, EventArgs e)
-        {
-
-        }
-        public void txtCriacao_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        public void txtSenhaCriacao_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        public void lstListaPartida_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        public void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        public void textTabuleiro_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblJog_Click(object sender, EventArgs e)
-        {
-
-        }
+        
         // """""""""""""""""""SOMAR DADOS""""""""""""""""""""""""""""""
-        public void somaDados(int []valores, int [] resultado)
-        {
-            
-
-            valores [0] = Convert.ToInt32(txtDadoRolado1.Text);
-            valores [1] = Convert.ToInt32(txtDadoRolado2.Text);
-            valores [2] = Convert.ToInt32(txtDadoRolado3.Text);
-            valores [3]= Convert.ToInt32(txtDadoRolado4.Text);
-
-            resultado[0] = valores[0] + valores[1];
-            resultado[1] = valores[2] + valores[3];
-            resultado[2] = valores[1] + valores[3];
-            resultado[3] = valores[0] + valores[2];
-            resultado[4] = valores[0] + valores[3];
-            resultado[5] = valores[1] + valores[2];
-
-            resultado[0] = Convert.ToInt32(txtCombinacao0.Text);
-            resultado[1] = Convert.ToInt32(txtCombinacao1.Text);
-            resultado[2] = Convert.ToInt32(txtCombinacao2.Text);
-            resultado[3] = Convert.ToInt32(txtCombinacao3.Text);
-            resultado[4] = Convert.ToInt32(txtCombinacao4.Text);
-            resultado[5] = Convert.ToInt32(txtCombinacao5.Text);
-            
-
-        }
+       
         void Dice1()
         {
 
@@ -421,6 +385,50 @@ namespace ProjetoTokio // nome do projeto
         private void txtCombinacao1_TextChanged(object sender, EventArgs e)
         {
           
+        }
+
+        public void txtNomeJogador_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        public void txtSenhaEntrar_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        public void lblVersao_Click(object sender, EventArgs e)
+        {
+
+        }
+        public void txtCriacao_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        public void txtSenhaCriacao_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        public void lstListaPartida_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        public void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        public void textTabuleiro_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblJog_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
