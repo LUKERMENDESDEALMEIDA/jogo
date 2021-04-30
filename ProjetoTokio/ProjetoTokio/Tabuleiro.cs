@@ -16,7 +16,7 @@ namespace ProjetoTokio
         public Tabuleiro()
         {
             InitializeComponent();
-            
+
 
             //this.pictureBox78.Image = ProjetoTokio.Properties.Resources.alpinista;
 
@@ -33,7 +33,7 @@ namespace ProjetoTokio
         //declarar imagem em picturebox
         //this.pct2_1.Image = ProjetoTokio.Properties.Resources.alpinista;
         public int idPartida { get; set; }
-        
+
         public string idJogador { get; set; }
 
         public string nickName { get; set; }
@@ -62,10 +62,10 @@ namespace ProjetoTokio
                     //POSICAO 1
                     if (posicao == "1")
                     {
-                        
-                        if(jogador == "1")
+
+                        if (jogador == "1")
                         {
-                            if(tipo == "A")
+                            if (tipo == "A")
                             {
                                 this.pct2_1.Image = ProjetoTokio.Properties.Resources.alpinista;
                             }
@@ -75,7 +75,7 @@ namespace ProjetoTokio
                             }
 
                         }
-                      
+
                         else if (jogador == "2")
                         {
                             if (tipo == "A")
@@ -110,10 +110,10 @@ namespace ProjetoTokio
                             }
                         }
 
-                        
-                        
+
+
                     }
-                    
+
                     //POSICAO 2
                     else if (posicao == "2")
                     {
@@ -165,13 +165,13 @@ namespace ProjetoTokio
                         }
 
                     }
-                    
+
                     //POSICAO 3
                     else if (posicao == "3")
                     {
-                       if(jogador == "1")
+                        if (jogador == "1")
                         {
-                            if(tipo == "A")
+                            if (tipo == "A")
                             {
                                 this.pct2_final.Image = ProjetoTokio.Properties.Resources.alpinista;
                             }
@@ -181,7 +181,7 @@ namespace ProjetoTokio
                             }
 
                         }
-                      
+
                         else if (jogador == "2")
                         {
                             if (tipo == "A")
@@ -217,13 +217,13 @@ namespace ProjetoTokio
                         }
                     }
                     break;
-                    
-                    
+
+
                 //TRILHA 3
                 case "3":
 
                     //POSICAO 1
-                    if(posicao == "1")
+                    if (posicao == "1")
                     {
                         if (jogador == "1")
                         {
@@ -4399,20 +4399,20 @@ namespace ProjetoTokio
 
         private void tmExibirTabu_Tick(object sender, EventArgs e)
         {
-            
+
             string exibirTabu = Jogo.ExibirTabuleiro(this.idPartida);
 
-            if(exibirTabu == "")
+            if (exibirTabu == "")
             {
-                InitializeComponent() ;
+                InitializeComponent();
             }
             else
             {
 
-            exibirTabu = exibirTabu.Replace("\r\n", "-");
-            
-            exibirTabu = exibirTabu.Remove(exibirTabu.Length - 1);
-            string[] tabuleiroSplit = exibirTabu.Split('-');
+                exibirTabu = exibirTabu.Replace("\r\n", "-");
+
+                exibirTabu = exibirTabu.Remove(exibirTabu.Length - 1);
+                string[] tabuleiroSplit = exibirTabu.Split('-');
 
                 foreach (string linhaTabu in tabuleiroSplit)
                 {
@@ -4424,8 +4424,8 @@ namespace ProjetoTokio
                     datarow["Posicao"] = valor[1];
                     datarow["Jogador"] = valor[2];
                     datarow["Tipo"] = valor[3];
-                    
-      
+
+
 
                     tabuleiro.Rows.Add(datarow);
 
@@ -4438,7 +4438,7 @@ namespace ProjetoTokio
 
         private void txtCombinacao1_TextChanged(object sender, EventArgs e)
         {
-             
+
         }
         void Load_Historico()
         {

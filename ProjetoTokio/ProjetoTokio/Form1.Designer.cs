@@ -81,7 +81,9 @@ namespace ProjetoTokio
             this.radCombinacao2 = new System.Windows.Forms.RadioButton();
             this.radCombinacao1 = new System.Windows.Forms.RadioButton();
             this.txtExibeTabuleiro = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnMover = new System.Windows.Forms.Button();
+            this.txtOrdem = new System.Windows.Forms.TextBox();
+            this.txtTrilha = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.picDadoRolado4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picDadoRolado3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picDadoRolado2)).BeginInit();
@@ -634,17 +636,33 @@ namespace ProjetoTokio
             this.txtExibeTabuleiro.Name = "txtExibeTabuleiro";
             this.txtExibeTabuleiro.Size = new System.Drawing.Size(228, 150);
             this.txtExibeTabuleiro.TabIndex = 142;
-            this.txtExibeTabuleiro.TextChanged += new System.EventHandler(this.txtExibeTabuleiro_TextChanged);
             // 
-            // button1
+            // btnMover
             // 
-            this.button1.Location = new System.Drawing.Point(556, 464);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 143;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnMover.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnMover.Location = new System.Drawing.Point(556, 444);
+            this.btnMover.Name = "btnMover";
+            this.btnMover.Size = new System.Drawing.Size(75, 23);
+            this.btnMover.TabIndex = 144;
+            this.btnMover.Text = "Mover";
+            this.btnMover.UseVisualStyleBackColor = false;
+            this.btnMover.Click += new System.EventHandler(this.btnMover_Click);
+            // 
+            // txtOrdem
+            // 
+            this.txtOrdem.Location = new System.Drawing.Point(556, 385);
+            this.txtOrdem.Multiline = true;
+            this.txtOrdem.Name = "txtOrdem";
+            this.txtOrdem.Size = new System.Drawing.Size(74, 26);
+            this.txtOrdem.TabIndex = 145;
+            // 
+            // txtTrilha
+            // 
+            this.txtTrilha.Location = new System.Drawing.Point(556, 414);
+            this.txtTrilha.Multiline = true;
+            this.txtTrilha.Name = "txtTrilha";
+            this.txtTrilha.Size = new System.Drawing.Size(74, 26);
+            this.txtTrilha.TabIndex = 146;
             // 
             // Form1
             // 
@@ -652,7 +670,9 @@ namespace ProjetoTokio
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Pink;
             this.ClientSize = new System.Drawing.Size(822, 536);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.txtTrilha);
+            this.Controls.Add(this.txtOrdem);
+            this.Controls.Add(this.btnMover);
             this.Controls.Add(this.txtExibeTabuleiro);
             this.Controls.Add(this.radCombinacao3);
             this.Controls.Add(this.radCombinacao2);
@@ -769,7 +789,9 @@ namespace ProjetoTokio
         private System.Windows.Forms.RadioButton radCombinacao2;
         private System.Windows.Forms.RadioButton radCombinacao1;
         private System.Windows.Forms.TextBox txtExibeTabuleiro;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnMover;
+        private System.Windows.Forms.TextBox txtOrdem;
+        private System.Windows.Forms.TextBox txtTrilha;
     }
 }
 
