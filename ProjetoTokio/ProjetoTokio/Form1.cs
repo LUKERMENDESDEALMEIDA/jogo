@@ -136,8 +136,7 @@ namespace ProjetoTokio // nome do projeto
         private void tmVezDado_Tick(object sender, EventArgs e)
         {
             txtVerificaVez.Clear();
-            string linha = lstListaPartida.SelectedItem.ToString();//seleciona a partida e transforma em string
-            string[] itens = linha.Split(','); //separa os as informaçãos (id, nome, Status)
+            string[] itens = lstListaPartida.SelectedItem.ToString().Split(',');//seleciona a partida e transforma em string
             int id = Convert.ToInt32(itens[0]);//converte id(string) em id (numero inteiro)
 
             
@@ -403,6 +402,15 @@ namespace ProjetoTokio // nome do projeto
             }
         }
 
+        void Mover()
+        {
+            string[] itens = lstListaPartida.SelectedItem.ToString().Split(','); ;//seleciona a partida e transforma em string
+            int id = Convert.ToInt32(itens[0]);//converte id(string) em id (numero inteiro)
+            
+            txtExibeTabuleiro.Text = Jogo.ExibirTabuleiro(id);
+           // Jogo.Mover(Convert.ToInt32(txtIdJogador.Text),txtSenhaJogador);
+        }
+
         private void txtDadoRolado1_TextChanged(object sender, EventArgs e)
         {
 
@@ -457,7 +465,15 @@ namespace ProjetoTokio // nome do projeto
 
         }
 
-        
+        private void txtExibeTabuleiro_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Mover();
+        }
     }
 }
     
