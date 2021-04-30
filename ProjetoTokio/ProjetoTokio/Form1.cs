@@ -17,7 +17,7 @@ namespace ProjetoTokio // nome do projeto
 
         public Form1()
         {
-
+            this.listarJog = new DataTable();
             InitializeComponent();// inicia o form
             lblVersao.Text = "Versão: " + Jogo.Versao;//exibe a versão da dll na tela
         }
@@ -27,7 +27,7 @@ namespace ProjetoTokio // nome do projeto
         {
 
         }
-
+        public DataTable listarJog { get; set; }
         /**************************BOTÃO DE LISTAR PARTIDAS**************************/
         public void btnListaPartida_Click(object sender, EventArgs e)
         {
@@ -54,7 +54,39 @@ namespace ProjetoTokio // nome do projeto
             string[] itens = linha.Split(','); //separa os as informaçãos (id, nome, Status)
             int id = Convert.ToInt32(itens[0]);//converte id(string) em id (numero inteiro)
 
-            txtJogadores.Text = Jogo.ListarJogadores(id);//lista os jogadores (id da partida passado como parametro)
+            string listJog = txtJogadores.Text = Jogo.ListarJogadores(id);//lista os jogadores (id da partida passado como parametro)
+
+            listJog = listJog.Remove(listJog.Length - 1);
+            string[] listaJogSplit = listJog.Split('-');
+
+            foreach (string linhaJog in listaJogSplit)
+            {
+
+                string[] valor = linhaJog.Split(',');
+
+                DataRow datarow = listarJog.NewRow();
+                datarow["Id"] = valor[0];
+                datarow["Nick"] = valor[1];
+                datarow["Cor"] = valor[2];
+               
+
+                listarJog.Rows.Add(datarow);
+
+                this.jogadoresPart(valor[0], valor[1], valor[2]);
+
+            }
+
+            
+        }
+
+        public void jogadoresPart(string idJog, string nickJog, string cor)
+        {
+            Tabuleiro formTabu = new Tabuleiro();
+
+            formTabu.idJogador = idJog;
+            formTabu.nickName = nickJog;
+            formTabu.corJogador = cor;
+
         }
 
         /**************************BOTÃO DE CRIAR NOVA PARTIDA**************************/
@@ -131,6 +163,8 @@ namespace ProjetoTokio // nome do projeto
             txtNomeJogador.Clear();
             txtSenhaEntrar.Clear();
 
+            Convert.ToInt32(txtIdJogador.Text);
+
         }
 
         private void tmVezDado_Tick(object sender, EventArgs e)
@@ -150,8 +184,9 @@ namespace ProjetoTokio // nome do projeto
 
             if (vez.StartsWith("ERRO"))//se as 4 letras(ERRO) = true
             {
-               // tmVezDado.Stop();
-                MessageBox.Show(vez); //exibe o erro na tela
+                tmVezDado.Stop();
+                //MessageBox.Show(vez); //exibe o erro na tela
+                Jogo.VerificarVez(id);
 
             }
             else
@@ -457,7 +492,20 @@ namespace ProjetoTokio // nome do projeto
 
         }
 
-        
+        public void btnMover_Click(object sender, EventArgs e)
+        {
+            int idJog = Convert.ToInt32(txtIdJogador.Text);
+            string senhaJog = txtSenhaJogador.Text;
+            string ordemDado = txtOrdem.Text;
+            string trilha = txtTrilha.Text;
+
+            string mover = Jogo.Mover(idJog, senhaJog, ordemDado, trilha);
+
+            if(mover.StartsWith("ERRO"))//se as 4 letras(ERRO) = true
+            {
+                MessageBox.Show(mover); //exibe o erro na tela
+            }
+        }
     }
 }
     

@@ -34,7 +34,11 @@ namespace ProjetoTokio
         //this.pct2_1.Image = ProjetoTokio.Properties.Resources.alpinista;
         public int idPartida { get; set; }
         
-        public string cor { get; set; }
+        public string idJogador { get; set; }
+
+        public string nickName { get; set; }
+
+        public string corJogador { get; set; }
 
 
         public DataTable tabuleiro { get; set; }

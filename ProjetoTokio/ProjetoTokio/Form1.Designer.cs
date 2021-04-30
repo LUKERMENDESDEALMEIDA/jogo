@@ -80,6 +80,9 @@ namespace ProjetoTokio
             this.radCombinacao3 = new System.Windows.Forms.RadioButton();
             this.radCombinacao2 = new System.Windows.Forms.RadioButton();
             this.radCombinacao1 = new System.Windows.Forms.RadioButton();
+            this.txtOrdem = new System.Windows.Forms.TextBox();
+            this.txtTrilha = new System.Windows.Forms.TextBox();
+            this.btnMover = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picDadoRolado4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picDadoRolado3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picDadoRolado2)).BeginInit();
@@ -625,12 +628,41 @@ namespace ProjetoTokio
             this.radCombinacao1.TabStop = true;
             this.radCombinacao1.UseVisualStyleBackColor = true;
             // 
+            // txtOrdem
+            // 
+            this.txtOrdem.Location = new System.Drawing.Point(554, 401);
+            this.txtOrdem.Multiline = true;
+            this.txtOrdem.Name = "txtOrdem";
+            this.txtOrdem.Size = new System.Drawing.Size(63, 23);
+            this.txtOrdem.TabIndex = 142;
+            // 
+            // txtTrilha
+            // 
+            this.txtTrilha.Location = new System.Drawing.Point(554, 425);
+            this.txtTrilha.Multiline = true;
+            this.txtTrilha.Name = "txtTrilha";
+            this.txtTrilha.Size = new System.Drawing.Size(63, 23);
+            this.txtTrilha.TabIndex = 143;
+            // 
+            // btnMover
+            // 
+            this.btnMover.Location = new System.Drawing.Point(397, 397);
+            this.btnMover.Name = "btnMover";
+            this.btnMover.Size = new System.Drawing.Size(75, 23);
+            this.btnMover.TabIndex = 144;
+            this.btnMover.Text = "Mover";
+            this.btnMover.UseVisualStyleBackColor = true;
+            this.btnMover.Click += new System.EventHandler(this.btnMover_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Pink;
             this.ClientSize = new System.Drawing.Size(822, 487);
+            this.Controls.Add(this.btnMover);
+            this.Controls.Add(this.txtTrilha);
+            this.Controls.Add(this.txtOrdem);
             this.Controls.Add(this.radCombinacao3);
             this.Controls.Add(this.radCombinacao2);
             this.Controls.Add(this.radCombinacao1);
@@ -745,6 +777,9 @@ namespace ProjetoTokio
         private System.Windows.Forms.RadioButton radCombinacao3;
         private System.Windows.Forms.RadioButton radCombinacao2;
         private System.Windows.Forms.RadioButton radCombinacao1;
+        private System.Windows.Forms.TextBox txtOrdem;
+        private System.Windows.Forms.TextBox txtTrilha;
+        private System.Windows.Forms.Button btnMover;
     }
 }
 
