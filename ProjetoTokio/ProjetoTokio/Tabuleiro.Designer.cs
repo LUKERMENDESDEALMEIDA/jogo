@@ -121,7 +121,6 @@ namespace ProjetoTokio
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.tmExibirTabu = new System.Windows.Forms.Timer(this.components);
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.txtCombinacao1 = new System.Windows.Forms.TextBox();
             this.txtCombinacao2 = new System.Windows.Forms.TextBox();
             this.txtCombinacao3 = new System.Windows.Forms.TextBox();
@@ -130,6 +129,7 @@ namespace ProjetoTokio
             this.txtCombinacao7 = new System.Windows.Forms.TextBox();
             this.txtCombinacao6 = new System.Windows.Forms.TextBox();
             this.txtCombinacao8 = new System.Windows.Forms.TextBox();
+            this.txtNarracao1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pct2_1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct3_1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct4_1)).BeginInit();
@@ -1136,7 +1136,7 @@ namespace ProjetoTokio
             this.lblTrilha2.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.lblTrilha2.Location = new System.Drawing.Point(275, 573);
             this.lblTrilha2.Name = "lblTrilha2";
-            this.lblTrilha2.Size = new System.Drawing.Size(25, 29);
+            this.lblTrilha2.Size = new System.Drawing.Size(17, 19);
             this.lblTrilha2.TabIndex = 84;
             this.lblTrilha2.Text = "2";
             // 
@@ -1148,7 +1148,7 @@ namespace ProjetoTokio
             this.label1.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.label1.Location = new System.Drawing.Point(329, 573);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(24, 29);
+            this.label1.Size = new System.Drawing.Size(17, 19);
             this.label1.TabIndex = 85;
             this.label1.Text = "3";
             // 
@@ -1160,7 +1160,7 @@ namespace ProjetoTokio
             this.label2.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.label2.Location = new System.Drawing.Point(383, 573);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(26, 29);
+            this.label2.Size = new System.Drawing.Size(18, 19);
             this.label2.TabIndex = 86;
             this.label2.Text = "4";
             // 
@@ -1172,7 +1172,7 @@ namespace ProjetoTokio
             this.label3.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.label3.Location = new System.Drawing.Point(433, 573);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(24, 29);
+            this.label3.Size = new System.Drawing.Size(17, 19);
             this.label3.TabIndex = 87;
             this.label3.Text = "5";
             // 
@@ -1184,7 +1184,7 @@ namespace ProjetoTokio
             this.label4.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.label4.Location = new System.Drawing.Point(482, 573);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(26, 29);
+            this.label4.Size = new System.Drawing.Size(17, 19);
             this.label4.TabIndex = 88;
             this.label4.Text = "6";
             // 
@@ -1196,7 +1196,7 @@ namespace ProjetoTokio
             this.label5.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.label5.Location = new System.Drawing.Point(533, 573);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(24, 29);
+            this.label5.Size = new System.Drawing.Size(16, 19);
             this.label5.TabIndex = 89;
             this.label5.Text = "7";
             this.label5.Click += new System.EventHandler(this.label5_Click);
@@ -1209,7 +1209,7 @@ namespace ProjetoTokio
             this.label6.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.label6.Location = new System.Drawing.Point(582, 573);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(26, 29);
+            this.label6.Size = new System.Drawing.Size(18, 19);
             this.label6.TabIndex = 90;
             this.label6.Text = "8";
             // 
@@ -1221,7 +1221,7 @@ namespace ProjetoTokio
             this.label7.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.label7.Location = new System.Drawing.Point(632, 573);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(26, 29);
+            this.label7.Size = new System.Drawing.Size(17, 19);
             this.label7.TabIndex = 91;
             this.label7.Text = "9";
             // 
@@ -1233,7 +1233,7 @@ namespace ProjetoTokio
             this.label8.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.label8.Location = new System.Drawing.Point(682, 573);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(34, 29);
+            this.label8.Size = new System.Drawing.Size(23, 19);
             this.label8.TabIndex = 92;
             this.label8.Text = "10";
             this.label8.Click += new System.EventHandler(this.label8_Click);
@@ -1246,7 +1246,7 @@ namespace ProjetoTokio
             this.label9.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.label9.Location = new System.Drawing.Point(732, 573);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(29, 29);
+            this.label9.Size = new System.Drawing.Size(19, 19);
             this.label9.TabIndex = 93;
             this.label9.Text = "11";
             // 
@@ -1258,7 +1258,7 @@ namespace ProjetoTokio
             this.label10.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.label10.Location = new System.Drawing.Point(780, 573);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(33, 29);
+            this.label10.Size = new System.Drawing.Size(22, 19);
             this.label10.TabIndex = 94;
             this.label10.Text = "12";
             this.label10.Click += new System.EventHandler(this.label10_Click);
@@ -1267,13 +1267,6 @@ namespace ProjetoTokio
             // 
             this.tmExibirTabu.Interval = 4000;
             this.tmExibirTabu.Tick += new System.EventHandler(this.tmExibirTabu_Tick);
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(12, 23);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 26);
-            this.textBox1.TabIndex = 95;
             // 
             // txtCombinacao1
             // 
@@ -1356,10 +1349,23 @@ namespace ProjetoTokio
             this.txtCombinacao8.TabIndex = 120;
             this.txtCombinacao8.Visible = false;
             // 
+            // txtNarracao1
+            // 
+            this.txtNarracao1.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.txtNarracao1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtNarracao1.Enabled = false;
+            this.txtNarracao1.Location = new System.Drawing.Point(626, 26);
+            this.txtNarracao1.Multiline = true;
+            this.txtNarracao1.Name = "txtNarracao1";
+            this.txtNarracao1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.txtNarracao1.Size = new System.Drawing.Size(196, 158);
+            this.txtNarracao1.TabIndex = 127;
+            // 
             // Tabuleiro
             // 
             this.BackColor = System.Drawing.Color.LightSteelBlue;
             this.ClientSize = new System.Drawing.Size(834, 611);
+            this.Controls.Add(this.txtNarracao1);
             this.Controls.Add(this.txtCombinacao8);
             this.Controls.Add(this.txtCombinacao6);
             this.Controls.Add(this.txtCombinacao7);
@@ -1368,7 +1374,6 @@ namespace ProjetoTokio
             this.Controls.Add(this.txtCombinacao3);
             this.Controls.Add(this.txtCombinacao2);
             this.Controls.Add(this.txtCombinacao1);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
@@ -1666,7 +1671,6 @@ namespace ProjetoTokio
         public System.Windows.Forms.Label label10;
         private System.Windows.Forms.Timer tmExibirTabu;
         private System.ComponentModel.IContainer components;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox txtCombinacao1;
         private System.Windows.Forms.TextBox txtCombinacao2;
         private System.Windows.Forms.TextBox txtCombinacao3;
@@ -1675,5 +1679,6 @@ namespace ProjetoTokio
         private System.Windows.Forms.TextBox txtCombinacao7;
         private System.Windows.Forms.TextBox txtCombinacao6;
         private System.Windows.Forms.TextBox txtCombinacao8;
+        private System.Windows.Forms.TextBox txtNarracao1;
     }
 }

@@ -80,9 +80,8 @@ namespace ProjetoTokio
             this.radCombinacao3 = new System.Windows.Forms.RadioButton();
             this.radCombinacao2 = new System.Windows.Forms.RadioButton();
             this.radCombinacao1 = new System.Windows.Forms.RadioButton();
-            this.txtOrdem = new System.Windows.Forms.TextBox();
-            this.txtTrilha = new System.Windows.Forms.TextBox();
-            this.btnMover = new System.Windows.Forms.Button();
+            this.txtExibeTabuleiro = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picDadoRolado4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picDadoRolado3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picDadoRolado2)).BeginInit();
@@ -190,7 +189,7 @@ namespace ProjetoTokio
             // 
             this.lblVersao.AutoSize = true;
             this.lblVersao.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Bold);
-            this.lblVersao.Location = new System.Drawing.Point(723, 496);
+            this.lblVersao.Location = new System.Drawing.Point(714, 486);
             this.lblVersao.Name = "lblVersao";
             this.lblVersao.Size = new System.Drawing.Size(47, 15);
             this.lblVersao.TabIndex = 10;
@@ -265,9 +264,9 @@ namespace ProjetoTokio
             // 
             this.btnIniciaPartida.BackColor = System.Drawing.Color.HotPink;
             this.btnIniciaPartida.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Bold);
-            this.btnIniciaPartida.Location = new System.Drawing.Point(357, 106);
+            this.btnIniciaPartida.Location = new System.Drawing.Point(376, 88);
             this.btnIniciaPartida.Name = "btnIniciaPartida";
-            this.btnIniciaPartida.Size = new System.Drawing.Size(157, 79);
+            this.btnIniciaPartida.Size = new System.Drawing.Size(133, 51);
             this.btnIniciaPartida.TabIndex = 17;
             this.btnIniciaPartida.Text = "Iniciar Partida";
             this.btnIniciaPartida.UseVisualStyleBackColor = false;
@@ -294,7 +293,7 @@ namespace ProjetoTokio
             this.txtCor.Enabled = false;
             this.txtCor.Font = new System.Drawing.Font("Microsoft JhengHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCor.ForeColor = System.Drawing.Color.Red;
-            this.txtCor.Location = new System.Drawing.Point(319, 242);
+            this.txtCor.Location = new System.Drawing.Point(327, 175);
             this.txtCor.Name = "txtCor";
             this.txtCor.Size = new System.Drawing.Size(100, 16);
             this.txtCor.TabIndex = 23;
@@ -307,7 +306,7 @@ namespace ProjetoTokio
             this.txtSenhaJogador.Enabled = false;
             this.txtSenhaJogador.Font = new System.Drawing.Font("Microsoft JhengHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSenhaJogador.ForeColor = System.Drawing.Color.Red;
-            this.txtSenhaJogador.Location = new System.Drawing.Point(442, 242);
+            this.txtSenhaJogador.Location = new System.Drawing.Point(450, 175);
             this.txtSenhaJogador.Name = "txtSenhaJogador";
             this.txtSenhaJogador.Size = new System.Drawing.Size(100, 16);
             this.txtSenhaJogador.TabIndex = 24;
@@ -320,7 +319,7 @@ namespace ProjetoTokio
             this.txtIdJogador.Enabled = false;
             this.txtIdJogador.Font = new System.Drawing.Font("Microsoft JhengHei", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtIdJogador.ForeColor = System.Drawing.Color.Red;
-            this.txtIdJogador.Location = new System.Drawing.Point(376, 295);
+            this.txtIdJogador.Location = new System.Drawing.Point(384, 228);
             this.txtIdJogador.Name = "txtIdJogador";
             this.txtIdJogador.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.txtIdJogador.Size = new System.Drawing.Size(100, 16);
@@ -331,7 +330,7 @@ namespace ProjetoTokio
             // 
             this.lblSenhaJogadorEntrada.AutoSize = true;
             this.lblSenhaJogadorEntrada.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Bold);
-            this.lblSenhaJogadorEntrada.Location = new System.Drawing.Point(435, 224);
+            this.lblSenhaJogadorEntrada.Location = new System.Drawing.Point(443, 157);
             this.lblSenhaJogadorEntrada.Name = "lblSenhaJogadorEntrada";
             this.lblSenhaJogadorEntrada.Size = new System.Drawing.Size(105, 15);
             this.lblSenhaJogadorEntrada.TabIndex = 27;
@@ -341,7 +340,7 @@ namespace ProjetoTokio
             // 
             this.lblCor.AutoSize = true;
             this.lblCor.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Bold);
-            this.lblCor.Location = new System.Drawing.Point(316, 224);
+            this.lblCor.Location = new System.Drawing.Point(324, 157);
             this.lblCor.Name = "lblCor";
             this.lblCor.Size = new System.Drawing.Size(90, 15);
             this.lblCor.TabIndex = 28;
@@ -351,7 +350,7 @@ namespace ProjetoTokio
             // 
             this.lblIdJogador.AutoSize = true;
             this.lblIdJogador.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Bold);
-            this.lblIdJogador.Location = new System.Drawing.Point(389, 279);
+            this.lblIdJogador.Location = new System.Drawing.Point(397, 212);
             this.lblIdJogador.Name = "lblIdJogador";
             this.lblIdJogador.Size = new System.Drawing.Size(83, 15);
             this.lblIdJogador.TabIndex = 29;
@@ -429,7 +428,7 @@ namespace ProjetoTokio
             // 
             this.btnExibirTabuleiro.BackColor = System.Drawing.Color.HotPink;
             this.btnExibirTabuleiro.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Bold);
-            this.btnExibirTabuleiro.Location = new System.Drawing.Point(354, 345);
+            this.btnExibirTabuleiro.Location = new System.Drawing.Point(362, 268);
             this.btnExibirTabuleiro.Name = "btnExibirTabuleiro";
             this.btnExibirTabuleiro.Size = new System.Drawing.Size(160, 50);
             this.btnExibirTabuleiro.TabIndex = 43;
@@ -452,7 +451,7 @@ namespace ProjetoTokio
             // 
             // txtDadoRolado4
             // 
-            this.txtDadoRolado4.Location = new System.Drawing.Point(499, 493);
+            this.txtDadoRolado4.Location = new System.Drawing.Point(506, 380);
             this.txtDadoRolado4.Multiline = true;
             this.txtDadoRolado4.Name = "txtDadoRolado4";
             this.txtDadoRolado4.Size = new System.Drawing.Size(26, 23);
@@ -461,7 +460,7 @@ namespace ProjetoTokio
             // 
             // txtDadoRolado3
             // 
-            this.txtDadoRolado3.Location = new System.Drawing.Point(498, 428);
+            this.txtDadoRolado3.Location = new System.Drawing.Point(506, 351);
             this.txtDadoRolado3.Multiline = true;
             this.txtDadoRolado3.Name = "txtDadoRolado3";
             this.txtDadoRolado3.Size = new System.Drawing.Size(26, 23);
@@ -470,7 +469,7 @@ namespace ProjetoTokio
             // 
             // txtDadoRolado2
             // 
-            this.txtDadoRolado2.Location = new System.Drawing.Point(455, 493);
+            this.txtDadoRolado2.Location = new System.Drawing.Point(462, 380);
             this.txtDadoRolado2.Multiline = true;
             this.txtDadoRolado2.Name = "txtDadoRolado2";
             this.txtDadoRolado2.Size = new System.Drawing.Size(26, 23);
@@ -479,7 +478,7 @@ namespace ProjetoTokio
             // 
             // txtDadoRolado1
             // 
-            this.txtDadoRolado1.Location = new System.Drawing.Point(454, 428);
+            this.txtDadoRolado1.Location = new System.Drawing.Point(462, 351);
             this.txtDadoRolado1.Multiline = true;
             this.txtDadoRolado1.Name = "txtDadoRolado1";
             this.txtDadoRolado1.Size = new System.Drawing.Size(26, 23);
@@ -525,7 +524,7 @@ namespace ProjetoTokio
             // 
             // txtDado
             // 
-            this.txtDado.Location = new System.Drawing.Point(354, 428);
+            this.txtDado.Location = new System.Drawing.Point(362, 351);
             this.txtDado.Multiline = true;
             this.txtDado.Name = "txtDado";
             this.txtDado.Size = new System.Drawing.Size(88, 51);
@@ -601,7 +600,7 @@ namespace ProjetoTokio
             // radCombinacao3
             // 
             this.radCombinacao3.AutoSize = true;
-            this.radCombinacao3.Location = new System.Drawing.Point(554, 356);
+            this.radCombinacao3.Location = new System.Drawing.Point(559, 361);
             this.radCombinacao3.Name = "radCombinacao3";
             this.radCombinacao3.Size = new System.Drawing.Size(14, 13);
             this.radCombinacao3.TabIndex = 141;
@@ -611,7 +610,7 @@ namespace ProjetoTokio
             // radCombinacao2
             // 
             this.radCombinacao2.AutoSize = true;
-            this.radCombinacao2.Location = new System.Drawing.Point(554, 332);
+            this.radCombinacao2.Location = new System.Drawing.Point(559, 337);
             this.radCombinacao2.Name = "radCombinacao2";
             this.radCombinacao2.Size = new System.Drawing.Size(14, 13);
             this.radCombinacao2.TabIndex = 140;
@@ -621,48 +620,40 @@ namespace ProjetoTokio
             // radCombinacao1
             // 
             this.radCombinacao1.AutoSize = true;
-            this.radCombinacao1.Location = new System.Drawing.Point(554, 310);
+            this.radCombinacao1.Location = new System.Drawing.Point(559, 315);
             this.radCombinacao1.Name = "radCombinacao1";
             this.radCombinacao1.Size = new System.Drawing.Size(14, 13);
             this.radCombinacao1.TabIndex = 139;
             this.radCombinacao1.TabStop = true;
             this.radCombinacao1.UseVisualStyleBackColor = true;
             // 
-            // txtOrdem
+            // txtExibeTabuleiro
             // 
-            this.txtOrdem.Location = new System.Drawing.Point(554, 401);
-            this.txtOrdem.Multiline = true;
-            this.txtOrdem.Name = "txtOrdem";
-            this.txtOrdem.Size = new System.Drawing.Size(63, 23);
-            this.txtOrdem.TabIndex = 142;
+            this.txtExibeTabuleiro.Location = new System.Drawing.Point(322, 337);
+            this.txtExibeTabuleiro.Multiline = true;
+            this.txtExibeTabuleiro.Name = "txtExibeTabuleiro";
+            this.txtExibeTabuleiro.Size = new System.Drawing.Size(228, 150);
+            this.txtExibeTabuleiro.TabIndex = 142;
+            this.txtExibeTabuleiro.TextChanged += new System.EventHandler(this.txtExibeTabuleiro_TextChanged);
             // 
-            // txtTrilha
+            // button1
             // 
-            this.txtTrilha.Location = new System.Drawing.Point(554, 425);
-            this.txtTrilha.Multiline = true;
-            this.txtTrilha.Name = "txtTrilha";
-            this.txtTrilha.Size = new System.Drawing.Size(63, 23);
-            this.txtTrilha.TabIndex = 143;
-            // 
-            // btnMover
-            // 
-            this.btnMover.Location = new System.Drawing.Point(397, 397);
-            this.btnMover.Name = "btnMover";
-            this.btnMover.Size = new System.Drawing.Size(75, 23);
-            this.btnMover.TabIndex = 144;
-            this.btnMover.Text = "Mover";
-            this.btnMover.UseVisualStyleBackColor = true;
-            this.btnMover.Click += new System.EventHandler(this.btnMover_Click);
+            this.button1.Location = new System.Drawing.Point(556, 464);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 143;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Pink;
-            this.ClientSize = new System.Drawing.Size(822, 487);
-            this.Controls.Add(this.btnMover);
-            this.Controls.Add(this.txtTrilha);
-            this.Controls.Add(this.txtOrdem);
+            this.ClientSize = new System.Drawing.Size(822, 536);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.txtExibeTabuleiro);
             this.Controls.Add(this.radCombinacao3);
             this.Controls.Add(this.radCombinacao2);
             this.Controls.Add(this.radCombinacao1);
@@ -777,9 +768,8 @@ namespace ProjetoTokio
         private System.Windows.Forms.RadioButton radCombinacao3;
         private System.Windows.Forms.RadioButton radCombinacao2;
         private System.Windows.Forms.RadioButton radCombinacao1;
-        private System.Windows.Forms.TextBox txtOrdem;
-        private System.Windows.Forms.TextBox txtTrilha;
-        private System.Windows.Forms.Button btnMover;
+        private System.Windows.Forms.TextBox txtExibeTabuleiro;
+        private System.Windows.Forms.Button button1;
     }
 }
 

@@ -4369,6 +4369,7 @@ namespace ProjetoTokio
 
         public void Tabuleiro_Load(object sender, EventArgs e)
         {
+            Load_Historico();
         }
 
         public void label8_Click(object sender, EventArgs e)
@@ -4438,6 +4439,21 @@ namespace ProjetoTokio
         private void txtCombinacao1_TextChanged(object sender, EventArgs e)
         {
              
+        }
+        void Load_Historico()
+        {
+            string narra = Jogo.ExibirHistorico(idPartida);
+            if (narra.StartsWith("ERRO"))
+            {
+                MessageBox.Show(narra);
+            }
+            else
+            {
+                txtNarracao1.Text = Jogo.ExibirHistorico(idPartida);
+            }
+
+
+
         }
     }
 }
