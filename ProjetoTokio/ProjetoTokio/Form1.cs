@@ -451,14 +451,14 @@ namespace ProjetoTokio // nome do projeto
             }
         }
 
-        void Mover()
+        /*void Mover()
         {
             string[] itens = lstListaPartida.SelectedItem.ToString().Split(','); ;//seleciona a partida e transforma em string
             int id = Convert.ToInt32(itens[0]);//converte id(string) em id (numero inteiro)
 
             txtExibeTabuleiro.Text = Jogo.ExibirTabuleiro(id);
             // Jogo.Mover(Convert.ToInt32(txtIdJogador.Text),txtSenhaJogador);
-        }
+        }*/
 
         private void txtDadoRolado1_TextChanged(object sender, EventArgs e)
         {

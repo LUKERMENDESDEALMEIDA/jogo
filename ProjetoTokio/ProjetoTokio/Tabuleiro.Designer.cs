@@ -1353,7 +1353,6 @@ namespace ProjetoTokio
             // 
             this.txtNarracao1.BackColor = System.Drawing.Color.LightSteelBlue;
             this.txtNarracao1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtNarracao1.Enabled = false;
             this.txtNarracao1.Location = new System.Drawing.Point(626, 26);
             this.txtNarracao1.Multiline = true;
             this.txtNarracao1.Name = "txtNarracao1";

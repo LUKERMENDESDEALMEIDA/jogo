@@ -80,10 +80,11 @@ namespace ProjetoTokio
             this.radCombinacao3 = new System.Windows.Forms.RadioButton();
             this.radCombinacao2 = new System.Windows.Forms.RadioButton();
             this.radCombinacao1 = new System.Windows.Forms.RadioButton();
-            this.txtExibeTabuleiro = new System.Windows.Forms.TextBox();
             this.btnMover = new System.Windows.Forms.Button();
             this.txtOrdem = new System.Windows.Forms.TextBox();
             this.txtTrilha = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picDadoRolado4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picDadoRolado3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picDadoRolado2)).BeginInit();
@@ -191,7 +192,7 @@ namespace ProjetoTokio
             // 
             this.lblVersao.AutoSize = true;
             this.lblVersao.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Bold);
-            this.lblVersao.Location = new System.Drawing.Point(714, 486);
+            this.lblVersao.Location = new System.Drawing.Point(714, 506);
             this.lblVersao.Name = "lblVersao";
             this.lblVersao.Size = new System.Drawing.Size(47, 15);
             this.lblVersao.TabIndex = 10;
@@ -491,7 +492,7 @@ namespace ProjetoTokio
             // picDadoRolado4
             // 
             this.picDadoRolado4.BackColor = System.Drawing.Color.Transparent;
-            this.picDadoRolado4.Location = new System.Drawing.Point(711, 381);
+            this.picDadoRolado4.Location = new System.Drawing.Point(711, 403);
             this.picDadoRolado4.Name = "picDadoRolado4";
             this.picDadoRolado4.Size = new System.Drawing.Size(50, 50);
             this.picDadoRolado4.TabIndex = 111;
@@ -500,7 +501,7 @@ namespace ProjetoTokio
             // picDadoRolado3
             // 
             this.picDadoRolado3.BackColor = System.Drawing.Color.Transparent;
-            this.picDadoRolado3.Location = new System.Drawing.Point(711, 313);
+            this.picDadoRolado3.Location = new System.Drawing.Point(711, 335);
             this.picDadoRolado3.Name = "picDadoRolado3";
             this.picDadoRolado3.Size = new System.Drawing.Size(50, 50);
             this.picDadoRolado3.TabIndex = 110;
@@ -509,7 +510,7 @@ namespace ProjetoTokio
             // picDadoRolado2
             // 
             this.picDadoRolado2.BackColor = System.Drawing.Color.Transparent;
-            this.picDadoRolado2.Location = new System.Drawing.Point(636, 381);
+            this.picDadoRolado2.Location = new System.Drawing.Point(636, 403);
             this.picDadoRolado2.Name = "picDadoRolado2";
             this.picDadoRolado2.Size = new System.Drawing.Size(50, 50);
             this.picDadoRolado2.TabIndex = 109;
@@ -518,7 +519,7 @@ namespace ProjetoTokio
             // picDadoRolado1
             // 
             this.picDadoRolado1.BackColor = System.Drawing.Color.Transparent;
-            this.picDadoRolado1.Location = new System.Drawing.Point(636, 313);
+            this.picDadoRolado1.Location = new System.Drawing.Point(636, 335);
             this.picDadoRolado1.Name = "picDadoRolado1";
             this.picDadoRolado1.Size = new System.Drawing.Size(50, 50);
             this.picDadoRolado1.TabIndex = 108;
@@ -537,7 +538,7 @@ namespace ProjetoTokio
             // 
             this.btnRolarDado.BackColor = System.Drawing.Color.HotPink;
             this.btnRolarDado.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRolarDado.Location = new System.Drawing.Point(645, 444);
+            this.btnRolarDado.Location = new System.Drawing.Point(645, 466);
             this.btnRolarDado.Name = "btnRolarDado";
             this.btnRolarDado.Size = new System.Drawing.Size(100, 30);
             this.btnRolarDado.TabIndex = 106;
@@ -547,7 +548,8 @@ namespace ProjetoTokio
             // 
             // txtCombinacao0
             // 
-            this.txtCombinacao0.Location = new System.Drawing.Point(785, 284);
+            this.txtCombinacao0.Enabled = false;
+            this.txtCombinacao0.Location = new System.Drawing.Point(785, 306);
             this.txtCombinacao0.Multiline = true;
             this.txtCombinacao0.Name = "txtCombinacao0";
             this.txtCombinacao0.Size = new System.Drawing.Size(35, 26);
@@ -556,7 +558,8 @@ namespace ProjetoTokio
             // 
             // txtCombinacao1
             // 
-            this.txtCombinacao1.Location = new System.Drawing.Point(785, 319);
+            this.txtCombinacao1.Enabled = false;
+            this.txtCombinacao1.Location = new System.Drawing.Point(785, 341);
             this.txtCombinacao1.Multiline = true;
             this.txtCombinacao1.Name = "txtCombinacao1";
             this.txtCombinacao1.Size = new System.Drawing.Size(35, 26);
@@ -564,7 +567,8 @@ namespace ProjetoTokio
             // 
             // txtCombinacao2
             // 
-            this.txtCombinacao2.Location = new System.Drawing.Point(785, 355);
+            this.txtCombinacao2.Enabled = false;
+            this.txtCombinacao2.Location = new System.Drawing.Point(785, 377);
             this.txtCombinacao2.Multiline = true;
             this.txtCombinacao2.Name = "txtCombinacao2";
             this.txtCombinacao2.Size = new System.Drawing.Size(35, 26);
@@ -572,7 +576,8 @@ namespace ProjetoTokio
             // 
             // txtCombinacao3
             // 
-            this.txtCombinacao3.Location = new System.Drawing.Point(785, 385);
+            this.txtCombinacao3.Enabled = false;
+            this.txtCombinacao3.Location = new System.Drawing.Point(785, 407);
             this.txtCombinacao3.Multiline = true;
             this.txtCombinacao3.Name = "txtCombinacao3";
             this.txtCombinacao3.Size = new System.Drawing.Size(35, 26);
@@ -580,7 +585,8 @@ namespace ProjetoTokio
             // 
             // txtCombinacao4
             // 
-            this.txtCombinacao4.Location = new System.Drawing.Point(785, 414);
+            this.txtCombinacao4.Enabled = false;
+            this.txtCombinacao4.Location = new System.Drawing.Point(785, 436);
             this.txtCombinacao4.Multiline = true;
             this.txtCombinacao4.Name = "txtCombinacao4";
             this.txtCombinacao4.Size = new System.Drawing.Size(35, 26);
@@ -588,7 +594,8 @@ namespace ProjetoTokio
             // 
             // txtCombinacao5
             // 
-            this.txtCombinacao5.Location = new System.Drawing.Point(785, 444);
+            this.txtCombinacao5.Enabled = false;
+            this.txtCombinacao5.Location = new System.Drawing.Point(785, 466);
             this.txtCombinacao5.Multiline = true;
             this.txtCombinacao5.Name = "txtCombinacao5";
             this.txtCombinacao5.Size = new System.Drawing.Size(35, 26);
@@ -602,7 +609,7 @@ namespace ProjetoTokio
             // radCombinacao3
             // 
             this.radCombinacao3.AutoSize = true;
-            this.radCombinacao3.Location = new System.Drawing.Point(559, 361);
+            this.radCombinacao3.Location = new System.Drawing.Point(533, 417);
             this.radCombinacao3.Name = "radCombinacao3";
             this.radCombinacao3.Size = new System.Drawing.Size(14, 13);
             this.radCombinacao3.TabIndex = 141;
@@ -612,7 +619,7 @@ namespace ProjetoTokio
             // radCombinacao2
             // 
             this.radCombinacao2.AutoSize = true;
-            this.radCombinacao2.Location = new System.Drawing.Point(559, 337);
+            this.radCombinacao2.Location = new System.Drawing.Point(533, 393);
             this.radCombinacao2.Name = "radCombinacao2";
             this.radCombinacao2.Size = new System.Drawing.Size(14, 13);
             this.radCombinacao2.TabIndex = 140;
@@ -622,25 +629,17 @@ namespace ProjetoTokio
             // radCombinacao1
             // 
             this.radCombinacao1.AutoSize = true;
-            this.radCombinacao1.Location = new System.Drawing.Point(559, 315);
+            this.radCombinacao1.Location = new System.Drawing.Point(533, 374);
             this.radCombinacao1.Name = "radCombinacao1";
             this.radCombinacao1.Size = new System.Drawing.Size(14, 13);
             this.radCombinacao1.TabIndex = 139;
             this.radCombinacao1.TabStop = true;
             this.radCombinacao1.UseVisualStyleBackColor = true;
             // 
-            // txtExibeTabuleiro
-            // 
-            this.txtExibeTabuleiro.Location = new System.Drawing.Point(322, 337);
-            this.txtExibeTabuleiro.Multiline = true;
-            this.txtExibeTabuleiro.Name = "txtExibeTabuleiro";
-            this.txtExibeTabuleiro.Size = new System.Drawing.Size(228, 150);
-            this.txtExibeTabuleiro.TabIndex = 142;
-            // 
             // btnMover
             // 
             this.btnMover.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.btnMover.Location = new System.Drawing.Point(556, 444);
+            this.btnMover.Location = new System.Drawing.Point(409, 464);
             this.btnMover.Name = "btnMover";
             this.btnMover.Size = new System.Drawing.Size(75, 23);
             this.btnMover.TabIndex = 144;
@@ -650,7 +649,7 @@ namespace ProjetoTokio
             // 
             // txtOrdem
             // 
-            this.txtOrdem.Location = new System.Drawing.Point(556, 385);
+            this.txtOrdem.Location = new System.Drawing.Point(410, 354);
             this.txtOrdem.Multiline = true;
             this.txtOrdem.Name = "txtOrdem";
             this.txtOrdem.Size = new System.Drawing.Size(74, 26);
@@ -658,11 +657,29 @@ namespace ProjetoTokio
             // 
             // txtTrilha
             // 
-            this.txtTrilha.Location = new System.Drawing.Point(556, 414);
+            this.txtTrilha.Location = new System.Drawing.Point(410, 417);
             this.txtTrilha.Multiline = true;
             this.txtTrilha.Name = "txtTrilha";
             this.txtTrilha.Size = new System.Drawing.Size(74, 26);
             this.txtTrilha.TabIndex = 146;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(428, 338);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(36, 13);
+            this.label1.TabIndex = 147;
+            this.label1.Text = "ordem";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(435, 401);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(29, 13);
+            this.label2.TabIndex = 148;
+            this.label2.Text = "trilha";
             // 
             // Form1
             // 
@@ -670,10 +687,11 @@ namespace ProjetoTokio
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Pink;
             this.ClientSize = new System.Drawing.Size(822, 536);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.txtTrilha);
             this.Controls.Add(this.txtOrdem);
             this.Controls.Add(this.btnMover);
-            this.Controls.Add(this.txtExibeTabuleiro);
             this.Controls.Add(this.radCombinacao3);
             this.Controls.Add(this.radCombinacao2);
             this.Controls.Add(this.radCombinacao1);
@@ -788,10 +806,11 @@ namespace ProjetoTokio
         private System.Windows.Forms.RadioButton radCombinacao3;
         private System.Windows.Forms.RadioButton radCombinacao2;
         private System.Windows.Forms.RadioButton radCombinacao1;
-        private System.Windows.Forms.TextBox txtExibeTabuleiro;
         private System.Windows.Forms.Button btnMover;
         private System.Windows.Forms.TextBox txtOrdem;
         private System.Windows.Forms.TextBox txtTrilha;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
 
