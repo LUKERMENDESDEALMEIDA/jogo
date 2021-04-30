@@ -88,8 +88,11 @@ namespace ProjetoTokio // nome do projeto
 
             if (inicio.StartsWith("ERRO"))//se as 4 letras(ERRO) = true
             {
+                
                 MessageBox.Show(inicio); //exibe o erro na tela
             }
+
+            this.tmVezDado.Start();
 
         }
 
@@ -130,29 +133,36 @@ namespace ProjetoTokio // nome do projeto
 
         }
 
-        /**************************BOTÃO DE VERIFICAR VEZ**************************/
-        public void bntVerificaVez_Click(object sender, EventArgs e)
+        private void tmVezDado_Tick(object sender, EventArgs e)
         {
             txtVerificaVez.Clear();
             string linha = lstListaPartida.SelectedItem.ToString();//seleciona a partida e transforma em string
             string[] itens = linha.Split(','); //separa os as informaçãos (id, nome, Status)
             int id = Convert.ToInt32(itens[0]);//converte id(string) em id (numero inteiro)
 
-            Jogo.VerificarVez(id);
+            
 
-            string nomeJogador = txtJogadores.Text;
-            string[] nickPlayer = nomeJogador.Split(',');
-            string vez = txtVerificaVez.Text = nickPlayer[1];// Nick do Player
+            //string nomeJogador = txtJogadores.Text;
+            //string[] nickPlayer = nomeJogador.Split(',');
+            string vez = txtVerificaVez.Text = Jogo.VerificarVez(id); //nickPlayer[1];// Nick do Player
+            
+            string [] minhaVez = vez.Split(',');
 
             if (vez.StartsWith("ERRO"))//se as 4 letras(ERRO) = true
             {
-                MessageBox.Show(vez); //exibe o erro na tela
-            }
-            
-        }
+                tmVezDado.Stop();
+                //MessageBox.Show(vez); //exibe o erro na tela
 
-        /**************************BOTÃO DE ROLAR DADOS**************************/
-        private void btnRolarDado_Click(object sender, EventArgs e)
+            }
+            else
+            {
+
+                rolarDados();
+
+                tmVezDado.Stop();
+            }
+        }
+        void rolarDados()
         {
             txtDado.Clear(); //limpar textbox
 
@@ -161,7 +171,7 @@ namespace ProjetoTokio // nome do projeto
 
             string rolar = txtDado.Text = Jogo.RolarDados(idJogador, senhaJogador);
 
-            
+
 
 
             if (rolar.StartsWith("ERRO"))//se as 4 letras(ERRO) = true
@@ -171,33 +181,33 @@ namespace ProjetoTokio // nome do projeto
             else
             {
                 rolar.Replace("\r", "");
-                            string[] separar = rolar.Split('\n');
-                            double casa1 = Convert.ToInt32(separar[0]);
-                            double casa2 = Convert.ToInt32(separar[1]);
-                            double casa3 = Convert.ToInt32(separar[2]);
-                            double casa4 = Convert.ToInt32(separar[3]);
+                string[] separar = rolar.Split('\n');
+                double casa1 = Convert.ToInt32(separar[0]);
+                double casa2 = Convert.ToInt32(separar[1]);
+                double casa3 = Convert.ToInt32(separar[2]);
+                double casa4 = Convert.ToInt32(separar[3]);
 
-                            string casa1T = (casa1 / 10).ToString();
-                            string casa2T = (casa2 / 10).ToString();
-                            string casa3T = (casa3 / 10).ToString();
-                            string casa4T = (casa4 / 10).ToString();
+                string casa1T = (casa1 / 10).ToString();
+                string casa2T = (casa2 / 10).ToString();
+                string casa3T = (casa3 / 10).ToString();
+                string casa4T = (casa4 / 10).ToString();
 
-                            string[] dado1 = casa1T.Split(',');
-                            string[] dado2 = casa2T.Split(',');
-                            string[] dado3 = casa3T.Split(',');
-                            string[] dado4 = casa4T.Split(',');
+                string[] dado1 = casa1T.Split(',');
+                string[] dado2 = casa2T.Split(',');
+                string[] dado3 = casa3T.Split(',');
+                string[] dado4 = casa4T.Split(',');
 
-                            txtDadoRolado1.Text = dado1[1];
-                            txtDadoRolado2.Text = dado2[1];
-                            txtDadoRolado3.Text = dado3[1];
-                            txtDadoRolado4.Text = dado4[1];
+                txtDadoRolado1.Text = dado1[1];
+                txtDadoRolado2.Text = dado2[1];
+                txtDadoRolado3.Text = dado3[1];
+                txtDadoRolado4.Text = dado4[1];
 
 
-                            //funções de exibição dos dados na tela
-                            Dice1(); //dado1
-                            Dice2(); //dado2
-                            Dice3(); //dado3
-                            Dice4(); //dado4
+                //funções de exibição dos dados na tela
+                Dice1(); //dado1
+                Dice2(); //dado2
+                Dice3(); //dado3
+                Dice4(); //dado4
 
                 int valores1 = Convert.ToInt32(txtDadoRolado1.Text);
                 int valores2 = Convert.ToInt32(txtDadoRolado2.Text);
@@ -229,7 +239,18 @@ namespace ProjetoTokio // nome do projeto
                 string res6 = resultado5.ToString();
                 txtCombinacao5.Text = res6;
             }
-           
+        }
+        /**************************BOTÃO DE VERIFICAR VEZ**************************/
+        public void bntVerificaVez_Click(object sender, EventArgs e)
+        {
+            
+            
+        }
+
+        /**************************BOTÃO DE ROLAR DADOS**************************/
+        private void btnRolarDado_Click(object sender, EventArgs e)
+        {
+            
         }
 
 
@@ -430,6 +451,8 @@ namespace ProjetoTokio // nome do projeto
         {
 
         }
+
+        
     }
 }
     

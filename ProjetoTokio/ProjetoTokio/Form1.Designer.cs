@@ -3,10 +3,6 @@ namespace ProjetoTokio
 {
     partial class Form1
     {
-        /// <summary>
-        /// Variável de designer necessária.
-        /// </summary>
-        public System.ComponentModel.IContainer components = null;
 
         /// <summary>
         /// Limpar os recursos que estão sendo usados.
@@ -29,6 +25,7 @@ namespace ProjetoTokio
         /// </summary>
         public void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.btnListaPartida = new System.Windows.Forms.Button();
             this.BtnJogadores = new System.Windows.Forms.Button();
             this.btnEntraPartida = new System.Windows.Forms.Button();
@@ -79,6 +76,7 @@ namespace ProjetoTokio
             this.txtCombinacao3 = new System.Windows.Forms.TextBox();
             this.txtCombinacao4 = new System.Windows.Forms.TextBox();
             this.txtCombinacao5 = new System.Windows.Forms.TextBox();
+            this.tmVezDado = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.picDadoRolado4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picDadoRolado3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picDadoRolado2)).BeginInit();
@@ -589,6 +587,11 @@ namespace ProjetoTokio
             this.txtCombinacao5.Size = new System.Drawing.Size(35, 26);
             this.txtCombinacao5.TabIndex = 121;
             // 
+            // tmVezDado
+            // 
+            this.tmVezDado.Interval = 3000;
+            this.tmVezDado.Tick += new System.EventHandler(this.tmVezDado_Tick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -701,6 +704,8 @@ namespace ProjetoTokio
         private System.Windows.Forms.TextBox txtCombinacao3;
         private System.Windows.Forms.TextBox txtCombinacao4;
         private System.Windows.Forms.TextBox txtCombinacao5;
+        public System.Windows.Forms.Timer tmVezDado;
+        private System.ComponentModel.IContainer components;
     }
 }
 
