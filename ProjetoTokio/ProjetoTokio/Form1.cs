@@ -150,8 +150,8 @@ namespace ProjetoTokio // nome do projeto
 
             if (vez.StartsWith("ERRO"))//se as 4 letras(ERRO) = true
             {
-                tmVezDado.Stop();
-                //MessageBox.Show(vez); //exibe o erro na tela
+               // tmVezDado.Stop();
+                MessageBox.Show(vez); //exibe o erro na tela
 
             }
             else
@@ -238,6 +238,11 @@ namespace ProjetoTokio // nome do projeto
 
                 string res6 = resultado5.ToString();
                 txtCombinacao5.Text = res6;
+
+
+                radCombinacao1.Text = txtCombinacao0.Text + " " + txtCombinacao1.Text;
+                radCombinacao2.Text = txtCombinacao2.Text + " " + txtCombinacao3.Text;
+                radCombinacao3.Text = txtCombinacao4.Text + " " + txtCombinacao5.Text;
             }
         }
         /**************************BOTÃO DE VERIFICAR VEZ**************************/

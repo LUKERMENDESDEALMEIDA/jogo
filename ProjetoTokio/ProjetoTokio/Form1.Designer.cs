@@ -77,6 +77,9 @@ namespace ProjetoTokio
             this.txtCombinacao4 = new System.Windows.Forms.TextBox();
             this.txtCombinacao5 = new System.Windows.Forms.TextBox();
             this.tmVezDado = new System.Windows.Forms.Timer(this.components);
+            this.radCombinacao3 = new System.Windows.Forms.RadioButton();
+            this.radCombinacao2 = new System.Windows.Forms.RadioButton();
+            this.radCombinacao1 = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.picDadoRolado4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picDadoRolado3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picDadoRolado2)).BeginInit();
@@ -540,7 +543,7 @@ namespace ProjetoTokio
             // 
             // txtCombinacao0
             // 
-            this.txtCombinacao0.Location = new System.Drawing.Point(569, 291);
+            this.txtCombinacao0.Location = new System.Drawing.Point(785, 284);
             this.txtCombinacao0.Multiline = true;
             this.txtCombinacao0.Name = "txtCombinacao0";
             this.txtCombinacao0.Size = new System.Drawing.Size(35, 26);
@@ -549,7 +552,7 @@ namespace ProjetoTokio
             // 
             // txtCombinacao1
             // 
-            this.txtCombinacao1.Location = new System.Drawing.Point(569, 326);
+            this.txtCombinacao1.Location = new System.Drawing.Point(785, 319);
             this.txtCombinacao1.Multiline = true;
             this.txtCombinacao1.Name = "txtCombinacao1";
             this.txtCombinacao1.Size = new System.Drawing.Size(35, 26);
@@ -557,7 +560,7 @@ namespace ProjetoTokio
             // 
             // txtCombinacao2
             // 
-            this.txtCombinacao2.Location = new System.Drawing.Point(569, 362);
+            this.txtCombinacao2.Location = new System.Drawing.Point(785, 355);
             this.txtCombinacao2.Multiline = true;
             this.txtCombinacao2.Name = "txtCombinacao2";
             this.txtCombinacao2.Size = new System.Drawing.Size(35, 26);
@@ -565,7 +568,7 @@ namespace ProjetoTokio
             // 
             // txtCombinacao3
             // 
-            this.txtCombinacao3.Location = new System.Drawing.Point(569, 392);
+            this.txtCombinacao3.Location = new System.Drawing.Point(785, 385);
             this.txtCombinacao3.Multiline = true;
             this.txtCombinacao3.Name = "txtCombinacao3";
             this.txtCombinacao3.Size = new System.Drawing.Size(35, 26);
@@ -573,7 +576,7 @@ namespace ProjetoTokio
             // 
             // txtCombinacao4
             // 
-            this.txtCombinacao4.Location = new System.Drawing.Point(569, 421);
+            this.txtCombinacao4.Location = new System.Drawing.Point(785, 414);
             this.txtCombinacao4.Multiline = true;
             this.txtCombinacao4.Name = "txtCombinacao4";
             this.txtCombinacao4.Size = new System.Drawing.Size(35, 26);
@@ -581,7 +584,7 @@ namespace ProjetoTokio
             // 
             // txtCombinacao5
             // 
-            this.txtCombinacao5.Location = new System.Drawing.Point(569, 451);
+            this.txtCombinacao5.Location = new System.Drawing.Point(785, 444);
             this.txtCombinacao5.Multiline = true;
             this.txtCombinacao5.Name = "txtCombinacao5";
             this.txtCombinacao5.Size = new System.Drawing.Size(35, 26);
@@ -592,12 +595,45 @@ namespace ProjetoTokio
             this.tmVezDado.Interval = 3000;
             this.tmVezDado.Tick += new System.EventHandler(this.tmVezDado_Tick);
             // 
+            // radCombinacao3
+            // 
+            this.radCombinacao3.AutoSize = true;
+            this.radCombinacao3.Location = new System.Drawing.Point(554, 356);
+            this.radCombinacao3.Name = "radCombinacao3";
+            this.radCombinacao3.Size = new System.Drawing.Size(14, 13);
+            this.radCombinacao3.TabIndex = 141;
+            this.radCombinacao3.TabStop = true;
+            this.radCombinacao3.UseVisualStyleBackColor = true;
+            // 
+            // radCombinacao2
+            // 
+            this.radCombinacao2.AutoSize = true;
+            this.radCombinacao2.Location = new System.Drawing.Point(554, 332);
+            this.radCombinacao2.Name = "radCombinacao2";
+            this.radCombinacao2.Size = new System.Drawing.Size(14, 13);
+            this.radCombinacao2.TabIndex = 140;
+            this.radCombinacao2.TabStop = true;
+            this.radCombinacao2.UseVisualStyleBackColor = true;
+            // 
+            // radCombinacao1
+            // 
+            this.radCombinacao1.AutoSize = true;
+            this.radCombinacao1.Location = new System.Drawing.Point(554, 310);
+            this.radCombinacao1.Name = "radCombinacao1";
+            this.radCombinacao1.Size = new System.Drawing.Size(14, 13);
+            this.radCombinacao1.TabIndex = 139;
+            this.radCombinacao1.TabStop = true;
+            this.radCombinacao1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Pink;
             this.ClientSize = new System.Drawing.Size(822, 487);
+            this.Controls.Add(this.radCombinacao3);
+            this.Controls.Add(this.radCombinacao2);
+            this.Controls.Add(this.radCombinacao1);
             this.Controls.Add(this.txtCombinacao5);
             this.Controls.Add(this.txtCombinacao4);
             this.Controls.Add(this.txtCombinacao3);
@@ -706,6 +742,9 @@ namespace ProjetoTokio
         private System.Windows.Forms.TextBox txtCombinacao5;
         public System.Windows.Forms.Timer tmVezDado;
         private System.ComponentModel.IContainer components;
+        private System.Windows.Forms.RadioButton radCombinacao3;
+        private System.Windows.Forms.RadioButton radCombinacao2;
+        private System.Windows.Forms.RadioButton radCombinacao1;
     }
 }
 
