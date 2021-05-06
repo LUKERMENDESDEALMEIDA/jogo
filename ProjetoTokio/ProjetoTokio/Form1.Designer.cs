@@ -60,36 +60,13 @@ namespace ProjetoTokio
             this.lblTableaAmarelo = new System.Windows.Forms.Label();
             this.btnExibirTabuleiro = new System.Windows.Forms.Button();
             this.txtVerificaVez = new System.Windows.Forms.TextBox();
-            this.txtDadoRolado4 = new System.Windows.Forms.TextBox();
-            this.txtDadoRolado3 = new System.Windows.Forms.TextBox();
-            this.txtDadoRolado2 = new System.Windows.Forms.TextBox();
-            this.txtDadoRolado1 = new System.Windows.Forms.TextBox();
-            this.picDadoRolado4 = new System.Windows.Forms.PictureBox();
-            this.picDadoRolado3 = new System.Windows.Forms.PictureBox();
-            this.picDadoRolado2 = new System.Windows.Forms.PictureBox();
-            this.picDadoRolado1 = new System.Windows.Forms.PictureBox();
-            this.txtDado = new System.Windows.Forms.TextBox();
-            this.btnRolarDado = new System.Windows.Forms.Button();
-            this.txtCombinacao0 = new System.Windows.Forms.TextBox();
-            this.txtCombinacao1 = new System.Windows.Forms.TextBox();
-            this.txtCombinacao2 = new System.Windows.Forms.TextBox();
-            this.txtCombinacao3 = new System.Windows.Forms.TextBox();
-            this.txtCombinacao4 = new System.Windows.Forms.TextBox();
-            this.txtCombinacao5 = new System.Windows.Forms.TextBox();
             this.tmVezDado = new System.Windows.Forms.Timer(this.components);
-            this.radCombinacao3 = new System.Windows.Forms.RadioButton();
-            this.radCombinacao2 = new System.Windows.Forms.RadioButton();
-            this.radCombinacao1 = new System.Windows.Forms.RadioButton();
             this.btnMover = new System.Windows.Forms.Button();
             this.txtOrdem = new System.Windows.Forms.TextBox();
             this.txtTrilha = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btnParar = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.picDadoRolado4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picDadoRolado3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picDadoRolado2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picDadoRolado1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnListaPartida
@@ -453,189 +430,10 @@ namespace ProjetoTokio
             this.txtVerificaVez.Size = new System.Drawing.Size(138, 77);
             this.txtVerificaVez.TabIndex = 31;
             // 
-            // txtDadoRolado4
-            // 
-            this.txtDadoRolado4.Location = new System.Drawing.Point(506, 380);
-            this.txtDadoRolado4.Multiline = true;
-            this.txtDadoRolado4.Name = "txtDadoRolado4";
-            this.txtDadoRolado4.Size = new System.Drawing.Size(26, 23);
-            this.txtDadoRolado4.TabIndex = 115;
-            this.txtDadoRolado4.Visible = false;
-            // 
-            // txtDadoRolado3
-            // 
-            this.txtDadoRolado3.Location = new System.Drawing.Point(506, 351);
-            this.txtDadoRolado3.Multiline = true;
-            this.txtDadoRolado3.Name = "txtDadoRolado3";
-            this.txtDadoRolado3.Size = new System.Drawing.Size(26, 23);
-            this.txtDadoRolado3.TabIndex = 114;
-            this.txtDadoRolado3.Visible = false;
-            // 
-            // txtDadoRolado2
-            // 
-            this.txtDadoRolado2.Location = new System.Drawing.Point(462, 380);
-            this.txtDadoRolado2.Multiline = true;
-            this.txtDadoRolado2.Name = "txtDadoRolado2";
-            this.txtDadoRolado2.Size = new System.Drawing.Size(26, 23);
-            this.txtDadoRolado2.TabIndex = 113;
-            this.txtDadoRolado2.Visible = false;
-            // 
-            // txtDadoRolado1
-            // 
-            this.txtDadoRolado1.Location = new System.Drawing.Point(462, 351);
-            this.txtDadoRolado1.Multiline = true;
-            this.txtDadoRolado1.Name = "txtDadoRolado1";
-            this.txtDadoRolado1.Size = new System.Drawing.Size(26, 23);
-            this.txtDadoRolado1.TabIndex = 112;
-            this.txtDadoRolado1.Visible = false;
-            this.txtDadoRolado1.TextChanged += new System.EventHandler(this.txtDadoRolado1_TextChanged);
-            // 
-            // picDadoRolado4
-            // 
-            this.picDadoRolado4.BackColor = System.Drawing.Color.Transparent;
-            this.picDadoRolado4.Location = new System.Drawing.Point(711, 403);
-            this.picDadoRolado4.Name = "picDadoRolado4";
-            this.picDadoRolado4.Size = new System.Drawing.Size(50, 50);
-            this.picDadoRolado4.TabIndex = 111;
-            this.picDadoRolado4.TabStop = false;
-            // 
-            // picDadoRolado3
-            // 
-            this.picDadoRolado3.BackColor = System.Drawing.Color.Transparent;
-            this.picDadoRolado3.Location = new System.Drawing.Point(711, 335);
-            this.picDadoRolado3.Name = "picDadoRolado3";
-            this.picDadoRolado3.Size = new System.Drawing.Size(50, 50);
-            this.picDadoRolado3.TabIndex = 110;
-            this.picDadoRolado3.TabStop = false;
-            // 
-            // picDadoRolado2
-            // 
-            this.picDadoRolado2.BackColor = System.Drawing.Color.Transparent;
-            this.picDadoRolado2.Location = new System.Drawing.Point(636, 403);
-            this.picDadoRolado2.Name = "picDadoRolado2";
-            this.picDadoRolado2.Size = new System.Drawing.Size(50, 50);
-            this.picDadoRolado2.TabIndex = 109;
-            this.picDadoRolado2.TabStop = false;
-            // 
-            // picDadoRolado1
-            // 
-            this.picDadoRolado1.BackColor = System.Drawing.Color.Transparent;
-            this.picDadoRolado1.Location = new System.Drawing.Point(636, 335);
-            this.picDadoRolado1.Name = "picDadoRolado1";
-            this.picDadoRolado1.Size = new System.Drawing.Size(50, 50);
-            this.picDadoRolado1.TabIndex = 108;
-            this.picDadoRolado1.TabStop = false;
-            // 
-            // txtDado
-            // 
-            this.txtDado.Location = new System.Drawing.Point(362, 351);
-            this.txtDado.Multiline = true;
-            this.txtDado.Name = "txtDado";
-            this.txtDado.Size = new System.Drawing.Size(88, 51);
-            this.txtDado.TabIndex = 107;
-            this.txtDado.Visible = false;
-            // 
-            // btnRolarDado
-            // 
-            this.btnRolarDado.BackColor = System.Drawing.Color.HotPink;
-            this.btnRolarDado.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRolarDado.Location = new System.Drawing.Point(645, 466);
-            this.btnRolarDado.Name = "btnRolarDado";
-            this.btnRolarDado.Size = new System.Drawing.Size(100, 30);
-            this.btnRolarDado.TabIndex = 106;
-            this.btnRolarDado.Text = "Rolar Dado";
-            this.btnRolarDado.UseVisualStyleBackColor = false;
-            this.btnRolarDado.Click += new System.EventHandler(this.btnRolarDado_Click);
-            // 
-            // txtCombinacao0
-            // 
-            this.txtCombinacao0.Enabled = false;
-            this.txtCombinacao0.Location = new System.Drawing.Point(785, 306);
-            this.txtCombinacao0.Multiline = true;
-            this.txtCombinacao0.Name = "txtCombinacao0";
-            this.txtCombinacao0.Size = new System.Drawing.Size(35, 26);
-            this.txtCombinacao0.TabIndex = 116;
-            this.txtCombinacao0.TextChanged += new System.EventHandler(this.txtCombinacao1_TextChanged);
-            // 
-            // txtCombinacao1
-            // 
-            this.txtCombinacao1.Enabled = false;
-            this.txtCombinacao1.Location = new System.Drawing.Point(785, 341);
-            this.txtCombinacao1.Multiline = true;
-            this.txtCombinacao1.Name = "txtCombinacao1";
-            this.txtCombinacao1.Size = new System.Drawing.Size(35, 26);
-            this.txtCombinacao1.TabIndex = 117;
-            // 
-            // txtCombinacao2
-            // 
-            this.txtCombinacao2.Enabled = false;
-            this.txtCombinacao2.Location = new System.Drawing.Point(785, 377);
-            this.txtCombinacao2.Multiline = true;
-            this.txtCombinacao2.Name = "txtCombinacao2";
-            this.txtCombinacao2.Size = new System.Drawing.Size(35, 26);
-            this.txtCombinacao2.TabIndex = 118;
-            // 
-            // txtCombinacao3
-            // 
-            this.txtCombinacao3.Enabled = false;
-            this.txtCombinacao3.Location = new System.Drawing.Point(785, 407);
-            this.txtCombinacao3.Multiline = true;
-            this.txtCombinacao3.Name = "txtCombinacao3";
-            this.txtCombinacao3.Size = new System.Drawing.Size(35, 26);
-            this.txtCombinacao3.TabIndex = 119;
-            // 
-            // txtCombinacao4
-            // 
-            this.txtCombinacao4.Enabled = false;
-            this.txtCombinacao4.Location = new System.Drawing.Point(785, 436);
-            this.txtCombinacao4.Multiline = true;
-            this.txtCombinacao4.Name = "txtCombinacao4";
-            this.txtCombinacao4.Size = new System.Drawing.Size(35, 26);
-            this.txtCombinacao4.TabIndex = 120;
-            // 
-            // txtCombinacao5
-            // 
-            this.txtCombinacao5.Enabled = false;
-            this.txtCombinacao5.Location = new System.Drawing.Point(785, 466);
-            this.txtCombinacao5.Multiline = true;
-            this.txtCombinacao5.Name = "txtCombinacao5";
-            this.txtCombinacao5.Size = new System.Drawing.Size(35, 26);
-            this.txtCombinacao5.TabIndex = 121;
-            // 
             // tmVezDado
             // 
             this.tmVezDado.Interval = 3000;
             this.tmVezDado.Tick += new System.EventHandler(this.tmVezDado_Tick);
-            // 
-            // radCombinacao3
-            // 
-            this.radCombinacao3.AutoSize = true;
-            this.radCombinacao3.Location = new System.Drawing.Point(533, 417);
-            this.radCombinacao3.Name = "radCombinacao3";
-            this.radCombinacao3.Size = new System.Drawing.Size(14, 13);
-            this.radCombinacao3.TabIndex = 141;
-            this.radCombinacao3.TabStop = true;
-            this.radCombinacao3.UseVisualStyleBackColor = true;
-            // 
-            // radCombinacao2
-            // 
-            this.radCombinacao2.AutoSize = true;
-            this.radCombinacao2.Location = new System.Drawing.Point(533, 393);
-            this.radCombinacao2.Name = "radCombinacao2";
-            this.radCombinacao2.Size = new System.Drawing.Size(14, 13);
-            this.radCombinacao2.TabIndex = 140;
-            this.radCombinacao2.TabStop = true;
-            this.radCombinacao2.UseVisualStyleBackColor = true;
-            // 
-            // radCombinacao1
-            // 
-            this.radCombinacao1.AutoSize = true;
-            this.radCombinacao1.Location = new System.Drawing.Point(533, 374);
-            this.radCombinacao1.Name = "radCombinacao1";
-            this.radCombinacao1.Size = new System.Drawing.Size(14, 13);
-            this.radCombinacao1.TabIndex = 139;
-            this.radCombinacao1.TabStop = true;
-            this.radCombinacao1.UseVisualStyleBackColor = true;
             // 
             // btnMover
             // 
@@ -705,25 +503,6 @@ namespace ProjetoTokio
             this.Controls.Add(this.txtTrilha);
             this.Controls.Add(this.txtOrdem);
             this.Controls.Add(this.btnMover);
-            this.Controls.Add(this.radCombinacao3);
-            this.Controls.Add(this.radCombinacao2);
-            this.Controls.Add(this.radCombinacao1);
-            this.Controls.Add(this.txtCombinacao5);
-            this.Controls.Add(this.txtCombinacao4);
-            this.Controls.Add(this.txtCombinacao3);
-            this.Controls.Add(this.txtCombinacao2);
-            this.Controls.Add(this.txtCombinacao1);
-            this.Controls.Add(this.txtCombinacao0);
-            this.Controls.Add(this.txtDadoRolado4);
-            this.Controls.Add(this.txtDadoRolado3);
-            this.Controls.Add(this.txtDadoRolado2);
-            this.Controls.Add(this.txtDadoRolado1);
-            this.Controls.Add(this.picDadoRolado4);
-            this.Controls.Add(this.picDadoRolado3);
-            this.Controls.Add(this.picDadoRolado2);
-            this.Controls.Add(this.picDadoRolado1);
-            this.Controls.Add(this.txtDado);
-            this.Controls.Add(this.btnRolarDado);
             this.Controls.Add(this.btnExibirTabuleiro);
             this.Controls.Add(this.txtVerificaVez);
             this.Controls.Add(this.bntVerificaVez);
@@ -753,10 +532,6 @@ namespace ProjetoTokio
             this.Name = "Form1";
             this.Text = "Projeto Tokyo";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.picDadoRolado4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picDadoRolado3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picDadoRolado2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picDadoRolado1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -798,27 +573,8 @@ namespace ProjetoTokio
         public System.Windows.Forms.Button btnExibirTabuleiro;
         public System.Windows.Forms.ListBox lstListaPartida;
         public System.Windows.Forms.TextBox txtVerificaVez;
-        private System.Windows.Forms.TextBox txtDadoRolado4;
-        private System.Windows.Forms.TextBox txtDadoRolado3;
-        private System.Windows.Forms.TextBox txtDadoRolado2;
-        private System.Windows.Forms.TextBox txtDadoRolado1;
-        private System.Windows.Forms.PictureBox picDadoRolado4;
-        private System.Windows.Forms.PictureBox picDadoRolado3;
-        private System.Windows.Forms.PictureBox picDadoRolado2;
-        private System.Windows.Forms.PictureBox picDadoRolado1;
-        private System.Windows.Forms.TextBox txtDado;
-        private System.Windows.Forms.Button btnRolarDado;
-        private System.Windows.Forms.TextBox txtCombinacao0;
-        private System.Windows.Forms.TextBox txtCombinacao1;
-        private System.Windows.Forms.TextBox txtCombinacao2;
-        private System.Windows.Forms.TextBox txtCombinacao3;
-        private System.Windows.Forms.TextBox txtCombinacao4;
-        private System.Windows.Forms.TextBox txtCombinacao5;
         public System.Windows.Forms.Timer tmVezDado;
         private System.ComponentModel.IContainer components;
-        private System.Windows.Forms.RadioButton radCombinacao3;
-        private System.Windows.Forms.RadioButton radCombinacao2;
-        private System.Windows.Forms.RadioButton radCombinacao1;
         private System.Windows.Forms.Button btnMover;
         private System.Windows.Forms.TextBox txtOrdem;
         private System.Windows.Forms.TextBox txtTrilha;

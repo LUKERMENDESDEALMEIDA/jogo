@@ -41,6 +41,8 @@ namespace ProjetoTokio
 
         public string idJogador { get; set; }
 
+        public string senhaJogador { get; set; }
+
         public string nickName { get; set; }
 
         public string corJogador { get; set; }
@@ -4360,21 +4362,7 @@ namespace ProjetoTokio
         {
 
         }
-        public void txtVerificaVez_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        public void txtTabu_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        public void pictureBox85_Click(object sender, EventArgs e)
-        {
-
-        }
-
+      
         public void Tabuleiro_Load(object sender, EventArgs e)
         {
             Load_Historico();
@@ -4396,15 +4384,6 @@ namespace ProjetoTokio
 
         }
 
-        public void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        public void txtTrilha_TextChanged(object sender, EventArgs e)
-        {
-
-        }
 
         private void tmExibirTabu_Tick(object sender, EventArgs e)
         {
@@ -4513,6 +4492,224 @@ namespace ProjetoTokio
 
 
 
+        }
+
+        private void btnDadoRolado_Click(object sender, EventArgs e)
+        {
+            txtDice.Clear(); //limpar textbox
+
+            string rolar = txtDice.Text = Jogo.RolarDados(Convert.ToInt32(idJogador), senhaJogador);
+
+
+
+
+            if (rolar.StartsWith("ERRO"))//se as 4 letras(ERRO) = true
+            {
+                MessageBox.Show(rolar);//exibe o erro na tela
+            }
+            else
+            {
+                rolar.Replace("\r", "");
+                string[] separar = rolar.Split('\n');
+                double casa1 = Convert.ToInt32(separar[0]);
+                double casa2 = Convert.ToInt32(separar[1]);
+                double casa3 = Convert.ToInt32(separar[2]);
+                double casa4 = Convert.ToInt32(separar[3]);
+
+                string casa1T = (casa1 / 10).ToString();
+                string casa2T = (casa2 / 10).ToString();
+                string casa3T = (casa3 / 10).ToString();
+                string casa4T = (casa4 / 10).ToString();
+
+                string[] dado1 = casa1T.Split(',');
+                string[] dado2 = casa2T.Split(',');
+                string[] dado3 = casa3T.Split(',');
+                string[] dado4 = casa4T.Split(',');
+
+                txtDice1.Text = dado1[1];
+                txtDice2.Text = dado2[1];
+                txtDice3.Text = dado3[1];
+                txtDice4.Text = dado4[1];
+
+                RollDice1();
+                RollDice2();
+                RollDice3();
+                RollDice4();
+
+                int valores1 = Convert.ToInt32(txtDice1.Text);
+                int valores2 = Convert.ToInt32(txtDice2.Text);
+                int valores3 = Convert.ToInt32(txtDice3.Text);
+                int valores4 = Convert.ToInt32(txtDice4.Text);
+
+                int resultado0 = valores1 + valores2;
+                int resultado1 = valores3 + valores4;
+                int resultado2 = valores2 + valores4;
+                int resultado3 = valores1 + valores3;
+                int resultado4 = valores1 + valores4;
+                int resultado5 = valores2 + valores3;
+
+                string res1 = resultado0.ToString();
+                txtCom0.Text = res1;
+
+                string res2 = resultado1.ToString();
+                txtCom1.Text = res2;
+
+                string res3 = resultado2.ToString();
+                txtCom2.Text = res3;
+
+                string res4 = resultado3.ToString();
+                txtCom3.Text = res4;
+
+                string res5 = resultado4.ToString();
+                txtCom4.Text = res5;
+
+                string res6 = resultado5.ToString();
+                txtCom5.Text = res6;
+
+                rdoCom1.Visible = true;
+                rdoCom2.Visible = true;
+                rdoCom3.Visible = true;
+
+                rdoCom1.Text = txtCom0.Text + " " + txtCom1.Text;
+                rdoCom2.Text = txtCom2.Text + " " + txtCom3.Text;
+                rdoCom3.Text = txtCom4.Text + " " + txtCom5.Text;
+
+
+            }
+
+        }
+        void RollDice1()
+        {
+            if (txtDice1.Text == "1")
+            {
+                picDice1.Image = ProjetoTokio.Properties.Resources.dado1;
+
+            }
+            if (txtDice1.Text == "2")
+            {
+                picDice1.Image = ProjetoTokio.Properties.Resources.dado2;
+
+            }
+            if (txtDice1.Text == "3")
+            {
+                picDice1.Image = ProjetoTokio.Properties.Resources.dado3;
+
+            }
+            if (txtDice1.Text == "4")
+            {
+                picDice1.Image = ProjetoTokio.Properties.Resources.dado4;
+
+            }
+            if (txtDice1.Text == "5")
+            {
+                picDice1.Image = ProjetoTokio.Properties.Resources.dado5;
+
+            }
+            if (txtDice1.Text == "6")
+            {
+                picDice1.Image = ProjetoTokio.Properties.Resources.dado6;
+
+            }
+        }
+        void RollDice2()
+        {
+            if (txtDice2.Text == "1")
+            {
+                picDice2.Image = ProjetoTokio.Properties.Resources.dado1;
+
+            }
+            if (txtDice2.Text == "2")
+            {
+                picDice2.Image = ProjetoTokio.Properties.Resources.dado2;
+
+            }
+            if (txtDice2.Text == "3")
+            {
+                picDice2.Image = ProjetoTokio.Properties.Resources.dado3;
+
+            }
+            if (txtDice2.Text == "4")
+            {
+                picDice2.Image = ProjetoTokio.Properties.Resources.dado4;
+
+            }
+            if (txtDice2.Text == "5")
+            {
+                picDice2.Image = ProjetoTokio.Properties.Resources.dado5;
+
+            }
+            if (txtDice2.Text == "6")
+            {
+                picDice2.Image = ProjetoTokio.Properties.Resources.dado6;
+
+            }
+
+        }
+        void RollDice3()
+        {
+            if (txtDice3.Text == "1")
+            {
+                picDice3.Image = ProjetoTokio.Properties.Resources.dado1;
+
+            }
+            if (txtDice3.Text == "2")
+            {
+                picDice3.Image = ProjetoTokio.Properties.Resources.dado2;
+
+            }
+            if (txtDice3.Text == "3")
+            {
+                picDice3.Image = ProjetoTokio.Properties.Resources.dado3;
+
+            }
+            if (txtDice3.Text == "4")
+            {
+                picDice3.Image = ProjetoTokio.Properties.Resources.dado4;
+
+            }
+            if (txtDice3.Text == "5")
+            {
+                picDice3.Image = ProjetoTokio.Properties.Resources.dado5;
+
+            }
+            if (txtDice3.Text == "6")
+            {
+                picDice3.Image = ProjetoTokio.Properties.Resources.dado6;
+
+            }
+        }
+        void RollDice4()
+        {
+            if (txtDice4.Text == "1")
+            {
+                picDice4.Image = ProjetoTokio.Properties.Resources.dado1;
+
+            }
+            if (txtDice4.Text == "2")
+            {
+                picDice4.Image = ProjetoTokio.Properties.Resources.dado2;
+
+            }
+            if (txtDice4.Text == "3")
+            {
+                picDice4.Image = ProjetoTokio.Properties.Resources.dado3;
+
+            }
+            if (txtDice4.Text == "4")
+            {
+                picDice4.Image = ProjetoTokio.Properties.Resources.dado4;
+
+            }
+            if (txtDice4.Text == "5")
+            {
+                picDice4.Image = ProjetoTokio.Properties.Resources.dado5;
+
+            }
+            if (txtDice4.Text == "6")
+            {
+                picDice4.Image = ProjetoTokio.Properties.Resources.dado6;
+
+            }
         }
     }
 }
