@@ -130,6 +130,10 @@ namespace ProjetoTokio
             this.txtCombinacao6 = new System.Windows.Forms.TextBox();
             this.txtCombinacao8 = new System.Windows.Forms.TextBox();
             this.txtNarracao1 = new System.Windows.Forms.TextBox();
+            this.txtId4 = new System.Windows.Forms.TextBox();
+            this.txtId3 = new System.Windows.Forms.TextBox();
+            this.txtId2 = new System.Windows.Forms.TextBox();
+            this.txtId1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pct2_1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct3_1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct4_1)).BeginInit();
@@ -1360,10 +1364,50 @@ namespace ProjetoTokio
             this.txtNarracao1.Size = new System.Drawing.Size(196, 158);
             this.txtNarracao1.TabIndex = 127;
             // 
+            // txtId4
+            // 
+            this.txtId4.Location = new System.Drawing.Point(788, 410);
+            this.txtId4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtId4.Multiline = true;
+            this.txtId4.Name = "txtId4";
+            this.txtId4.Size = new System.Drawing.Size(27, 27);
+            this.txtId4.TabIndex = 128;
+            // 
+            // txtId3
+            // 
+            this.txtId3.Location = new System.Drawing.Point(788, 373);
+            this.txtId3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtId3.Multiline = true;
+            this.txtId3.Name = "txtId3";
+            this.txtId3.Size = new System.Drawing.Size(27, 27);
+            this.txtId3.TabIndex = 129;
+            // 
+            // txtId2
+            // 
+            this.txtId2.Location = new System.Drawing.Point(788, 336);
+            this.txtId2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtId2.Multiline = true;
+            this.txtId2.Name = "txtId2";
+            this.txtId2.Size = new System.Drawing.Size(27, 27);
+            this.txtId2.TabIndex = 130;
+            // 
+            // txtId1
+            // 
+            this.txtId1.Location = new System.Drawing.Point(788, 303);
+            this.txtId1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtId1.Multiline = true;
+            this.txtId1.Name = "txtId1";
+            this.txtId1.Size = new System.Drawing.Size(27, 27);
+            this.txtId1.TabIndex = 131;
+            // 
             // Tabuleiro
             // 
             this.BackColor = System.Drawing.Color.LightSteelBlue;
             this.ClientSize = new System.Drawing.Size(834, 611);
+            this.Controls.Add(this.txtId1);
+            this.Controls.Add(this.txtId2);
+            this.Controls.Add(this.txtId3);
+            this.Controls.Add(this.txtId4);
             this.Controls.Add(this.txtNarracao1);
             this.Controls.Add(this.txtCombinacao8);
             this.Controls.Add(this.txtCombinacao6);
@@ -1679,5 +1723,9 @@ namespace ProjetoTokio
         private System.Windows.Forms.TextBox txtCombinacao6;
         private System.Windows.Forms.TextBox txtCombinacao8;
         private System.Windows.Forms.TextBox txtNarracao1;
+        private System.Windows.Forms.TextBox txtId4;
+        private System.Windows.Forms.TextBox txtId3;
+        private System.Windows.Forms.TextBox txtId2;
+        private System.Windows.Forms.TextBox txtId1;
     }
 }

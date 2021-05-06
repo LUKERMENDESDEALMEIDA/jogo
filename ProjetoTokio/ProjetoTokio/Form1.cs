@@ -56,7 +56,8 @@ namespace ProjetoTokio // nome do projeto
 
             string listJog = txtJogadores.Text = Jogo.ListarJogadores(id);//lista os jogadores (id da partida passado como parametro)
 
-            listJog = listJog.Remove(listJog.Length - 1);
+
+            /*listJog = listJog.Remove(listJog.Length - 1);
             string[] listaJogSplit = listJog.Split('-');
 
             foreach (string linhaJog in listaJogSplit)
@@ -74,7 +75,7 @@ namespace ProjetoTokio // nome do projeto
 
                 this.jogadoresPart(valor[0], valor[1], valor[2]);
 
-            }
+            }*/
 
 
         }
@@ -171,8 +172,6 @@ namespace ProjetoTokio // nome do projeto
             txtVerificaVez.Clear();
             string[] itens = lstListaPartida.SelectedItem.ToString().Split(',');//seleciona a partida e transforma em string
             int id = Convert.ToInt32(itens[0]);//converte id(string) em id (numero inteiro)
-
-
 
             //string nomeJogador = txtJogadores.Text;
             //string[] nickPlayer = nomeJogador.Split(',');
@@ -436,7 +435,7 @@ namespace ProjetoTokio // nome do projeto
             }
         }
 
-        private void btnMover_Click(object sender, EventArgs e)
+        public void btnMover_Click(object sender, EventArgs e)
         {
             int idJog = Convert.ToInt32( txtIdJogador.Text);
             string senhaJog = txtSenhaJogador.Text;
@@ -449,6 +448,22 @@ namespace ProjetoTokio // nome do projeto
             {
                 MessageBox.Show(mover); //exibe o erro na tela
             }
+            else
+            {
+                MessageBox.Show(mover);
+            }
+        }
+
+        public void btnParar_Click(object sender, EventArgs e)
+        {
+            int idJog = Convert.ToInt32(txtIdJogador.Text);
+            string senhaJog = txtSenhaJogador.Text;
+            /*string parar = Jogo.Parar(idJog, senhaJog);
+
+            if (parar.StartsWith("ERRO"))//se as 4 letras(ERRO) = true
+            {
+                MessageBox.Show(parar); //exibe o erro na tela
+            }*/
         }
 
         /*void Mover()

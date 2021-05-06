@@ -13,6 +13,8 @@ namespace ProjetoTokio
 {
     public partial class Tabuleiro : Form
     {
+
+       
         public Tabuleiro()
         {
             InitializeComponent();
@@ -28,11 +30,14 @@ namespace ProjetoTokio
             this.tabuleiro.Columns.Add("Posicao");
             this.tabuleiro.Columns.Add("Jogador");
             this.tabuleiro.Columns.Add("Tipo");
+
+
+            
         }
 
         //declarar imagem em picturebox
         //this.pct2_1.Image = ProjetoTokio.Properties.Resources.alpinista;
-        public int idPartida { get; set; }
+         public int idPartida { get; set; }
 
         public string idJogador { get; set; }
 
@@ -55,6 +60,9 @@ namespace ProjetoTokio
             int posicaoAtual = 530 - (y * 40);*/
 
             /***********************TRILHA**********************/
+
+            
+
             switch (trilha)
             {
                 //TRILHA 2
@@ -63,7 +71,7 @@ namespace ProjetoTokio
                     if (posicao == "1")
                     {
 
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -76,7 +84,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -87,7 +95,7 @@ namespace ProjetoTokio
                                 this.pct2_1.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -98,7 +106,7 @@ namespace ProjetoTokio
                                 this.pct2_1.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -117,7 +125,7 @@ namespace ProjetoTokio
                     //POSICAO 2
                     else if (posicao == "2")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -130,7 +138,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -141,7 +149,7 @@ namespace ProjetoTokio
                                 this.pct2_2.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -152,7 +160,7 @@ namespace ProjetoTokio
                                 this.pct2_2.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -169,7 +177,7 @@ namespace ProjetoTokio
                     //POSICAO 3
                     else if (posicao == "3")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -182,7 +190,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -193,7 +201,7 @@ namespace ProjetoTokio
                                 this.pct2_final.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -204,7 +212,7 @@ namespace ProjetoTokio
                                 this.pct2_final.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -225,7 +233,7 @@ namespace ProjetoTokio
                     //POSICAO 1
                     if (posicao == "1")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -238,7 +246,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -249,7 +257,7 @@ namespace ProjetoTokio
                                 this.pct3_1.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -260,7 +268,7 @@ namespace ProjetoTokio
                                 this.pct3_1.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -276,7 +284,7 @@ namespace ProjetoTokio
                     //POSICAO 2
                     else if (posicao == "2")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -289,7 +297,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -300,7 +308,7 @@ namespace ProjetoTokio
                                 this.pct3_2.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -311,7 +319,7 @@ namespace ProjetoTokio
                                 this.pct3_2.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -327,7 +335,7 @@ namespace ProjetoTokio
                     //POSICAO 3
                     else if (posicao == "3")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -340,7 +348,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -351,7 +359,7 @@ namespace ProjetoTokio
                                 this.pct3_3.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -362,7 +370,7 @@ namespace ProjetoTokio
                                 this.pct3_3.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -378,7 +386,7 @@ namespace ProjetoTokio
                     //POSICAO 4
                     else if (posicao == "4")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -391,7 +399,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -402,7 +410,7 @@ namespace ProjetoTokio
                                 this.pct3_4.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -413,7 +421,7 @@ namespace ProjetoTokio
                                 this.pct3_4.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -429,7 +437,7 @@ namespace ProjetoTokio
                     //POSICAO 5
                     else if (posicao == "5")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -442,7 +450,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -453,7 +461,7 @@ namespace ProjetoTokio
                                 this.pct3_final.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -464,7 +472,7 @@ namespace ProjetoTokio
                                 this.pct3_final.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -485,7 +493,7 @@ namespace ProjetoTokio
                     //POSICAO 1
                     if (posicao == "1")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -498,7 +506,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -509,7 +517,7 @@ namespace ProjetoTokio
                                 this.pct4_1.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -520,7 +528,7 @@ namespace ProjetoTokio
                                 this.pct4_1.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -536,7 +544,7 @@ namespace ProjetoTokio
                     //POSICAO 2
                     else if (posicao == "2")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -549,7 +557,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -560,7 +568,7 @@ namespace ProjetoTokio
                                 this.pct4_2.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -571,7 +579,7 @@ namespace ProjetoTokio
                                 this.pct4_2.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -587,7 +595,7 @@ namespace ProjetoTokio
                     //POSICAO 3
                     else if (posicao == "3")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -600,7 +608,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -611,7 +619,7 @@ namespace ProjetoTokio
                                 this.pct4_3.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -622,7 +630,7 @@ namespace ProjetoTokio
                                 this.pct4_3.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -638,7 +646,7 @@ namespace ProjetoTokio
                     //POSICAO 4
                     else if (posicao == "4")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -651,7 +659,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -662,7 +670,7 @@ namespace ProjetoTokio
                                 this.pct4_4.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -673,7 +681,7 @@ namespace ProjetoTokio
                                 this.pct4_4.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -689,7 +697,7 @@ namespace ProjetoTokio
                     //POSICAO 5
                     else if (posicao == "5")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -702,7 +710,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -713,7 +721,7 @@ namespace ProjetoTokio
                                 this.pct4_5.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -724,7 +732,7 @@ namespace ProjetoTokio
                                 this.pct4_5.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -740,7 +748,7 @@ namespace ProjetoTokio
                     //POSICAO 6
                     else if (posicao == "6")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -753,7 +761,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -764,7 +772,7 @@ namespace ProjetoTokio
                                 this.pct4_6.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -775,7 +783,7 @@ namespace ProjetoTokio
                                 this.pct4_6.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -791,7 +799,7 @@ namespace ProjetoTokio
                     //POSICAO 7
                     else if (posicao == "7")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -804,7 +812,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -815,7 +823,7 @@ namespace ProjetoTokio
                                 this.pct4_final.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -826,7 +834,7 @@ namespace ProjetoTokio
                                 this.pct4_final.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -846,7 +854,7 @@ namespace ProjetoTokio
                     //POSICAO 1
                     if (posicao == "1")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -859,7 +867,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -870,7 +878,7 @@ namespace ProjetoTokio
                                 this.pct5_1.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -881,7 +889,7 @@ namespace ProjetoTokio
                                 this.pct5_1.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -897,7 +905,7 @@ namespace ProjetoTokio
                     //POSICAO 2
                     else if (posicao == "2")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -910,7 +918,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -921,7 +929,7 @@ namespace ProjetoTokio
                                 this.pct5_2.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -932,7 +940,7 @@ namespace ProjetoTokio
                                 this.pct5_2.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -948,7 +956,7 @@ namespace ProjetoTokio
                     //POSICAO 3
                     else if (posicao == "3")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -961,7 +969,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -972,7 +980,7 @@ namespace ProjetoTokio
                                 this.pct5_3.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -983,7 +991,7 @@ namespace ProjetoTokio
                                 this.pct5_3.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -999,7 +1007,7 @@ namespace ProjetoTokio
                     //POSICAO 4
                     else if (posicao == "4")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1012,7 +1020,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1023,7 +1031,7 @@ namespace ProjetoTokio
                                 this.pct5_4.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1034,7 +1042,7 @@ namespace ProjetoTokio
                                 this.pct5_4.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1050,7 +1058,7 @@ namespace ProjetoTokio
                     //POSICAO 5
                     else if (posicao == "5")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1063,7 +1071,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1074,7 +1082,7 @@ namespace ProjetoTokio
                                 this.pct5_5.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1085,7 +1093,7 @@ namespace ProjetoTokio
                                 this.pct5_5.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1101,7 +1109,7 @@ namespace ProjetoTokio
                     //POSICAO 6
                     else if (posicao == "6")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1114,7 +1122,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1125,7 +1133,7 @@ namespace ProjetoTokio
                                 this.pct5_6.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1136,7 +1144,7 @@ namespace ProjetoTokio
                                 this.pct5_6.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1152,7 +1160,7 @@ namespace ProjetoTokio
                     //POSICAO 7
                     else if (posicao == "7")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1165,7 +1173,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1176,7 +1184,7 @@ namespace ProjetoTokio
                                 this.pct5_7.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1187,7 +1195,7 @@ namespace ProjetoTokio
                                 this.pct5_7.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1203,7 +1211,7 @@ namespace ProjetoTokio
                     //POSICAO 8
                     else if (posicao == "8")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1216,7 +1224,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1227,7 +1235,7 @@ namespace ProjetoTokio
                                 this.pct5_8.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1238,7 +1246,7 @@ namespace ProjetoTokio
                                 this.pct5_8.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1254,7 +1262,7 @@ namespace ProjetoTokio
                     //POSICAO 9
                     else if (posicao == "9")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1267,7 +1275,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1278,7 +1286,7 @@ namespace ProjetoTokio
                                 this.pct5_final.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1289,7 +1297,7 @@ namespace ProjetoTokio
                                 this.pct5_final.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1309,7 +1317,7 @@ namespace ProjetoTokio
                     //POSICAO 1
                     if (posicao == "1")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1322,7 +1330,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1333,7 +1341,7 @@ namespace ProjetoTokio
                                 this.pct6_1.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1344,7 +1352,7 @@ namespace ProjetoTokio
                                 this.pct6_1.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1360,7 +1368,7 @@ namespace ProjetoTokio
                     //POSICAO 2
                     else if (posicao == "2")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1373,7 +1381,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1384,7 +1392,7 @@ namespace ProjetoTokio
                                 this.pct6_2.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1395,7 +1403,7 @@ namespace ProjetoTokio
                                 this.pct6_2.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1411,7 +1419,7 @@ namespace ProjetoTokio
                     //POSICAO 3
                     else if (posicao == "3")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1424,7 +1432,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1435,7 +1443,7 @@ namespace ProjetoTokio
                                 this.pct6_3.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1446,7 +1454,7 @@ namespace ProjetoTokio
                                 this.pct6_3.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1462,7 +1470,7 @@ namespace ProjetoTokio
                     //POSICAO 4
                     else if (posicao == "4")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1475,7 +1483,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1486,7 +1494,7 @@ namespace ProjetoTokio
                                 this.pct6_4.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1497,7 +1505,7 @@ namespace ProjetoTokio
                                 this.pct6_4.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1513,7 +1521,7 @@ namespace ProjetoTokio
                     //POSICAO 5
                     else if (posicao == "5")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1526,7 +1534,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1537,7 +1545,7 @@ namespace ProjetoTokio
                                 this.pct6_5.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1548,7 +1556,7 @@ namespace ProjetoTokio
                                 this.pct6_5.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1564,7 +1572,7 @@ namespace ProjetoTokio
                     //POSICAO 6
                     else if (posicao == "6")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1577,7 +1585,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1588,7 +1596,7 @@ namespace ProjetoTokio
                                 this.pct6_6.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1599,7 +1607,7 @@ namespace ProjetoTokio
                                 this.pct6_6.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1615,7 +1623,7 @@ namespace ProjetoTokio
                     //POSICAO 7
                     else if (posicao == "7")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1628,7 +1636,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1639,7 +1647,7 @@ namespace ProjetoTokio
                                 this.pct6_7.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1650,7 +1658,7 @@ namespace ProjetoTokio
                                 this.pct6_7.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1666,7 +1674,7 @@ namespace ProjetoTokio
                     //POSICAO 8
                     else if (posicao == "8")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1679,7 +1687,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1690,7 +1698,7 @@ namespace ProjetoTokio
                                 this.pct6_8.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1701,7 +1709,7 @@ namespace ProjetoTokio
                                 this.pct6_8.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1717,7 +1725,7 @@ namespace ProjetoTokio
                     //POSICAO 9
                     else if (posicao == "9")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1730,7 +1738,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1741,7 +1749,7 @@ namespace ProjetoTokio
                                 this.pct6_9.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1752,7 +1760,7 @@ namespace ProjetoTokio
                                 this.pct6_9.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1768,7 +1776,7 @@ namespace ProjetoTokio
                     //POSICAO 10
                     else if (posicao == "10")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1781,7 +1789,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1792,7 +1800,7 @@ namespace ProjetoTokio
                                 this.pct6_10.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1803,7 +1811,7 @@ namespace ProjetoTokio
                                 this.pct6_10.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1819,7 +1827,7 @@ namespace ProjetoTokio
                     //POSICAO 11
                     else if (posicao == "11")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1832,7 +1840,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1843,7 +1851,7 @@ namespace ProjetoTokio
                                 this.pct6_final.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1854,7 +1862,7 @@ namespace ProjetoTokio
                                 this.pct6_final.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1874,7 +1882,7 @@ namespace ProjetoTokio
                     //POSICAO 1
                     if (posicao == "1")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1887,7 +1895,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1898,7 +1906,7 @@ namespace ProjetoTokio
                                 this.pct7_1.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1909,7 +1917,7 @@ namespace ProjetoTokio
                                 this.pct7_1.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1925,7 +1933,7 @@ namespace ProjetoTokio
                     //POSICAO 2
                     else if (posicao == "2")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1938,7 +1946,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1949,7 +1957,7 @@ namespace ProjetoTokio
                                 this.pct7_2.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1960,7 +1968,7 @@ namespace ProjetoTokio
                                 this.pct7_2.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1976,7 +1984,7 @@ namespace ProjetoTokio
                     //POSICAO 3
                     else if (posicao == "3")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -1989,7 +1997,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2000,7 +2008,7 @@ namespace ProjetoTokio
                                 this.pct7_3.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2011,7 +2019,7 @@ namespace ProjetoTokio
                                 this.pct7_3.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2027,7 +2035,7 @@ namespace ProjetoTokio
                     //POSICAO 4
                     else if (posicao == "4")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2040,7 +2048,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2051,7 +2059,7 @@ namespace ProjetoTokio
                                 this.pct7_4.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2062,7 +2070,7 @@ namespace ProjetoTokio
                                 this.pct7_4.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2078,7 +2086,7 @@ namespace ProjetoTokio
                     //POSICAO 5
                     else if (posicao == "5")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2091,7 +2099,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2102,7 +2110,7 @@ namespace ProjetoTokio
                                 this.pct7_5.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2113,7 +2121,7 @@ namespace ProjetoTokio
                                 this.pct7_5.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2129,7 +2137,7 @@ namespace ProjetoTokio
                     //POSICAO 6
                     else if (posicao == "6")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2142,7 +2150,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2153,7 +2161,7 @@ namespace ProjetoTokio
                                 this.pct7_6.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2164,7 +2172,7 @@ namespace ProjetoTokio
                                 this.pct7_6.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2180,7 +2188,7 @@ namespace ProjetoTokio
                     //POSICAO 7
                     else if (posicao == "7")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2193,7 +2201,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2204,7 +2212,7 @@ namespace ProjetoTokio
                                 this.pct7_7.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2215,7 +2223,7 @@ namespace ProjetoTokio
                                 this.pct7_7.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2231,7 +2239,7 @@ namespace ProjetoTokio
                     //POSICAO 8
                     else if (posicao == "8")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2244,7 +2252,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2255,7 +2263,7 @@ namespace ProjetoTokio
                                 this.pct7_8.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2266,7 +2274,7 @@ namespace ProjetoTokio
                                 this.pct7_8.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2282,7 +2290,7 @@ namespace ProjetoTokio
                     //POSICAO 9
                     else if (posicao == "9")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2295,7 +2303,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2306,7 +2314,7 @@ namespace ProjetoTokio
                                 this.pct7_9.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2317,7 +2325,7 @@ namespace ProjetoTokio
                                 this.pct7_9.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2333,7 +2341,7 @@ namespace ProjetoTokio
                     //POSICAO 10
                     else if (posicao == "10")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2346,7 +2354,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2357,7 +2365,7 @@ namespace ProjetoTokio
                                 this.pct7_10.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2368,7 +2376,7 @@ namespace ProjetoTokio
                                 this.pct7_10.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2384,7 +2392,7 @@ namespace ProjetoTokio
                     //POSICAO 11
                     else if (posicao == "11")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2397,7 +2405,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2408,7 +2416,7 @@ namespace ProjetoTokio
                                 this.pct7_11.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2419,7 +2427,7 @@ namespace ProjetoTokio
                                 this.pct7_11.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2435,7 +2443,7 @@ namespace ProjetoTokio
                     //POSICAO 12
                     else if (posicao == "12")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2448,7 +2456,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2459,7 +2467,7 @@ namespace ProjetoTokio
                                 this.pct7_12.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2470,7 +2478,7 @@ namespace ProjetoTokio
                                 this.pct7_12.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2486,7 +2494,7 @@ namespace ProjetoTokio
                     //POSICAO 13
                     else if (posicao == "13")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2499,7 +2507,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2510,7 +2518,7 @@ namespace ProjetoTokio
                                 this.pct7_final.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2521,7 +2529,7 @@ namespace ProjetoTokio
                                 this.pct7_final.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2541,7 +2549,7 @@ namespace ProjetoTokio
                     //POSICAO 1
                     if (posicao == "1")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2554,7 +2562,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2565,7 +2573,7 @@ namespace ProjetoTokio
                                 this.pct8_1.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2576,7 +2584,7 @@ namespace ProjetoTokio
                                 this.pct8_1.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2592,7 +2600,7 @@ namespace ProjetoTokio
                     //POSICAO 2
                     else if (posicao == "2")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2605,7 +2613,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2616,7 +2624,7 @@ namespace ProjetoTokio
                                 this.pct8_2.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2627,7 +2635,7 @@ namespace ProjetoTokio
                                 this.pct8_2.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2643,7 +2651,7 @@ namespace ProjetoTokio
                     //POSICAO 3
                     else if (posicao == "3")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2656,7 +2664,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2667,7 +2675,7 @@ namespace ProjetoTokio
                                 this.pct8_3.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2678,7 +2686,7 @@ namespace ProjetoTokio
                                 this.pct8_3.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2694,7 +2702,7 @@ namespace ProjetoTokio
                     //POSICAO 4
                     else if (posicao == "4")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2707,7 +2715,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2718,7 +2726,7 @@ namespace ProjetoTokio
                                 this.pct8_4.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2729,7 +2737,7 @@ namespace ProjetoTokio
                                 this.pct8_4.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2745,7 +2753,7 @@ namespace ProjetoTokio
                     //POSICAO 5
                     else if (posicao == "5")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2758,7 +2766,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2769,7 +2777,7 @@ namespace ProjetoTokio
                                 this.pct8_5.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2780,7 +2788,7 @@ namespace ProjetoTokio
                                 this.pct8_5.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2796,7 +2804,7 @@ namespace ProjetoTokio
                     //POSICAO 6
                     else if (posicao == "6")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2809,7 +2817,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2820,7 +2828,7 @@ namespace ProjetoTokio
                                 this.pct8_6.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2831,7 +2839,7 @@ namespace ProjetoTokio
                                 this.pct8_6.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2847,7 +2855,7 @@ namespace ProjetoTokio
                     //POSICAO 7
                     else if (posicao == "7")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2860,7 +2868,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2871,7 +2879,7 @@ namespace ProjetoTokio
                                 this.pct8_7.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2882,7 +2890,7 @@ namespace ProjetoTokio
                                 this.pct8_7.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2898,7 +2906,7 @@ namespace ProjetoTokio
                     //POSICAO 8
                     else if (posicao == "8")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2911,7 +2919,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2922,7 +2930,7 @@ namespace ProjetoTokio
                                 this.pct8_8.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2933,7 +2941,7 @@ namespace ProjetoTokio
                                 this.pct8_8.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2949,7 +2957,7 @@ namespace ProjetoTokio
                     //POSICAO 9
                     else if (posicao == "9")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2962,7 +2970,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2973,7 +2981,7 @@ namespace ProjetoTokio
                                 this.pct8_9.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -2984,7 +2992,7 @@ namespace ProjetoTokio
                                 this.pct8_9.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3000,7 +3008,7 @@ namespace ProjetoTokio
                     //POSICAO 10
                     else if (posicao == "10")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3013,7 +3021,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3024,7 +3032,7 @@ namespace ProjetoTokio
                                 this.pct8_10.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3035,7 +3043,7 @@ namespace ProjetoTokio
                                 this.pct8_10.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3051,7 +3059,7 @@ namespace ProjetoTokio
                     //POSICAO 11
                     else if (posicao == "11")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3064,7 +3072,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3075,7 +3083,7 @@ namespace ProjetoTokio
                                 this.pct8_final.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3086,7 +3094,7 @@ namespace ProjetoTokio
                                 this.pct8_final.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3106,7 +3114,7 @@ namespace ProjetoTokio
                     //POSICAO 1
                     if (posicao == "1")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3119,7 +3127,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3130,7 +3138,7 @@ namespace ProjetoTokio
                                 this.pct9_1.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3141,7 +3149,7 @@ namespace ProjetoTokio
                                 this.pct9_1.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3157,7 +3165,7 @@ namespace ProjetoTokio
                     //POSICAO 2
                     else if (posicao == "2")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3170,7 +3178,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3181,7 +3189,7 @@ namespace ProjetoTokio
                                 this.pct9_2.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3192,7 +3200,7 @@ namespace ProjetoTokio
                                 this.pct9_2.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3208,7 +3216,7 @@ namespace ProjetoTokio
                     //POSICAO 3
                     else if (posicao == "3")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3221,7 +3229,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3232,7 +3240,7 @@ namespace ProjetoTokio
                                 this.pct9_3.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3243,7 +3251,7 @@ namespace ProjetoTokio
                                 this.pct9_3.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3259,7 +3267,7 @@ namespace ProjetoTokio
                     //POSICAO 4
                     else if (posicao == "4")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3272,7 +3280,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3283,7 +3291,7 @@ namespace ProjetoTokio
                                 this.pct9_4.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3294,7 +3302,7 @@ namespace ProjetoTokio
                                 this.pct9_4.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3310,7 +3318,7 @@ namespace ProjetoTokio
                     //POSICAO 5
                     else if (posicao == "5")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3323,7 +3331,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3334,7 +3342,7 @@ namespace ProjetoTokio
                                 this.pct9_5.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3345,7 +3353,7 @@ namespace ProjetoTokio
                                 this.pct9_5.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3361,7 +3369,7 @@ namespace ProjetoTokio
                     //POSICAO 6
                     else if (posicao == "6")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3374,7 +3382,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3385,7 +3393,7 @@ namespace ProjetoTokio
                                 this.pct9_6.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3396,7 +3404,7 @@ namespace ProjetoTokio
                                 this.pct9_6.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3412,7 +3420,7 @@ namespace ProjetoTokio
                     //POSICAO 7
                     else if (posicao == "7")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3425,7 +3433,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3436,7 +3444,7 @@ namespace ProjetoTokio
                                 this.pct9_7.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3447,7 +3455,7 @@ namespace ProjetoTokio
                                 this.pct9_7.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3463,7 +3471,7 @@ namespace ProjetoTokio
                     //POSICAO 8
                     else if (posicao == "8")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3476,7 +3484,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3487,7 +3495,7 @@ namespace ProjetoTokio
                                 this.pct9_8.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3498,7 +3506,7 @@ namespace ProjetoTokio
                                 this.pct9_8.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3514,7 +3522,7 @@ namespace ProjetoTokio
                     //POSICAO 9
                     else if (posicao == "9")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3527,7 +3535,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3538,7 +3546,7 @@ namespace ProjetoTokio
                                 this.pct9_final.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3549,7 +3557,7 @@ namespace ProjetoTokio
                                 this.pct9_final.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3569,7 +3577,7 @@ namespace ProjetoTokio
                     //POSICAO 1
                     if (posicao == "1")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3582,7 +3590,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3593,7 +3601,7 @@ namespace ProjetoTokio
                                 this.pct10_1.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3604,7 +3612,7 @@ namespace ProjetoTokio
                                 this.pct10_1.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3620,7 +3628,7 @@ namespace ProjetoTokio
                     //POSICAO 2
                     else if (posicao == "2")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3633,7 +3641,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3644,7 +3652,7 @@ namespace ProjetoTokio
                                 this.pct10_2.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3655,7 +3663,7 @@ namespace ProjetoTokio
                                 this.pct10_2.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3671,7 +3679,7 @@ namespace ProjetoTokio
                     //POSICAO 3
                     else if (posicao == "3")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3684,7 +3692,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3695,7 +3703,7 @@ namespace ProjetoTokio
                                 this.pct10_3.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3706,7 +3714,7 @@ namespace ProjetoTokio
                                 this.pct10_3.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3722,7 +3730,7 @@ namespace ProjetoTokio
                     //POSICAO 4
                     else if (posicao == "4")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3735,7 +3743,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3746,7 +3754,7 @@ namespace ProjetoTokio
                                 this.pct10_4.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3757,7 +3765,7 @@ namespace ProjetoTokio
                                 this.pct10_4.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3773,7 +3781,7 @@ namespace ProjetoTokio
                     //POSICAO 5
                     else if (posicao == "5")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3786,7 +3794,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3797,7 +3805,7 @@ namespace ProjetoTokio
                                 this.pct10_5.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3808,7 +3816,7 @@ namespace ProjetoTokio
                                 this.pct10_5.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3824,7 +3832,7 @@ namespace ProjetoTokio
                     //POSICAO 6
                     else if (posicao == "6")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3837,7 +3845,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3848,7 +3856,7 @@ namespace ProjetoTokio
                                 this.pct10_6.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3859,7 +3867,7 @@ namespace ProjetoTokio
                                 this.pct10_6.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3875,7 +3883,7 @@ namespace ProjetoTokio
                     //POSICAO 7
                     else if (posicao == "7")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3888,7 +3896,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3899,7 +3907,7 @@ namespace ProjetoTokio
                                 this.pct10_final.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3910,7 +3918,7 @@ namespace ProjetoTokio
                                 this.pct10_final.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3930,7 +3938,7 @@ namespace ProjetoTokio
                     //POSICAO 1
                     if (posicao == "1")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3943,7 +3951,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3954,7 +3962,7 @@ namespace ProjetoTokio
                                 this.pct11_1.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3965,7 +3973,7 @@ namespace ProjetoTokio
                                 this.pct11_1.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3981,7 +3989,7 @@ namespace ProjetoTokio
                     //POSICAO 2
                     else if (posicao == "2")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -3994,7 +4002,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -4005,7 +4013,7 @@ namespace ProjetoTokio
                                 this.pct11_2.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -4016,7 +4024,7 @@ namespace ProjetoTokio
                                 this.pct11_2.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -4032,7 +4040,7 @@ namespace ProjetoTokio
                     //POSICAO 3
                     else if (posicao == "3")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -4045,7 +4053,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -4056,7 +4064,7 @@ namespace ProjetoTokio
                                 this.pct11_3.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -4067,7 +4075,7 @@ namespace ProjetoTokio
                                 this.pct11_3.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -4083,7 +4091,7 @@ namespace ProjetoTokio
                     //POSICAO 4
                     else if (posicao == "4")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -4096,7 +4104,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -4107,7 +4115,7 @@ namespace ProjetoTokio
                                 this.pct11_4.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -4118,7 +4126,7 @@ namespace ProjetoTokio
                                 this.pct11_4.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -4134,7 +4142,7 @@ namespace ProjetoTokio
                     //POSICAO 5
                     else if (posicao == "5")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -4147,7 +4155,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -4158,7 +4166,7 @@ namespace ProjetoTokio
                                 this.pct11_final.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -4169,7 +4177,7 @@ namespace ProjetoTokio
                                 this.pct11_final.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -4190,7 +4198,7 @@ namespace ProjetoTokio
                     if (posicao == "1")
                     {
 
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -4203,7 +4211,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -4214,7 +4222,7 @@ namespace ProjetoTokio
                                 this.pct12_1.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -4225,7 +4233,7 @@ namespace ProjetoTokio
                                 this.pct12_1.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -4243,7 +4251,7 @@ namespace ProjetoTokio
                     //POSICAO 2
                     else if (posicao == "2")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -4256,7 +4264,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -4267,7 +4275,7 @@ namespace ProjetoTokio
                                 this.pct12_2.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -4278,7 +4286,7 @@ namespace ProjetoTokio
                                 this.pct12_2.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -4295,7 +4303,7 @@ namespace ProjetoTokio
                     //POSICAO 3
                     else if (posicao == "3")
                     {
-                        if (jogador == "1")
+                        if (jogador == txtId1.Text)
                         {
                             if (tipo == "A")
                             {
@@ -4308,7 +4316,7 @@ namespace ProjetoTokio
 
                         }
 
-                        else if (jogador == "2")
+                        else if (jogador == txtId2.Text)
                         {
                             if (tipo == "A")
                             {
@@ -4319,7 +4327,7 @@ namespace ProjetoTokio
                                 this.pct12_final.Image = ProjetoTokio.Properties.Resources.baseAzul;
                             }
                         }
-                        else if (jogador == "3")
+                        else if (jogador == txtId3.Text)
                         {
                             if (tipo == "A")
                             {
@@ -4330,7 +4338,7 @@ namespace ProjetoTokio
                                 this.pct12_final.Image = ProjetoTokio.Properties.Resources.baseVerde;
                             }
                         }
-                        else if (jogador == "4")
+                        else if (jogador == txtId4.Text)
                         {
                             if (tipo == "A")
                             {
@@ -4370,6 +4378,7 @@ namespace ProjetoTokio
         public void Tabuleiro_Load(object sender, EventArgs e)
         {
             Load_Historico();
+            pegarCorJog();
         }
 
         public void label8_Click(object sender, EventArgs e)
@@ -4436,6 +4445,56 @@ namespace ProjetoTokio
 
         }
 
+        void pegarCorJog()
+        {
+            string listarJog = Jogo.ListarJogadores(idPartida);
+            listarJog = listarJog.Replace("\r", "");
+            string[] splitListJog = listarJog.Split('\n');
+
+            string jogador1 = splitListJog[0]; //vermelho
+            string jogador2 = splitListJog[1]; //azul
+            string jogador3 = splitListJog[2]; //verde
+            string jogador4 = splitListJog[3]; //amarelo
+
+            string[] splitJog1 = jogador1.Split(',');
+            string idJog1 = splitJog1[0];
+            string nickJog1 = splitJog1[1];
+            string corJog1 = splitJog1[2];
+
+            string[] splitJog2 = jogador2.Split(',');
+            string idJog2 = splitJog2[0];
+            string nickJog2 = splitJog2[1];
+            string corJog2 = splitJog2[2];
+
+            string[] splitJog3 = jogador3.Split(',');
+            string idJog3 = splitJog3[0];
+            string nickJog3 = splitJog3[1];
+            string corJog3 = splitJog3[2];
+
+            string[] splitJog4 = jogador4.Split(',');
+            string idJog4 = splitJog4[0];
+            string nickJog4 = splitJog4[1];
+            string corJog4 = splitJog4[2];
+
+            txtId1.Text = idJog1;
+            txtId2.Text = idJog2;
+            txtId3.Text = idJog3;
+            txtId4.Text = idJog4;
+
+            //criar txt no design
+            /*txtNickJog1.Text = nickJog1;
+            txtNickJog2.Text = nickJog2;
+            txtNickJog3.Text = nickJog3;
+            txtNickJog4.Text = nickJog4;*/
+
+        }
+         /*void verificarVez()
+        {
+            string verifVez = Jogo.VerificarVez(idPartida);
+            //fazer um split para separa a posição 1 e 2. Posição 1 é igual id do jogador que é a vez. Comparar posição 1 com txt de id's na função acima
+            
+        }*/
+        
         private void txtCombinacao1_TextChanged(object sender, EventArgs e)
         {
 

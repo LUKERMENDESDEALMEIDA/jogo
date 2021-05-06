@@ -85,6 +85,7 @@ namespace ProjetoTokio
             this.txtTrilha = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.btnParar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picDadoRolado4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picDadoRolado3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picDadoRolado2)).BeginInit();
@@ -681,12 +682,24 @@ namespace ProjetoTokio
             this.label2.TabIndex = 148;
             this.label2.Text = "trilha";
             // 
+            // btnParar
+            // 
+            this.btnParar.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnParar.Location = new System.Drawing.Point(410, 493);
+            this.btnParar.Name = "btnParar";
+            this.btnParar.Size = new System.Drawing.Size(75, 23);
+            this.btnParar.TabIndex = 149;
+            this.btnParar.Text = "PARAR";
+            this.btnParar.UseVisualStyleBackColor = false;
+            this.btnParar.Click += new System.EventHandler(this.btnParar_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Pink;
             this.ClientSize = new System.Drawing.Size(822, 536);
+            this.Controls.Add(this.btnParar);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtTrilha);
@@ -811,6 +824,7 @@ namespace ProjetoTokio
         private System.Windows.Forms.TextBox txtTrilha;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnParar;
     }
 }
 
