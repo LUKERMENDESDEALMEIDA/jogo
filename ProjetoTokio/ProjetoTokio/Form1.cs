@@ -189,7 +189,7 @@ namespace ProjetoTokio // nome do projeto
             else
             {
 
-                rolarDados();
+                //rolarDados();
 
                 tmVezDado.Stop();
             }
@@ -283,15 +283,7 @@ namespace ProjetoTokio // nome do projeto
             // Jogo.Mover(Convert.ToInt32(txtIdJogador.Text),txtSenhaJogador);
         }*/
 
-        private void txtDadoRolado1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtCombinacao1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+       
 
         public void txtNomeJogador_TextChanged(object sender, EventArgs e)
         {
@@ -322,22 +314,7 @@ namespace ProjetoTokio // nome do projeto
 
         }
 
-        public void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        public void textTabuleiro_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblJog_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        
+               
 
         /* public void btnMover_Click(object sender, EventArgs e)
          {
