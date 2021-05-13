@@ -45,6 +45,8 @@ namespace ProjetoTokio
 
         public string corJogador { get; set; }
 
+        public string senhaJogador { get; set; }
+
 
         public DataTable tabuleiro { get; set; }
         public void mapaTabu(string trilha, string posicao, string jogador, string tipo)
@@ -4453,16 +4455,15 @@ namespace ProjetoTokio
 
            
             string jogador1 = splitListJog[0]; //vermelho
-            string jogador2 = splitListJog[1]; //azul
-            string jogador3 = splitListJog[2]; //verde
-            string jogador4 = splitListJog[3]; //amarelo
-
+            
             string[] splitJog1 = jogador1.Split(',');
             string idJog1 = splitJog1[0];
             string nickJog1 = splitJog1[1];
             string corJog1 = splitJog1[2];
             txtId1.Text = idJog1;
 
+            string jogador2 = splitListJog[1]; //azul
+            
             if (jogador2 != "")
             {
                 string[] splitJog2 = jogador2.Split(',');
@@ -4473,7 +4474,9 @@ namespace ProjetoTokio
                 txtId2.Text = idJog2;
             }
 
-            if(jogador2 != "")
+            string jogador3 = splitListJog[2]; //verde
+            
+            if (jogador2 != "")
             {
                 string[] splitJog3 = jogador3.Split(',');
                 string idJog3 = splitJog3[0];
@@ -4483,6 +4486,8 @@ namespace ProjetoTokio
                 txtId3.Text = idJog3;
 
             }
+
+            string jogador4 = splitListJog[3]; //amarelo
 
             if (jogador2 != "")
             {

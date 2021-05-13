@@ -1507,7 +1507,6 @@ namespace ProjetoTokio
             this.btnDadoRolado.TabIndex = 166;
             this.btnDadoRolado.Text = "Roll Dice";
             this.btnDadoRolado.UseVisualStyleBackColor = true;
-            this.btnDadoRolado.Click += new System.EventHandler(this.btnDadoRolado_Click);
             // 
             // Tabuleiro
             // 
