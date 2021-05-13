@@ -189,94 +189,12 @@ namespace ProjetoTokio // nome do projeto
             else
             {
 
-                rolarDados();
+                //rolarDados();
 
                 tmVezDado.Stop();
             }
         }
-        void rolarDados()
-        {
-            txtDado.Clear(); //limpar textbox
-
-            int idJogador = Convert.ToInt32(txtIdJogador.Text);//converte o primeiro item[0] do vetor em numero inteiro
-            string senhaJogador = txtSenhaJogador.Text;
-
-            string rolar = txtDado.Text = Jogo.RolarDados(idJogador, senhaJogador);
-
-
-
-
-            if (rolar.StartsWith("ERRO"))//se as 4 letras(ERRO) = true
-            {
-                MessageBox.Show(rolar);//exibe o erro na tela
-            }
-            else
-            {
-                rolar.Replace("\r", "");
-                string[] separar = rolar.Split('\n');
-                double casa1 = Convert.ToInt32(separar[0]);
-                double casa2 = Convert.ToInt32(separar[1]);
-                double casa3 = Convert.ToInt32(separar[2]);
-                double casa4 = Convert.ToInt32(separar[3]);
-
-                string casa1T = (casa1 / 10).ToString();
-                string casa2T = (casa2 / 10).ToString();
-                string casa3T = (casa3 / 10).ToString();
-                string casa4T = (casa4 / 10).ToString();
-
-                string[] dado1 = casa1T.Split(',');
-                string[] dado2 = casa2T.Split(',');
-                string[] dado3 = casa3T.Split(',');
-                string[] dado4 = casa4T.Split(',');
-
-                txtDadoRolado1.Text = dado1[1];
-                txtDadoRolado2.Text = dado2[1];
-                txtDadoRolado3.Text = dado3[1];
-                txtDadoRolado4.Text = dado4[1];
-
-
-                //funções de exibição dos dados na tela
-                Dice1(); //dado1
-                Dice2(); //dado2
-                Dice3(); //dado3
-                Dice4(); //dado4
-
-                int valores1 = Convert.ToInt32(txtDadoRolado1.Text);
-                int valores2 = Convert.ToInt32(txtDadoRolado2.Text);
-                int valores3 = Convert.ToInt32(txtDadoRolado3.Text);
-                int valores4 = Convert.ToInt32(txtDadoRolado4.Text);
-
-                int resultado0 = valores1 + valores2;
-                int resultado1 = valores3 + valores4;
-                int resultado2 = valores2 + valores4;
-                int resultado3 = valores1 + valores3;
-                int resultado4 = valores1 + valores4;
-                int resultado5 = valores2 + valores3;
-
-                string res1 = resultado0.ToString();
-                txtCombinacao0.Text = res1;
-
-                string res2 = resultado1.ToString();
-                txtCombinacao1.Text = res2;
-
-                string res3 = resultado2.ToString();
-                txtCombinacao2.Text = res3;
-
-                string res4 = resultado3.ToString();
-                txtCombinacao3.Text = res4;
-
-                string res5 = resultado4.ToString();
-                txtCombinacao4.Text = res5;
-
-                string res6 = resultado5.ToString();
-                txtCombinacao5.Text = res6;
-
-
-                radCombinacao1.Text = txtCombinacao0.Text + " " + txtCombinacao1.Text;
-                radCombinacao2.Text = txtCombinacao2.Text + " " + txtCombinacao3.Text;
-                radCombinacao3.Text = txtCombinacao4.Text + " " + txtCombinacao5.Text;
-            }
-        }
+        
         /**************************BOTÃO DE VERIFICAR VEZ**************************/
         public void bntVerificaVez_Click(object sender, EventArgs e)
         {
@@ -308,9 +226,11 @@ namespace ProjetoTokio // nome do projeto
             }
             else//se não houver nenhum erro...
             {
+                string senhaJogador = txtSenhaJogador.Text;
                 Tabuleiro formTabuleiro = new Tabuleiro();
 
                 formTabuleiro.idPartida = id;
+                formTabuleiro.senhaJogador = senhaJogador;
 
 
 
@@ -322,118 +242,6 @@ namespace ProjetoTokio // nome do projeto
 
         // """""""""""""""""""SOMAR DADOS""""""""""""""""""""""""""""""
 
-        void Dice1()
-        {
-
-            if (txtDadoRolado1.Text == "1")
-            {
-                picDadoRolado1.Image = ProjetoTokio.Properties.Resources.dado1;
-            }
-            if (txtDadoRolado1.Text == "2")
-            {
-                picDadoRolado1.Image = ProjetoTokio.Properties.Resources.dado2;
-            }
-            if (txtDadoRolado1.Text == "3")
-            {
-                picDadoRolado1.Image = ProjetoTokio.Properties.Resources.dado3;
-            }
-            if (txtDadoRolado1.Text == "4")
-            {
-                picDadoRolado1.Image = ProjetoTokio.Properties.Resources.dado4;
-            }
-            if (txtDadoRolado1.Text == "5")
-            {
-                picDadoRolado1.Image = ProjetoTokio.Properties.Resources.dado5;
-            }
-            if (txtDadoRolado1.Text == "6")
-            {
-                picDadoRolado1.Image = ProjetoTokio.Properties.Resources.dado6;
-            }
-        }
-        void Dice2()
-        {
-
-            if (txtDadoRolado2.Text == "1")
-            {
-                picDadoRolado2.Image = ProjetoTokio.Properties.Resources.dado1;
-            }
-            if (txtDadoRolado2.Text == "2")
-            {
-                picDadoRolado2.Image = ProjetoTokio.Properties.Resources.dado2;
-            }
-            if (txtDadoRolado2.Text == "3")
-            {
-                picDadoRolado2.Image = ProjetoTokio.Properties.Resources.dado3;
-            }
-            if (txtDadoRolado2.Text == "4")
-            {
-                picDadoRolado2.Image = ProjetoTokio.Properties.Resources.dado4;
-            }
-            if (txtDadoRolado2.Text == "5")
-            {
-                picDadoRolado2.Image = ProjetoTokio.Properties.Resources.dado5;
-            }
-            if (txtDadoRolado2.Text == "6")
-            {
-                picDadoRolado2.Image = ProjetoTokio.Properties.Resources.dado6;
-            }
-        }
-        void Dice3()
-        {
-
-            if (txtDadoRolado3.Text == "1")
-            {
-                picDadoRolado3.Image = ProjetoTokio.Properties.Resources.dado1;
-            }
-            if (txtDadoRolado3.Text == "2")
-            {
-                picDadoRolado3.Image = ProjetoTokio.Properties.Resources.dado2;
-            }
-            if (txtDadoRolado3.Text == "3")
-            {
-                picDadoRolado3.Image = ProjetoTokio.Properties.Resources.dado3;
-            }
-            if (txtDadoRolado3.Text == "4")
-            {
-                picDadoRolado3.Image = ProjetoTokio.Properties.Resources.dado4;
-            }
-            if (txtDadoRolado3.Text == "5")
-            {
-                picDadoRolado3.Image = ProjetoTokio.Properties.Resources.dado5;
-            }
-            if (txtDadoRolado3.Text == "6")
-            {
-                picDadoRolado3.Image = ProjetoTokio.Properties.Resources.dado6;
-            }
-        }
-        void Dice4()
-        {
-
-            if (txtDadoRolado4.Text == "1")
-            {
-                picDadoRolado4.Image = ProjetoTokio.Properties.Resources.dado1;
-            }
-            if (txtDadoRolado4.Text == "2")
-            {
-                picDadoRolado4.Image = ProjetoTokio.Properties.Resources.dado2;
-            }
-            if (txtDadoRolado4.Text == "3")
-            {
-                picDadoRolado4.Image = ProjetoTokio.Properties.Resources.dado3;
-            }
-            if (txtDadoRolado4.Text == "4")
-            {
-                picDadoRolado4.Image = ProjetoTokio.Properties.Resources.dado4;
-            }
-            if (txtDadoRolado4.Text == "5")
-            {
-                picDadoRolado4.Image = ProjetoTokio.Properties.Resources.dado5;
-            }
-            if (txtDadoRolado4.Text == "6")
-            {
-                picDadoRolado4.Image = ProjetoTokio.Properties.Resources.dado6;
-            }
-        }
 
         public void btnMover_Click(object sender, EventArgs e)
         {
@@ -475,15 +283,7 @@ namespace ProjetoTokio // nome do projeto
             // Jogo.Mover(Convert.ToInt32(txtIdJogador.Text),txtSenhaJogador);
         }*/
 
-        private void txtDadoRolado1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtCombinacao1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+       
 
         public void txtNomeJogador_TextChanged(object sender, EventArgs e)
         {
@@ -514,22 +314,7 @@ namespace ProjetoTokio // nome do projeto
 
         }
 
-        public void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        public void textTabuleiro_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lblJog_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        
+               
 
         /* public void btnMover_Click(object sender, EventArgs e)
          {

@@ -121,19 +121,30 @@ namespace ProjetoTokio
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.tmExibirTabu = new System.Windows.Forms.Timer(this.components);
-            this.txtCombinacao1 = new System.Windows.Forms.TextBox();
-            this.txtCombinacao2 = new System.Windows.Forms.TextBox();
-            this.txtCombinacao3 = new System.Windows.Forms.TextBox();
-            this.txtCombinacao4 = new System.Windows.Forms.TextBox();
-            this.txtCombinacao5 = new System.Windows.Forms.TextBox();
-            this.txtCombinacao7 = new System.Windows.Forms.TextBox();
-            this.txtCombinacao6 = new System.Windows.Forms.TextBox();
-            this.txtCombinacao8 = new System.Windows.Forms.TextBox();
             this.txtNarracao1 = new System.Windows.Forms.TextBox();
             this.txtId4 = new System.Windows.Forms.TextBox();
             this.txtId3 = new System.Windows.Forms.TextBox();
             this.txtId2 = new System.Windows.Forms.TextBox();
             this.txtId1 = new System.Windows.Forms.TextBox();
+            this.txtCom5 = new System.Windows.Forms.TextBox();
+            this.txtCom4 = new System.Windows.Forms.TextBox();
+            this.txtCom3 = new System.Windows.Forms.TextBox();
+            this.txtCom2 = new System.Windows.Forms.TextBox();
+            this.txtCom1 = new System.Windows.Forms.TextBox();
+            this.txtCom0 = new System.Windows.Forms.TextBox();
+            this.rdoCom3 = new System.Windows.Forms.RadioButton();
+            this.rdoCom2 = new System.Windows.Forms.RadioButton();
+            this.rdoCom1 = new System.Windows.Forms.RadioButton();
+            this.txtDice4 = new System.Windows.Forms.TextBox();
+            this.txtDice3 = new System.Windows.Forms.TextBox();
+            this.txtDice2 = new System.Windows.Forms.TextBox();
+            this.txtDice1 = new System.Windows.Forms.TextBox();
+            this.txtDice = new System.Windows.Forms.TextBox();
+            this.picDice4 = new System.Windows.Forms.PictureBox();
+            this.picDice3 = new System.Windows.Forms.PictureBox();
+            this.picDice2 = new System.Windows.Forms.PictureBox();
+            this.picDice1 = new System.Windows.Forms.PictureBox();
+            this.btnDadoRolado = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pct2_1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct3_1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct4_1)).BeginInit();
@@ -217,6 +228,10 @@ namespace ProjetoTokio
             ((System.ComponentModel.ISupportInitialize)(this.pct10_final)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct9_final)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct8_final)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDice4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDice3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDice2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDice1)).BeginInit();
             this.SuspendLayout();
             // 
             // pct2_1
@@ -1272,87 +1287,6 @@ namespace ProjetoTokio
             this.tmExibirTabu.Interval = 4000;
             this.tmExibirTabu.Tick += new System.EventHandler(this.tmExibirTabu_Tick);
             // 
-            // txtCombinacao1
-            // 
-            this.txtCombinacao1.Location = new System.Drawing.Point(23, 114);
-            this.txtCombinacao1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtCombinacao1.Multiline = true;
-            this.txtCombinacao1.Name = "txtCombinacao1";
-            this.txtCombinacao1.Size = new System.Drawing.Size(27, 27);
-            this.txtCombinacao1.TabIndex = 113;
-            this.txtCombinacao1.Visible = false;
-            this.txtCombinacao1.TextChanged += new System.EventHandler(this.txtCombinacao1_TextChanged);
-            // 
-            // txtCombinacao2
-            // 
-            this.txtCombinacao2.Location = new System.Drawing.Point(23, 151);
-            this.txtCombinacao2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtCombinacao2.Multiline = true;
-            this.txtCombinacao2.Name = "txtCombinacao2";
-            this.txtCombinacao2.Size = new System.Drawing.Size(27, 27);
-            this.txtCombinacao2.TabIndex = 114;
-            this.txtCombinacao2.Visible = false;
-            // 
-            // txtCombinacao3
-            // 
-            this.txtCombinacao3.Location = new System.Drawing.Point(23, 188);
-            this.txtCombinacao3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtCombinacao3.Multiline = true;
-            this.txtCombinacao3.Name = "txtCombinacao3";
-            this.txtCombinacao3.Size = new System.Drawing.Size(27, 27);
-            this.txtCombinacao3.TabIndex = 115;
-            this.txtCombinacao3.Visible = false;
-            // 
-            // txtCombinacao4
-            // 
-            this.txtCombinacao4.Location = new System.Drawing.Point(23, 223);
-            this.txtCombinacao4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtCombinacao4.Multiline = true;
-            this.txtCombinacao4.Name = "txtCombinacao4";
-            this.txtCombinacao4.Size = new System.Drawing.Size(27, 27);
-            this.txtCombinacao4.TabIndex = 116;
-            this.txtCombinacao4.Visible = false;
-            // 
-            // txtCombinacao5
-            // 
-            this.txtCombinacao5.Location = new System.Drawing.Point(23, 263);
-            this.txtCombinacao5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtCombinacao5.Multiline = true;
-            this.txtCombinacao5.Name = "txtCombinacao5";
-            this.txtCombinacao5.Size = new System.Drawing.Size(27, 27);
-            this.txtCombinacao5.TabIndex = 117;
-            this.txtCombinacao5.Visible = false;
-            // 
-            // txtCombinacao7
-            // 
-            this.txtCombinacao7.Location = new System.Drawing.Point(58, 263);
-            this.txtCombinacao7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtCombinacao7.Multiline = true;
-            this.txtCombinacao7.Name = "txtCombinacao7";
-            this.txtCombinacao7.Size = new System.Drawing.Size(27, 27);
-            this.txtCombinacao7.TabIndex = 118;
-            this.txtCombinacao7.Visible = false;
-            // 
-            // txtCombinacao6
-            // 
-            this.txtCombinacao6.Location = new System.Drawing.Point(23, 313);
-            this.txtCombinacao6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtCombinacao6.Multiline = true;
-            this.txtCombinacao6.Name = "txtCombinacao6";
-            this.txtCombinacao6.Size = new System.Drawing.Size(27, 27);
-            this.txtCombinacao6.TabIndex = 119;
-            this.txtCombinacao6.Visible = false;
-            // 
-            // txtCombinacao8
-            // 
-            this.txtCombinacao8.Location = new System.Drawing.Point(58, 313);
-            this.txtCombinacao8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtCombinacao8.Multiline = true;
-            this.txtCombinacao8.Name = "txtCombinacao8";
-            this.txtCombinacao8.Size = new System.Drawing.Size(27, 27);
-            this.txtCombinacao8.TabIndex = 120;
-            this.txtCombinacao8.Visible = false;
-            // 
             // txtNarracao1
             // 
             this.txtNarracao1.BackColor = System.Drawing.Color.LightSteelBlue;
@@ -1400,23 +1334,209 @@ namespace ProjetoTokio
             this.txtId1.Size = new System.Drawing.Size(27, 27);
             this.txtId1.TabIndex = 131;
             // 
+            // txtCom5
+            // 
+            this.txtCom5.Enabled = false;
+            this.txtCom5.Location = new System.Drawing.Point(143, 323);
+            this.txtCom5.Multiline = true;
+            this.txtCom5.Name = "txtCom5";
+            this.txtCom5.Size = new System.Drawing.Size(35, 26);
+            this.txtCom5.TabIndex = 184;
+            this.txtCom5.Visible = false;
+            // 
+            // txtCom4
+            // 
+            this.txtCom4.Enabled = false;
+            this.txtCom4.Location = new System.Drawing.Point(143, 293);
+            this.txtCom4.Multiline = true;
+            this.txtCom4.Name = "txtCom4";
+            this.txtCom4.Size = new System.Drawing.Size(35, 26);
+            this.txtCom4.TabIndex = 183;
+            this.txtCom4.Visible = false;
+            // 
+            // txtCom3
+            // 
+            this.txtCom3.Enabled = false;
+            this.txtCom3.Location = new System.Drawing.Point(143, 264);
+            this.txtCom3.Multiline = true;
+            this.txtCom3.Name = "txtCom3";
+            this.txtCom3.Size = new System.Drawing.Size(35, 26);
+            this.txtCom3.TabIndex = 182;
+            this.txtCom3.Visible = false;
+            // 
+            // txtCom2
+            // 
+            this.txtCom2.Enabled = false;
+            this.txtCom2.Location = new System.Drawing.Point(143, 234);
+            this.txtCom2.Multiline = true;
+            this.txtCom2.Name = "txtCom2";
+            this.txtCom2.Size = new System.Drawing.Size(35, 26);
+            this.txtCom2.TabIndex = 181;
+            this.txtCom2.Visible = false;
+            // 
+            // txtCom1
+            // 
+            this.txtCom1.Enabled = false;
+            this.txtCom1.Location = new System.Drawing.Point(143, 198);
+            this.txtCom1.Multiline = true;
+            this.txtCom1.Name = "txtCom1";
+            this.txtCom1.Size = new System.Drawing.Size(35, 26);
+            this.txtCom1.TabIndex = 180;
+            this.txtCom1.Visible = false;
+            // 
+            // txtCom0
+            // 
+            this.txtCom0.Enabled = false;
+            this.txtCom0.Location = new System.Drawing.Point(143, 163);
+            this.txtCom0.Multiline = true;
+            this.txtCom0.Name = "txtCom0";
+            this.txtCom0.Size = new System.Drawing.Size(35, 26);
+            this.txtCom0.TabIndex = 179;
+            this.txtCom0.Visible = false;
+            // 
+            // rdoCom3
+            // 
+            this.rdoCom3.AutoSize = true;
+            this.rdoCom3.Location = new System.Drawing.Point(25, 250);
+            this.rdoCom3.Name = "rdoCom3";
+            this.rdoCom3.Size = new System.Drawing.Size(14, 13);
+            this.rdoCom3.TabIndex = 178;
+            this.rdoCom3.TabStop = true;
+            this.rdoCom3.UseVisualStyleBackColor = true;
+            this.rdoCom3.Visible = false;
+            // 
+            // rdoCom2
+            // 
+            this.rdoCom2.AutoSize = true;
+            this.rdoCom2.Location = new System.Drawing.Point(25, 229);
+            this.rdoCom2.Name = "rdoCom2";
+            this.rdoCom2.Size = new System.Drawing.Size(14, 13);
+            this.rdoCom2.TabIndex = 177;
+            this.rdoCom2.TabStop = true;
+            this.rdoCom2.UseVisualStyleBackColor = true;
+            this.rdoCom2.Visible = false;
+            // 
+            // rdoCom1
+            // 
+            this.rdoCom1.AutoSize = true;
+            this.rdoCom1.Location = new System.Drawing.Point(25, 210);
+            this.rdoCom1.Name = "rdoCom1";
+            this.rdoCom1.Size = new System.Drawing.Size(14, 13);
+            this.rdoCom1.TabIndex = 176;
+            this.rdoCom1.TabStop = true;
+            this.rdoCom1.UseVisualStyleBackColor = true;
+            this.rdoCom1.Visible = false;
+            // 
+            // txtDice4
+            // 
+            this.txtDice4.Location = new System.Drawing.Point(69, 415);
+            this.txtDice4.Multiline = true;
+            this.txtDice4.Name = "txtDice4";
+            this.txtDice4.Size = new System.Drawing.Size(25, 25);
+            this.txtDice4.TabIndex = 175;
+            // 
+            // txtDice3
+            // 
+            this.txtDice3.Location = new System.Drawing.Point(25, 415);
+            this.txtDice3.Multiline = true;
+            this.txtDice3.Name = "txtDice3";
+            this.txtDice3.Size = new System.Drawing.Size(25, 25);
+            this.txtDice3.TabIndex = 174;
+            // 
+            // txtDice2
+            // 
+            this.txtDice2.Location = new System.Drawing.Point(69, 380);
+            this.txtDice2.Multiline = true;
+            this.txtDice2.Name = "txtDice2";
+            this.txtDice2.Size = new System.Drawing.Size(25, 25);
+            this.txtDice2.TabIndex = 173;
+            // 
+            // txtDice1
+            // 
+            this.txtDice1.Location = new System.Drawing.Point(25, 380);
+            this.txtDice1.Multiline = true;
+            this.txtDice1.Name = "txtDice1";
+            this.txtDice1.Size = new System.Drawing.Size(25, 25);
+            this.txtDice1.TabIndex = 172;
+            // 
+            // txtDice
+            // 
+            this.txtDice.Location = new System.Drawing.Point(12, 290);
+            this.txtDice.Multiline = true;
+            this.txtDice.Name = "txtDice";
+            this.txtDice.Size = new System.Drawing.Size(100, 70);
+            this.txtDice.TabIndex = 171;
+            // 
+            // picDice4
+            // 
+            this.picDice4.Location = new System.Drawing.Point(91, 90);
+            this.picDice4.Name = "picDice4";
+            this.picDice4.Size = new System.Drawing.Size(50, 50);
+            this.picDice4.TabIndex = 170;
+            this.picDice4.TabStop = false;
+            // 
+            // picDice3
+            // 
+            this.picDice3.Location = new System.Drawing.Point(14, 90);
+            this.picDice3.Name = "picDice3";
+            this.picDice3.Size = new System.Drawing.Size(50, 50);
+            this.picDice3.TabIndex = 169;
+            this.picDice3.TabStop = false;
+            // 
+            // picDice2
+            // 
+            this.picDice2.Location = new System.Drawing.Point(91, 12);
+            this.picDice2.Name = "picDice2";
+            this.picDice2.Size = new System.Drawing.Size(50, 50);
+            this.picDice2.TabIndex = 168;
+            this.picDice2.TabStop = false;
+            // 
+            // picDice1
+            // 
+            this.picDice1.Location = new System.Drawing.Point(14, 12);
+            this.picDice1.Name = "picDice1";
+            this.picDice1.Size = new System.Drawing.Size(50, 50);
+            this.picDice1.TabIndex = 167;
+            this.picDice1.TabStop = false;
+            // 
+            // btnDadoRolado
+            // 
+            this.btnDadoRolado.Location = new System.Drawing.Point(48, 161);
+            this.btnDadoRolado.Name = "btnDadoRolado";
+            this.btnDadoRolado.Size = new System.Drawing.Size(75, 23);
+            this.btnDadoRolado.TabIndex = 166;
+            this.btnDadoRolado.Text = "Roll Dice";
+            this.btnDadoRolado.UseVisualStyleBackColor = true;
+            this.btnDadoRolado.Click += new System.EventHandler(this.btnDadoRolado_Click);
+            // 
             // Tabuleiro
             // 
             this.BackColor = System.Drawing.Color.LightSteelBlue;
             this.ClientSize = new System.Drawing.Size(834, 611);
+            this.Controls.Add(this.txtCom5);
+            this.Controls.Add(this.txtCom4);
+            this.Controls.Add(this.txtCom3);
+            this.Controls.Add(this.txtCom2);
+            this.Controls.Add(this.txtCom1);
+            this.Controls.Add(this.txtCom0);
+            this.Controls.Add(this.rdoCom3);
+            this.Controls.Add(this.rdoCom2);
+            this.Controls.Add(this.rdoCom1);
+            this.Controls.Add(this.txtDice4);
+            this.Controls.Add(this.txtDice3);
+            this.Controls.Add(this.txtDice2);
+            this.Controls.Add(this.txtDice1);
+            this.Controls.Add(this.txtDice);
+            this.Controls.Add(this.picDice4);
+            this.Controls.Add(this.picDice3);
+            this.Controls.Add(this.picDice2);
+            this.Controls.Add(this.picDice1);
+            this.Controls.Add(this.btnDadoRolado);
             this.Controls.Add(this.txtId1);
             this.Controls.Add(this.txtId2);
             this.Controls.Add(this.txtId3);
             this.Controls.Add(this.txtId4);
             this.Controls.Add(this.txtNarracao1);
-            this.Controls.Add(this.txtCombinacao8);
-            this.Controls.Add(this.txtCombinacao6);
-            this.Controls.Add(this.txtCombinacao7);
-            this.Controls.Add(this.txtCombinacao5);
-            this.Controls.Add(this.txtCombinacao4);
-            this.Controls.Add(this.txtCombinacao3);
-            this.Controls.Add(this.txtCombinacao2);
-            this.Controls.Add(this.txtCombinacao1);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
@@ -1596,6 +1716,10 @@ namespace ProjetoTokio
             ((System.ComponentModel.ISupportInitialize)(this.pct10_final)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct9_final)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct8_final)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDice4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDice3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDice2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picDice1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1714,18 +1838,29 @@ namespace ProjetoTokio
         public System.Windows.Forms.Label label10;
         private System.Windows.Forms.Timer tmExibirTabu;
         private System.ComponentModel.IContainer components;
-        private System.Windows.Forms.TextBox txtCombinacao1;
-        private System.Windows.Forms.TextBox txtCombinacao2;
-        private System.Windows.Forms.TextBox txtCombinacao3;
-        private System.Windows.Forms.TextBox txtCombinacao4;
-        private System.Windows.Forms.TextBox txtCombinacao5;
-        private System.Windows.Forms.TextBox txtCombinacao7;
-        private System.Windows.Forms.TextBox txtCombinacao6;
-        private System.Windows.Forms.TextBox txtCombinacao8;
         private System.Windows.Forms.TextBox txtNarracao1;
         private System.Windows.Forms.TextBox txtId4;
         private System.Windows.Forms.TextBox txtId3;
         private System.Windows.Forms.TextBox txtId2;
         private System.Windows.Forms.TextBox txtId1;
+        private System.Windows.Forms.TextBox txtCom5;
+        private System.Windows.Forms.TextBox txtCom4;
+        private System.Windows.Forms.TextBox txtCom3;
+        private System.Windows.Forms.TextBox txtCom2;
+        private System.Windows.Forms.TextBox txtCom1;
+        private System.Windows.Forms.TextBox txtCom0;
+        private System.Windows.Forms.RadioButton rdoCom3;
+        private System.Windows.Forms.RadioButton rdoCom2;
+        private System.Windows.Forms.RadioButton rdoCom1;
+        private System.Windows.Forms.TextBox txtDice4;
+        private System.Windows.Forms.TextBox txtDice3;
+        private System.Windows.Forms.TextBox txtDice2;
+        private System.Windows.Forms.TextBox txtDice1;
+        private System.Windows.Forms.TextBox txtDice;
+        private System.Windows.Forms.PictureBox picDice4;
+        private System.Windows.Forms.PictureBox picDice3;
+        private System.Windows.Forms.PictureBox picDice2;
+        private System.Windows.Forms.PictureBox picDice1;
+        private System.Windows.Forms.Button btnDadoRolado;
     }
 }
