@@ -4451,6 +4451,7 @@ namespace ProjetoTokio
             listarJog = listarJog.Replace("\r", "");
             string[] splitListJog = listarJog.Split('\n');
 
+           
             string jogador1 = splitListJog[0]; //vermelho
             string jogador2 = splitListJog[1]; //azul
             string jogador3 = splitListJog[2]; //verde
@@ -4460,27 +4461,39 @@ namespace ProjetoTokio
             string idJog1 = splitJog1[0];
             string nickJog1 = splitJog1[1];
             string corJog1 = splitJog1[2];
-
-            string[] splitJog2 = jogador2.Split(',');
-            string idJog2 = splitJog2[0];
-            string nickJog2 = splitJog2[1];
-            string corJog2 = splitJog2[2];
-
-            string[] splitJog3 = jogador3.Split(',');
-            string idJog3 = splitJog3[0];
-            string nickJog3 = splitJog3[1];
-            string corJog3 = splitJog3[2];
-
-            string[] splitJog4 = jogador4.Split(',');
-            string idJog4 = splitJog4[0];
-            string nickJog4 = splitJog4[1];
-            string corJog4 = splitJog4[2];
-
             txtId1.Text = idJog1;
-            txtId2.Text = idJog2;
-            txtId3.Text = idJog3;
-            txtId4.Text = idJog4;
 
+            if (jogador2 != "")
+            {
+                string[] splitJog2 = jogador2.Split(',');
+                string idJog2 = splitJog2[0];
+                string nickJog2 = splitJog2[1];
+                string corJog2 = splitJog2[2];
+
+                txtId2.Text = idJog2;
+            }
+
+            if(jogador2 != "")
+            {
+                string[] splitJog3 = jogador3.Split(',');
+                string idJog3 = splitJog3[0];
+                string nickJog3 = splitJog3[1];
+                string corJog3 = splitJog3[2];
+
+                txtId3.Text = idJog3;
+
+            }
+
+            if (jogador2 != "")
+            {
+                string[] splitJog4 = jogador4.Split(',');
+                string idJog4 = splitJog4[0];
+                string nickJog4 = splitJog4[1];
+                string corJog4 = splitJog4[2];
+                txtId4.Text = idJog4;
+            }
+
+          
             //criar txt no design
             /*txtNickJog1.Text = nickJog1;
             txtNickJog2.Text = nickJog2;
