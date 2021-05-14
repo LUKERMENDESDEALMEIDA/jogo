@@ -132,23 +132,5 @@
   <ItemGroup>
     <None Include="Resources\baseVermelho.png" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="dados\dado1.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="dados\dado2.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="dados\dado3.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="dados\dado5.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="dados\dado6.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="dados\dado4.jpg" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

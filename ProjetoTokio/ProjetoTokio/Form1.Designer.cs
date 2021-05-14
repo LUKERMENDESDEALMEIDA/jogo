@@ -433,7 +433,7 @@ namespace ProjetoTokio
             // tmVezDado
             // 
             this.tmVezDado.Interval = 3000;
-            this.tmVezDado.Tick += new System.EventHandler(this.tmVezDado_Tick);
+//            this.tmVezDado.Tick += new System.EventHandler(this.tmVezDado_Tick);
             // 
             // btnMover
             // 

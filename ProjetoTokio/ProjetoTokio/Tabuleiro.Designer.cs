@@ -1501,7 +1501,7 @@ namespace ProjetoTokio
             // 
             // btnDadoRolado
             // 
-            this.btnDadoRolado.Location = new System.Drawing.Point(48, 161);
+            this.btnDadoRolado.Location = new System.Drawing.Point(25, 161);
             this.btnDadoRolado.Name = "btnDadoRolado";
             this.btnDadoRolado.Size = new System.Drawing.Size(75, 23);
             this.btnDadoRolado.TabIndex = 166;

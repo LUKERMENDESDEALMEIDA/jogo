@@ -166,7 +166,7 @@ namespace ProjetoTokio // nome do projeto
 
 
         }
-
+        /*
         private void tmVezDado_Tick(object sender, EventArgs e)
         {
             txtVerificaVez.Clear();
@@ -193,7 +193,7 @@ namespace ProjetoTokio // nome do projeto
 
                 tmVezDado.Stop();
             }
-        }
+        }*/
         
         /**************************BOTÃO DE VERIFICAR VEZ**************************/
         public void bntVerificaVez_Click(object sender, EventArgs e)
@@ -227,10 +227,13 @@ namespace ProjetoTokio // nome do projeto
             else//se não houver nenhum erro...
             {
                 string senhaJogador = txtSenhaJogador.Text;
+                string idJogador = txtIdJogador.Text;
                 Tabuleiro formTabuleiro = new Tabuleiro();
 
                 formTabuleiro.idPartida = id;
                 formTabuleiro.senhaJogador = senhaJogador;
+                formTabuleiro.idJogador = idJogador;
+
 
 
 
