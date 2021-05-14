@@ -4471,12 +4471,17 @@ namespace ProjetoTokio
                 string nickJog2 = splitJog2[1];
                 string corJog2 = splitJog2[2];
 
+                if (idJog2 != null)
+                {
+                    string idJ2 = idJog2;
+                }
                 txtId2.Text = idJog2;
             }
+            
 
             string jogador3 = splitListJog[2]; //verde
             
-            if (jogador2 != "")
+            if (jogador3 != "")
             {
                 string[] splitJog3 = jogador3.Split(',');
                 string idJog3 = splitJog3[0];
@@ -4487,9 +4492,9 @@ namespace ProjetoTokio
 
             }
 
-            string jogador4 = splitListJog[3]; //amarelo
+             string jogador4 = splitListJog[3]; //amarelo
 
-            if (jogador2 != "")
+            if (jogador4 != "")
             {
                 string[] splitJog4 = jogador4.Split(',');
                 string idJog4 = splitJog4[0];
@@ -4531,6 +4536,11 @@ namespace ProjetoTokio
 
 
 
+        }
+
+        private void btnDadoRolado_Click(object sender, EventArgs e)
+        {
+             
         }
     }
 }

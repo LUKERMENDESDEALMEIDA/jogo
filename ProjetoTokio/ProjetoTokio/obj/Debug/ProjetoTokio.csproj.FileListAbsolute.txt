@@ -24,8 +24,6 @@ C:\Users\stell\ProjetoTokyo_Fase2\ProjetoTokio\ProjetoTokio\obj\Debug\ProjetoTok
 C:\Users\stell\ProjetoTokyo_Fase2\ProjetoTokio\ProjetoTokio\bin\Debug\ProjetoTokio.exe.config
 C:\Users\stell\ProjetoTokyo_Fase2\ProjetoTokio\ProjetoTokio\bin\Debug\ProjetoTokio.exe
 C:\Users\stell\ProjetoTokyo_Fase2\ProjetoTokio\ProjetoTokio\bin\Debug\ProjetoTokio.pdb
-C:\Users\stell\ProjetoTokyo_Fase2\ProjetoTokio\ProjetoTokio\bin\Debug\CantStopServer.dll
-C:\Users\stell\ProjetoTokyo_Fase2\ProjetoTokio\ProjetoTokio\bin\Debug\CantStopServer.xml
 C:\Users\stell\ProjetoTokyo_Fase2\ProjetoTokio\ProjetoTokio\obj\Debug\ProjetoTokio.Form1.resources
 C:\Users\stell\ProjetoTokyo_Fase2\ProjetoTokio\ProjetoTokio\obj\Debug\ProjetoTokio.csproj.CopyComplete
 C:\Users\rosam\source\ProjetoTokyo_Fase2\ProjetoTokio\ProjetoTokio\bin\Debug\ProjetoTokio.exe.config
@@ -58,3 +56,5 @@ C:\Users\DJ ZULU\source\Repos\ProjetoTokyo_Fase2\ProjetoTokio\ProjetoTokio\obj\D
 C:\Users\DJ ZULU\source\Repos\ProjetoTokyo_Fase2\ProjetoTokio\ProjetoTokio\obj\Debug\ProjetoTokio.csproj.CopyComplete
 C:\Users\DJ ZULU\source\Repos\ProjetoTokyo_Fase2\ProjetoTokio\ProjetoTokio\obj\Debug\ProjetoTokio.exe
 C:\Users\DJ ZULU\source\Repos\ProjetoTokyo_Fase2\ProjetoTokio\ProjetoTokio\obj\Debug\ProjetoTokio.pdb
+C:\Users\stell\ProjetoTokyo_Fase2\ProjetoTokio\ProjetoTokio\bin\Debug\CantStopServer.dll
+C:\Users\stell\ProjetoTokyo_Fase2\ProjetoTokio\ProjetoTokio\bin\Debug\CantStopServer.xml
