@@ -145,6 +145,12 @@ namespace ProjetoTokio
             this.picDice2 = new System.Windows.Forms.PictureBox();
             this.picDice1 = new System.Windows.Forms.PictureBox();
             this.btnDadoRolado = new System.Windows.Forms.Button();
+            this.btnParar = new System.Windows.Forms.Button();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.txtTrilha = new System.Windows.Forms.TextBox();
+            this.txtOrdem = new System.Windows.Forms.TextBox();
+            this.btnMover = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pct2_1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct3_1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pct4_1)).BeginInit();
@@ -1509,10 +1515,72 @@ namespace ProjetoTokio
             this.btnDadoRolado.UseVisualStyleBackColor = true;
             this.btnDadoRolado.Click += new System.EventHandler(this.btnDadoRolado_Click);
             // 
+            // btnParar
+            // 
+            this.btnParar.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnParar.Location = new System.Drawing.Point(218, 175);
+            this.btnParar.Name = "btnParar";
+            this.btnParar.Size = new System.Drawing.Size(75, 23);
+            this.btnParar.TabIndex = 190;
+            this.btnParar.Text = "PARAR";
+            this.btnParar.UseVisualStyleBackColor = false;
+            this.btnParar.Click += new System.EventHandler(this.btnParar_Click);
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(243, 83);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(29, 13);
+            this.label11.TabIndex = 189;
+            this.label11.Text = "trilha";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(236, 20);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(36, 13);
+            this.label12.TabIndex = 188;
+            this.label12.Text = "ordem";
+            // 
+            // txtTrilha
+            // 
+            this.txtTrilha.Location = new System.Drawing.Point(218, 99);
+            this.txtTrilha.Multiline = true;
+            this.txtTrilha.Name = "txtTrilha";
+            this.txtTrilha.Size = new System.Drawing.Size(74, 26);
+            this.txtTrilha.TabIndex = 187;
+            // 
+            // txtOrdem
+            // 
+            this.txtOrdem.Location = new System.Drawing.Point(218, 36);
+            this.txtOrdem.Multiline = true;
+            this.txtOrdem.Name = "txtOrdem";
+            this.txtOrdem.Size = new System.Drawing.Size(74, 26);
+            this.txtOrdem.TabIndex = 186;
+            // 
+            // btnMover
+            // 
+            this.btnMover.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnMover.Location = new System.Drawing.Point(217, 146);
+            this.btnMover.Name = "btnMover";
+            this.btnMover.Size = new System.Drawing.Size(75, 23);
+            this.btnMover.TabIndex = 185;
+            this.btnMover.Text = "Mover";
+            this.btnMover.UseVisualStyleBackColor = false;
+            this.btnMover.Click += new System.EventHandler(this.btnMover_Click);
+            // 
             // Tabuleiro
             // 
             this.BackColor = System.Drawing.Color.LightSteelBlue;
             this.ClientSize = new System.Drawing.Size(834, 611);
+            this.Controls.Add(this.btnParar);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.txtTrilha);
+            this.Controls.Add(this.txtOrdem);
+            this.Controls.Add(this.btnMover);
             this.Controls.Add(this.txtCom5);
             this.Controls.Add(this.txtCom4);
             this.Controls.Add(this.txtCom3);
@@ -1862,5 +1930,11 @@ namespace ProjetoTokio
         private System.Windows.Forms.PictureBox picDice2;
         private System.Windows.Forms.PictureBox picDice1;
         private System.Windows.Forms.Button btnDadoRolado;
+        private System.Windows.Forms.Button btnParar;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.TextBox txtTrilha;
+        private System.Windows.Forms.TextBox txtOrdem;
+        private System.Windows.Forms.Button btnMover;
     }
 }

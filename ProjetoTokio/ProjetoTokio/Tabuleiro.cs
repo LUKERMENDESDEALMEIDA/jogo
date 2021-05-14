@@ -4713,5 +4713,36 @@ namespace ProjetoTokio
 
             }
         }
+
+        private void btnMover_Click(object sender, EventArgs e)
+        {
+            int idJog = Convert.ToInt32(idJogador);
+            string senhaJog = senhaJogador;
+            string ordem = txtOrdem.Text;
+            string trilha = txtTrilha.Text;
+
+            string mover = Jogo.Mover(idJog, senhaJog, ordem, trilha);
+
+            if (mover.StartsWith("ERRO"))//se as 4 letras(ERRO) = true
+            {
+                MessageBox.Show(mover); //exibe o erro na tela
+            }
+            else
+            {
+                MessageBox.Show(mover);
+            }
+        }
+
+        private void btnParar_Click(object sender, EventArgs e)
+        {
+            
+            
+            string parar = Jogo.Parar(Convert.ToInt32(idJogador), senhaJogador);
+
+            if (parar.StartsWith("ERRO"))//se as 4 letras(ERRO) = true
+            {
+                MessageBox.Show(parar); //exibe o erro na tela
+            }
+        }
     }
 }
