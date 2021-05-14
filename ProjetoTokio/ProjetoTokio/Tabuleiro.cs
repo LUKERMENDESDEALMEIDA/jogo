@@ -4451,65 +4451,32 @@ namespace ProjetoTokio
         {
             string listarJog = Jogo.ListarJogadores(idPartida);
             listarJog = listarJog.Replace("\r", "");
+            listarJog = listarJog.Remove(listarJog.Length - 1);
             string[] splitListJog = listarJog.Split('\n');
 
-           
-            string jogador1 = splitListJog[0]; //vermelho
-            
-            string[] splitJog1 = jogador1.Split(',');
-            string idJog1 = splitJog1[0];
-            string nickJog1 = splitJog1[1];
-            string corJog1 = splitJog1[2];
-            txtId1.Text = idJog1;
+            List<TextBox> listaTxt = new List<TextBox> ();
+            listaTxt.Add(txtId1);
+            listaTxt.Add(txtId2);
+            listaTxt.Add(txtId3);
+            listaTxt.Add(txtId4);
 
-            string jogador2 = splitListJog[1]; //azul
-            
-            if (jogador2 != "")
+            int i = 0;
+
+
+
+            foreach(string jogador in splitListJog)
             {
-                string[] splitJog2 = jogador2.Split(',');
-                string idJog2 = splitJog2[0];
-                string nickJog2 = splitJog2[1];
-                string corJog2 = splitJog2[2];
+                
+                string[] splitJog1 = jogador.Split(',');
+                string idJog1 = splitJog1[0];
+                string nickJog1 = splitJog1[1];
+                string corJog1 = splitJog1[2];
 
-                if (idJog2 != null)
-                {
-                    string idJ2 = idJog2;
-                }
-                txtId2.Text = idJog2;
-            }
-            
-
-            string jogador3 = splitListJog[2]; //verde
-            
-            if (jogador3 != "")
-            {
-                string[] splitJog3 = jogador3.Split(',');
-                string idJog3 = splitJog3[0];
-                string nickJog3 = splitJog3[1];
-                string corJog3 = splitJog3[2];
-
-                txtId3.Text = idJog3;
-
+                listaTxt[i].Text = idJog1;
+                i++;
             }
 
-             string jogador4 = splitListJog[3]; //amarelo
-
-            if (jogador4 != "")
-            {
-                string[] splitJog4 = jogador4.Split(',');
-                string idJog4 = splitJog4[0];
-                string nickJog4 = splitJog4[1];
-                string corJog4 = splitJog4[2];
-                txtId4.Text = idJog4;
-            }
-
-          
-            //criar txt no design
-            /*txtNickJog1.Text = nickJog1;
-            txtNickJog2.Text = nickJog2;
-            txtNickJog3.Text = nickJog3;
-            txtNickJog4.Text = nickJog4;*/
-
+            
         }
          /*void verificarVez()
         {
