@@ -36,6 +36,9 @@
     <Reference Include="CantStopServer">
       <HintPath>..\CantStopServer.dll</HintPath>
     </Reference>
+    <Reference Include="CantStopServer %281%29">
+      <HintPath>..\CantStopServer (1).dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -128,6 +131,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\baseVermelho.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dado1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dado2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dado3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dado4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dado5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dado6.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

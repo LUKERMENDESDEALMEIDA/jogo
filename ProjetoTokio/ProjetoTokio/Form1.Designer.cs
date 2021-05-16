@@ -61,6 +61,12 @@ namespace ProjetoTokio
             this.btnExibirTabuleiro = new System.Windows.Forms.Button();
             this.txtVerificaVez = new System.Windows.Forms.TextBox();
             this.tmVezDado = new System.Windows.Forms.Timer(this.components);
+            this.btnMover = new System.Windows.Forms.Button();
+            this.txtOrdem = new System.Windows.Forms.TextBox();
+            this.txtTrilha = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.btnParar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnListaPartida
@@ -427,6 +433,63 @@ namespace ProjetoTokio
             // tmVezDado
             // 
             this.tmVezDado.Interval = 3000;
+//            this.tmVezDado.Tick += new System.EventHandler(this.tmVezDado_Tick);
+            // 
+            // btnMover
+            // 
+            this.btnMover.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnMover.Location = new System.Drawing.Point(409, 464);
+            this.btnMover.Name = "btnMover";
+            this.btnMover.Size = new System.Drawing.Size(75, 23);
+            this.btnMover.TabIndex = 144;
+            this.btnMover.Text = "Mover";
+            this.btnMover.UseVisualStyleBackColor = false;
+            this.btnMover.Click += new System.EventHandler(this.btnMover_Click);
+            // 
+            // txtOrdem
+            // 
+            this.txtOrdem.Location = new System.Drawing.Point(410, 354);
+            this.txtOrdem.Multiline = true;
+            this.txtOrdem.Name = "txtOrdem";
+            this.txtOrdem.Size = new System.Drawing.Size(74, 26);
+            this.txtOrdem.TabIndex = 145;
+            // 
+            // txtTrilha
+            // 
+            this.txtTrilha.Location = new System.Drawing.Point(410, 417);
+            this.txtTrilha.Multiline = true;
+            this.txtTrilha.Name = "txtTrilha";
+            this.txtTrilha.Size = new System.Drawing.Size(74, 26);
+            this.txtTrilha.TabIndex = 146;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(428, 338);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(36, 13);
+            this.label1.TabIndex = 147;
+            this.label1.Text = "ordem";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(435, 401);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(29, 13);
+            this.label2.TabIndex = 148;
+            this.label2.Text = "trilha";
+            // 
+            // btnParar
+            // 
+            this.btnParar.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.btnParar.Location = new System.Drawing.Point(410, 493);
+            this.btnParar.Name = "btnParar";
+            this.btnParar.Size = new System.Drawing.Size(75, 23);
+            this.btnParar.TabIndex = 149;
+            this.btnParar.Text = "PARAR";
+            this.btnParar.UseVisualStyleBackColor = false;
+            this.btnParar.Click += new System.EventHandler(this.btnParar_Click);
             // 
             // Form1
             // 
@@ -434,6 +497,12 @@ namespace ProjetoTokio
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Pink;
             this.ClientSize = new System.Drawing.Size(822, 536);
+            this.Controls.Add(this.btnParar);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtTrilha);
+            this.Controls.Add(this.txtOrdem);
+            this.Controls.Add(this.btnMover);
             this.Controls.Add(this.btnExibirTabuleiro);
             this.Controls.Add(this.txtVerificaVez);
             this.Controls.Add(this.bntVerificaVez);
@@ -506,6 +575,12 @@ namespace ProjetoTokio
         public System.Windows.Forms.TextBox txtVerificaVez;
         public System.Windows.Forms.Timer tmVezDado;
         private System.ComponentModel.IContainer components;
+        private System.Windows.Forms.Button btnMover;
+        private System.Windows.Forms.TextBox txtOrdem;
+        private System.Windows.Forms.TextBox txtTrilha;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnParar;
     }
 }
 

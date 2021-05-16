@@ -243,7 +243,50 @@ namespace ProjetoTokio // nome do projeto
 
         }
 
-               
+        // """""""""""""""""""SOMAR DADOS""""""""""""""""""""""""""""""
+
+
+        public void btnMover_Click(object sender, EventArgs e)
+        {
+            int idJog = Convert.ToInt32( txtIdJogador.Text);
+            string senhaJog = txtSenhaJogador.Text;
+            string ordem = txtOrdem.Text;
+            string trilha = txtTrilha.Text;
+
+            string mover = Jogo.Mover(idJog, senhaJog, ordem, trilha);
+
+            if (mover.StartsWith("ERRO"))//se as 4 letras(ERRO) = true
+            {
+                MessageBox.Show(mover); //exibe o erro na tela
+            }
+            else
+            {
+                MessageBox.Show(mover);
+            }
+        }
+
+        public void btnParar_Click(object sender, EventArgs e)
+        {
+            int idJog = Convert.ToInt32(txtIdJogador.Text);
+            string senhaJog = txtSenhaJogador.Text;
+            /*string parar = Jogo.Parar(idJog, senhaJog);
+
+            if (parar.StartsWith("ERRO"))//se as 4 letras(ERRO) = true
+            {
+                MessageBox.Show(parar); //exibe o erro na tela
+            }*/
+        }
+
+        /*void Mover()
+        {
+            string[] itens = lstListaPartida.SelectedItem.ToString().Split(','); ;//seleciona a partida e transforma em string
+            int id = Convert.ToInt32(itens[0]);//converte id(string) em id (numero inteiro)
+
+            txtExibeTabuleiro.Text = Jogo.ExibirTabuleiro(id);
+            // Jogo.Mover(Convert.ToInt32(txtIdJogador.Text),txtSenhaJogador);
+        }*/
+
+       
 
         public void txtNomeJogador_TextChanged(object sender, EventArgs e)
         {
