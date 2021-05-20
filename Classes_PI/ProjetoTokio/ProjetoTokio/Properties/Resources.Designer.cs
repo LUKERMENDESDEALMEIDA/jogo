@@ -93,6 +93,26 @@ namespace ProjetoTokio.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap azul {
+            get {
+                object obj = ResourceManager.GetObject("azul", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap azul1 {
+            get {
+                object obj = ResourceManager.GetObject("azul1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap baseAmarela {
             get {
                 object obj = ResourceManager.GetObject("baseAmarela", resourceCulture);
@@ -246,6 +266,16 @@ namespace ProjetoTokio.Properties {
         internal static System.Drawing.Bitmap tons_de_azul_das_montanhas_paisagem_23_2148273707 {
             get {
                 object obj = ResourceManager.GetObject("tons-de-azul-das-montanhas-paisagem_23-2148273707", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vermelholala {
+            get {
+                object obj = ResourceManager.GetObject("vermelholala", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
