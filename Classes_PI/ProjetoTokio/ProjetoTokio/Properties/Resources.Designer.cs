@@ -83,6 +83,16 @@ namespace ProjetoTokio.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap alpinistasol {
+            get {
+                object obj = ResourceManager.GetObject("alpinistasol", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap baseAmarela {
             get {
                 object obj = ResourceManager.GetObject("baseAmarela", resourceCulture);

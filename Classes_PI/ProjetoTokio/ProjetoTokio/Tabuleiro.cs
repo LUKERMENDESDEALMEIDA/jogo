@@ -79,7 +79,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct2_1.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct2_1.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -92,7 +92,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct2_1.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct2_1.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -103,7 +103,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct2_1.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct2_1.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -114,16 +114,58 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct2_1.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct2_1.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
                                 this.pct2_1.Image = ProjetoTokio.Properties.Resources.baseAmarela;
                             }
                         }
+                        /******************************BASES NA MSM POSICAO*********************************/
+                        else if ((txtId1.Text == (tipo = "B")) && (txtId2.Text == (tipo = "B")) && (txtId3.Text == (tipo = "B")) && (txtId4.Text == (tipo = "B")))
+                        {
 
+                        }
+                        else if ((txtId1.Text == (tipo = "B")) && (txtId2.Text == (tipo = "B")) && (txtId3.Text == (tipo = "B")))
+                        {
 
+                        }
+                        else if ((txtId1.Text == (tipo = "B")) && (txtId2.Text == (tipo = "B")) && (txtId4.Text == (tipo = "B")))
+                        {
 
+                        }
+                        else if ((txtId1.Text == (tipo = "B")) && (txtId3.Text == (tipo = "B")) && (txtId4.Text == (tipo = "B")))
+                        {
+
+                        }
+                        else if ((txtId2.Text == (tipo = "B")) && (txtId3.Text == (tipo = "B")) && (txtId4.Text == (tipo = "B")))
+                        {
+
+                        }
+                        else if ((txtId1.Text == (tipo = "B")) && (txtId2.Text == (tipo = "B")))
+                        {
+
+                        }
+                        else if((txtId1.Text == (tipo = "B")) && (txtId3.Text == (tipo = "B")))
+                        {
+
+                        }
+                        else if((txtId1.Text == (tipo = "B")) && (txtId4.Text == (tipo = "B")))
+                        {
+
+                        }
+                        else if ((txtId2.Text == (tipo = "B")) && (txtId3.Text == (tipo = "B")))
+                        {
+
+                        }
+                        else if ((txtId2.Text == (tipo = "B")) && (txtId4.Text == (tipo = "B")))
+                        {
+
+                        }
+                        else if ((txtId3.Text == (tipo = "B")) && (txtId4.Text == (tipo = "B")))
+                        {
+
+                        }
                     }
 
                     //POSICAO 2
@@ -133,7 +175,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct2_2.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct2_2.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -146,7 +188,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct2_2.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct2_2.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -157,7 +199,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct2_2.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct2_2.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -168,7 +210,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct2_2.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct2_2.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -185,7 +227,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct2_final.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct2_final.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -198,7 +240,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct2_final.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct2_final.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -209,7 +251,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct2_final.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct2_final.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -220,7 +262,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct2_final.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct2_final.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -241,7 +283,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct3_1.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct3_1.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -254,7 +296,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct3_1.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct3_1.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -265,7 +307,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct3_1.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct3_1.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -276,7 +318,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct3_1.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct3_1.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -292,7 +334,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct3_2.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct3_2.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -305,7 +347,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct3_2.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct3_2.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -316,7 +358,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct3_2.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct3_2.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -327,7 +369,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct3_2.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct3_2.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -343,7 +385,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct3_3.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct3_3.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -356,7 +398,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct3_3.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct3_3.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -367,7 +409,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct3_3.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct3_3.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -378,7 +420,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct3_3.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct3_3.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -394,7 +436,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct3_4.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct3_4.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -407,7 +449,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct3_4.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct3_4.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -418,7 +460,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct3_4.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct3_4.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -429,7 +471,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct3_4.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct3_4.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -445,7 +487,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct3_final.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct3_final.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -458,7 +500,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct3_final.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct3_final.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -469,7 +511,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct3_final.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct3_final.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -480,7 +522,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct3_final.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct3_final.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -501,7 +543,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct4_1.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct4_1.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -514,7 +556,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct4_1.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct4_1.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -525,7 +567,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct4_1.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct4_1.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -536,7 +578,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct4_1.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct4_1.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -552,7 +594,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct4_2.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct4_2.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -565,7 +607,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct4_2.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct4_2.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -576,7 +618,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct4_2.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct4_2.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -587,7 +629,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct4_2.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct4_2.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -603,7 +645,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct4_3.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct4_3.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -616,7 +658,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct4_3.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct4_3.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -627,7 +669,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct4_3.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct4_3.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -638,7 +680,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct4_3.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct4_3.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -654,7 +696,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct4_4.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct4_4.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -667,7 +709,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct4_4.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct4_4.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -678,7 +720,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct4_4.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct4_4.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -689,7 +731,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct4_4.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct4_4.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -705,7 +747,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct4_5.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct4_5.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -718,7 +760,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct4_5.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct4_5.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -729,7 +771,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct4_5.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct4_5.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -740,7 +782,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct4_5.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct4_5.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -756,7 +798,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct4_6.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct4_6.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -769,7 +811,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct4_6.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct4_6.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -780,7 +822,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct4_6.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct4_6.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -791,7 +833,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct4_6.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct4_6.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -807,7 +849,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct4_final.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct4_final.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -820,7 +862,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct4_final.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct4_final.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -831,7 +873,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct4_final.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct4_final.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -842,7 +884,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct4_final.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct4_final.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -862,7 +904,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct5_1.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct5_1.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -875,7 +917,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct5_1.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct5_1.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -886,7 +928,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct5_1.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct5_1.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -897,7 +939,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct5_1.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct5_1.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -913,7 +955,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct5_2.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct5_2.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -926,7 +968,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct5_2.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct5_2.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -937,7 +979,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct5_2.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct5_2.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -948,7 +990,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct5_2.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct5_2.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -964,7 +1006,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct5_3.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct5_3.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -977,7 +1019,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct5_3.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct5_3.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -988,7 +1030,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct5_3.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct5_3.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -999,7 +1041,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct5_3.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct5_3.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1015,7 +1057,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct5_4.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct5_4.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1028,7 +1070,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct5_4.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct5_4.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1039,7 +1081,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct5_4.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct5_4.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1050,7 +1092,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct5_4.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct5_4.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1066,7 +1108,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct5_5.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct5_5.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1079,7 +1121,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct5_5.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct5_5.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1090,7 +1132,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct5_5.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct5_5.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1101,7 +1143,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct5_5.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct5_5.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1117,7 +1159,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct5_6.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct5_6.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1130,7 +1172,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct5_6.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct5_6.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1141,7 +1183,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct5_6.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct5_6.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1152,7 +1194,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct5_6.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct5_6.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1168,7 +1210,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct5_7.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct5_7.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1181,7 +1223,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct5_7.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct5_7.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1192,7 +1234,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct5_7.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct5_7.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1203,7 +1245,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct5_7.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct5_7.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1219,7 +1261,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct5_8.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct5_8.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1232,7 +1274,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct5_8.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct5_8.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1243,7 +1285,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct5_8.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct5_8.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1254,7 +1296,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct5_8.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct5_8.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1270,7 +1312,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct5_final.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct5_final.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1283,7 +1325,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct5_final.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct5_final.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1294,7 +1336,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct5_final.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct5_final.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1305,7 +1347,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct5_final.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct5_final.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1325,7 +1367,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct6_1.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct6_1.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1338,7 +1380,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct6_1.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct6_1.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1349,7 +1391,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct6_1.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct6_1.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1360,7 +1402,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct6_1.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct6_1.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1376,7 +1418,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct6_2.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct6_2.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1389,7 +1431,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct6_2.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct6_2.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1400,7 +1442,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct6_2.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct6_2.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1411,7 +1453,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct6_2.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct6_2.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1427,7 +1469,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct6_3.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct6_3.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1440,7 +1482,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct6_3.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct6_3.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1451,7 +1493,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct6_3.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct6_3.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1462,7 +1504,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct6_3.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct6_3.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1478,7 +1520,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct6_4.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct6_4.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1491,7 +1533,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct6_4.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct6_4.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1502,7 +1544,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct6_4.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct6_4.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1513,7 +1555,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct6_4.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct6_4.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1529,7 +1571,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct6_5.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct6_5.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1542,7 +1584,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct6_5.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct6_5.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1553,7 +1595,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct6_5.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct6_5.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1564,7 +1606,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct6_5.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct6_5.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1580,7 +1622,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct6_6.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct6_6.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1593,7 +1635,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct6_6.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct6_6.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1604,7 +1646,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct6_6.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct6_6.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1615,7 +1657,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct6_6.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct6_6.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1631,7 +1673,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct6_7.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct6_7.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1644,7 +1686,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct6_7.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct6_7.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1655,7 +1697,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct6_7.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct6_7.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1666,7 +1708,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct6_7.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct6_7.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1682,7 +1724,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct6_8.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct6_8.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1695,7 +1737,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct6_8.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct6_8.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1706,7 +1748,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct6_8.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct6_8.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1717,7 +1759,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct6_8.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct6_8.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1733,7 +1775,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct6_9.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct6_9.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1746,7 +1788,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct6_9.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct6_9.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1757,7 +1799,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct6_9.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct6_9.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1768,7 +1810,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct6_9.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct6_9.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1784,7 +1826,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct6_10.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct6_10.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1797,7 +1839,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct6_10.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct6_10.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1808,7 +1850,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct6_10.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct6_10.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1819,7 +1861,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct6_10.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct6_10.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1835,7 +1877,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct6_final.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct6_final.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1848,7 +1890,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct6_final.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct6_final.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1859,7 +1901,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct6_final.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct6_final.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1870,7 +1912,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct6_final.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct6_final.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1890,7 +1932,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_1.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_1.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1903,7 +1945,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_1.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_1.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1914,7 +1956,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_1.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_1.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1925,7 +1967,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_1.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_1.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1941,7 +1983,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_2.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_2.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1954,7 +1996,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_2.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_2.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1965,7 +2007,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_2.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_2.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1976,7 +2018,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_2.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_2.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -1992,7 +2034,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_3.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_3.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2005,7 +2047,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_3.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_3.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2016,7 +2058,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_3.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_3.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2027,7 +2069,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_3.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_3.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2043,7 +2085,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_4.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_4.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2056,7 +2098,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_4.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_4.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2067,7 +2109,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_4.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_4.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2078,7 +2120,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_4.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_4.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2094,7 +2136,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_5.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_5.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2107,7 +2149,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_5.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_5.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2118,7 +2160,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_5.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_5.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2129,7 +2171,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_5.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_5.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2145,7 +2187,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_6.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_6.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2158,7 +2200,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_6.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_6.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2169,7 +2211,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_6.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_6.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2180,7 +2222,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_6.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_6.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2196,7 +2238,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_7.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_7.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2209,7 +2251,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_7.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_7.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2220,7 +2262,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_7.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_7.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2231,7 +2273,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_7.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_7.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2247,7 +2289,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_8.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_8.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2260,7 +2302,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_8.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_8.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2271,7 +2313,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_8.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_8.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2282,7 +2324,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_8.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_8.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2298,7 +2340,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_9.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_9.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2311,7 +2353,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_9.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_9.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2322,7 +2364,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_9.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_9.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2333,7 +2375,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_9.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_9.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2349,7 +2391,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_10.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_10.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2362,7 +2404,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_10.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_10.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2373,7 +2415,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_10.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_10.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2384,7 +2426,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_10.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_10.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2400,7 +2442,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_11.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_11.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2413,7 +2455,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_11.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_11.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2424,7 +2466,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_11.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_11.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2435,7 +2477,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_11.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_11.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2451,7 +2493,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_12.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_12.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2464,7 +2506,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_12.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_12.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2475,7 +2517,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_12.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_12.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2486,7 +2528,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_12.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_12.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2502,7 +2544,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_final.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_final.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2515,7 +2557,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_final.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_final.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2526,7 +2568,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_final.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_final.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2537,7 +2579,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct7_final.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct7_final.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2557,7 +2599,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct8_1.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct8_1.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2570,7 +2612,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct8_1.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct8_1.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2581,7 +2623,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct8_1.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct8_1.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2592,7 +2634,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct8_1.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct8_1.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2608,7 +2650,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct8_2.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct8_2.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2621,7 +2663,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct8_2.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct8_2.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2632,7 +2674,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct8_2.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct8_2.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2643,7 +2685,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct8_2.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct8_2.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2659,7 +2701,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct8_3.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct8_3.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2672,7 +2714,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct8_3.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct8_3.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2683,7 +2725,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct8_3.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct8_3.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2694,7 +2736,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct8_3.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct8_3.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2710,7 +2752,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct8_4.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct8_4.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2723,7 +2765,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct8_4.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct8_4.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2734,7 +2776,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct8_4.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct8_4.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2745,7 +2787,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct8_4.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct8_4.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2761,7 +2803,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct8_5.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct8_5.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2774,7 +2816,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct8_5.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct8_5.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2785,7 +2827,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct8_5.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct8_5.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2796,7 +2838,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct8_5.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct8_5.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2812,7 +2854,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct8_6.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct8_6.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2825,7 +2867,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct8_6.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct8_6.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2836,7 +2878,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct8_6.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct8_6.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2847,7 +2889,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct8_6.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct8_6.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2863,7 +2905,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct8_7.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct8_7.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2876,7 +2918,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct8_7.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct8_7.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2887,7 +2929,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct8_7.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct8_7.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2898,7 +2940,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct8_7.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct8_7.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2914,7 +2956,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct8_8.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct8_8.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2927,7 +2969,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct8_8.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct8_8.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2938,7 +2980,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct8_8.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct8_8.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2949,7 +2991,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct8_8.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct8_8.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2965,7 +3007,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct8_9.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct8_9.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2978,7 +3020,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct8_9.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct8_9.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -2989,7 +3031,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct8_9.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct8_9.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3000,7 +3042,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct8_9.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct8_9.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3016,7 +3058,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct8_10.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct8_10.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3029,7 +3071,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct8_10.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct8_10.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3040,7 +3082,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct8_10.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct8_10.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3051,7 +3093,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct8_10.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct8_10.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3067,7 +3109,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct8_final.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct8_final.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3080,7 +3122,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct8_final.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct8_final.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3091,7 +3133,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct8_final.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct8_final.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3102,7 +3144,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct8_final.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct8_final.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3122,7 +3164,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct9_1.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct9_1.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3135,7 +3177,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct9_1.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct9_1.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3146,7 +3188,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct9_1.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct9_1.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3157,7 +3199,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct9_1.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct9_1.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3173,7 +3215,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct9_2.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct9_2.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3186,7 +3228,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct9_2.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct9_2.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3197,7 +3239,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct9_2.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct9_2.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3208,7 +3250,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct9_2.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct9_2.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3224,7 +3266,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct9_3.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct9_3.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3237,7 +3279,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct9_3.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct9_3.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3248,7 +3290,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct9_3.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct9_3.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3259,7 +3301,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct9_3.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct9_3.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3275,7 +3317,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct9_4.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct9_4.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3288,7 +3330,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct9_4.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct9_4.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3299,7 +3341,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct9_4.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct9_4.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3310,7 +3352,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct9_4.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct9_4.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3326,7 +3368,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct9_5.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct9_5.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3339,7 +3381,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct9_5.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct9_5.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3350,7 +3392,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct9_5.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct9_5.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3361,7 +3403,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct9_5.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct9_5.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3377,7 +3419,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct9_6.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct9_6.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3390,7 +3432,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct9_6.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct9_6.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3401,7 +3443,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct9_6.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct9_6.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3412,7 +3454,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct9_6.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct9_6.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3428,7 +3470,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct9_7.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct9_7.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3441,7 +3483,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct9_7.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct9_7.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3452,7 +3494,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct9_7.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct9_7.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3463,7 +3505,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct9_7.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct9_7.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3479,7 +3521,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct9_8.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct9_8.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3492,7 +3534,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct9_8.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct9_8.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3503,7 +3545,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct9_8.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct9_8.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3514,7 +3556,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct9_8.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct9_8.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3530,7 +3572,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct9_final.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct9_final.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3543,7 +3585,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct9_final.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct9_final.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3554,7 +3596,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct9_final.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct9_final.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3565,7 +3607,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct9_final.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct9_final.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3585,7 +3627,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct10_1.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct10_1.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3598,7 +3640,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct10_1.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct10_1.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3609,7 +3651,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct10_1.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct10_1.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3620,7 +3662,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct10_1.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct10_1.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3636,7 +3678,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct10_2.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct10_2.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3649,7 +3691,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct10_2.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct10_2.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3660,7 +3702,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct10_2.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct10_2.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3671,7 +3713,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct10_2.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct10_2.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3687,7 +3729,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct10_3.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct10_3.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3700,7 +3742,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct10_3.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct10_3.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3711,7 +3753,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct10_3.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct10_3.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3722,7 +3764,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct10_3.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct10_3.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3738,7 +3780,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct10_4.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct10_4.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3751,7 +3793,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct10_4.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct10_4.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3762,7 +3804,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct10_4.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct10_4.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3773,7 +3815,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct10_4.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct10_4.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3789,7 +3831,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct10_5.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct10_5.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3802,7 +3844,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct10_5.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct10_5.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3813,7 +3855,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct10_5.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct10_5.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3824,7 +3866,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct10_5.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct10_5.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3840,7 +3882,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct10_6.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct10_6.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3853,7 +3895,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct10_6.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct10_6.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3864,7 +3906,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct10_6.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct10_6.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3875,7 +3917,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct10_6.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct10_6.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3891,7 +3933,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct10_final.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct10_final.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3904,7 +3946,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct10_final.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct10_final.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3915,7 +3957,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct10_final.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct10_final.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3926,7 +3968,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct10_final.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct10_final.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3946,7 +3988,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct11_1.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct11_1.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3959,7 +4001,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct11_1.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct11_1.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3970,7 +4012,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct11_1.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct11_1.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3981,7 +4023,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct11_1.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct11_1.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -3997,7 +4039,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct11_2.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct11_2.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -4010,7 +4052,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct11_2.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct11_2.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -4021,7 +4063,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct11_2.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct11_2.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -4032,7 +4074,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct11_2.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct11_2.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -4048,7 +4090,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct11_3.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct11_3.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -4061,7 +4103,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct11_3.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct11_3.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -4072,7 +4114,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct11_3.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct11_3.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -4083,7 +4125,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct11_3.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct11_3.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -4099,7 +4141,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct11_4.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct11_4.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -4112,7 +4154,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct11_4.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct11_4.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -4123,7 +4165,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct11_4.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct11_4.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -4134,7 +4176,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct11_4.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct11_4.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -4150,7 +4192,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct11_final.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct11_final.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -4163,7 +4205,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct11_final.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct11_final.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -4174,7 +4216,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct11_final.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct11_final.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -4185,7 +4227,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct11_final.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct11_final.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -4206,7 +4248,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct12_1.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct12_1.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -4219,7 +4261,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct12_1.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct12_1.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -4230,7 +4272,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct12_1.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct12_1.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -4241,7 +4283,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct12_1.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct12_1.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -4259,7 +4301,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct12_2.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct12_2.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -4272,7 +4314,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct12_2.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct12_2.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -4283,7 +4325,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct12_2.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct12_2.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -4294,7 +4336,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct12_2.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct12_2.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -4311,7 +4353,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct12_final.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct12_final.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -4324,7 +4366,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct12_final.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct12_final.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -4335,7 +4377,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct12_final.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct12_final.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -4346,7 +4388,7 @@ namespace ProjetoTokio
                         {
                             if (tipo == "A")
                             {
-                                this.pct12_final.Image = ProjetoTokio.Properties.Resources.alpinista;
+                                this.pct12_final.Image = ProjetoTokio.Properties.Resources.alpinistasol;
                             }
                             else
                             {
@@ -4355,8 +4397,8 @@ namespace ProjetoTokio
                         }
                     }
                     break;
-            }
 
+            }
 
         }
 
