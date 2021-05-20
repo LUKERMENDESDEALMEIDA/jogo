@@ -149,16 +149,13 @@
     <None Include="Resources\dado61.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Alpinista-Sol.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\alpinistasol.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\vermelholala.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\azul.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alpinistasol.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
