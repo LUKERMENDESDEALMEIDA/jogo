@@ -503,7 +503,7 @@ namespace ProjetoTokio
             // 
             // txtDice4
             // 
-            this.txtDice4.Location = new System.Drawing.Point(85, 516);
+            this.txtDice4.Location = new System.Drawing.Point(82, 490);
             this.txtDice4.Multiline = true;
             this.txtDice4.Name = "txtDice4";
             this.txtDice4.Size = new System.Drawing.Size(25, 25);
@@ -512,7 +512,7 @@ namespace ProjetoTokio
             // 
             // txtDice3
             // 
-            this.txtDice3.Location = new System.Drawing.Point(41, 516);
+            this.txtDice3.Location = new System.Drawing.Point(38, 490);
             this.txtDice3.Multiline = true;
             this.txtDice3.Name = "txtDice3";
             this.txtDice3.Size = new System.Drawing.Size(25, 25);
@@ -544,6 +544,7 @@ namespace ProjetoTokio
             this.txtDice.Name = "txtDice";
             this.txtDice.Size = new System.Drawing.Size(100, 70);
             this.txtDice.TabIndex = 171;
+            this.txtDice.Visible = false;
             // 
             // btnDadoRolado
             // 
@@ -553,6 +554,7 @@ namespace ProjetoTokio
             this.btnDadoRolado.TabIndex = 166;
             this.btnDadoRolado.Text = "Roll Dice";
             this.btnDadoRolado.UseVisualStyleBackColor = true;
+            this.btnDadoRolado.Visible = false;
             this.btnDadoRolado.Click += new System.EventHandler(this.btnDadoRolado_Click);
             // 
             // btnParar
@@ -564,6 +566,7 @@ namespace ProjetoTokio
             this.btnParar.TabIndex = 190;
             this.btnParar.Text = "PARAR";
             this.btnParar.UseVisualStyleBackColor = false;
+            this.btnParar.Visible = false;
             this.btnParar.Click += new System.EventHandler(this.btnParar_Click);
             // 
             // label11
@@ -574,6 +577,7 @@ namespace ProjetoTokio
             this.label11.Size = new System.Drawing.Size(29, 13);
             this.label11.TabIndex = 189;
             this.label11.Text = "trilha";
+            this.label11.Visible = false;
             // 
             // label12
             // 
@@ -583,6 +587,7 @@ namespace ProjetoTokio
             this.label12.Size = new System.Drawing.Size(36, 13);
             this.label12.TabIndex = 188;
             this.label12.Text = "ordem";
+            this.label12.Visible = false;
             // 
             // txtTrilha
             // 
@@ -591,6 +596,7 @@ namespace ProjetoTokio
             this.txtTrilha.Name = "txtTrilha";
             this.txtTrilha.Size = new System.Drawing.Size(74, 26);
             this.txtTrilha.TabIndex = 187;
+            this.txtTrilha.Visible = false;
             this.txtTrilha.TextChanged += new System.EventHandler(this.txtTrilha_TextChanged_1);
             // 
             // txtOrdemDado
@@ -600,6 +606,7 @@ namespace ProjetoTokio
             this.txtOrdemDado.Name = "txtOrdemDado";
             this.txtOrdemDado.Size = new System.Drawing.Size(74, 26);
             this.txtOrdemDado.TabIndex = 186;
+            this.txtOrdemDado.Visible = false;
             this.txtOrdemDado.TextChanged += new System.EventHandler(this.txtOrdemDado_TextChanged);
             // 
             // btnMover
@@ -611,6 +618,7 @@ namespace ProjetoTokio
             this.btnMover.TabIndex = 185;
             this.btnMover.Text = "Mover";
             this.btnMover.UseVisualStyleBackColor = false;
+            this.btnMover.Visible = false;
             this.btnMover.Click += new System.EventHandler(this.btnMover_Click);
             // 
             // txtComb1
@@ -671,6 +679,7 @@ namespace ProjetoTokio
             this.txtIdDado1.Name = "txtIdDado1";
             this.txtIdDado1.Size = new System.Drawing.Size(25, 25);
             this.txtIdDado1.TabIndex = 197;
+            this.txtIdDado1.Visible = false;
             // 
             // txtIdDado2
             // 
@@ -679,6 +688,7 @@ namespace ProjetoTokio
             this.txtIdDado2.Name = "txtIdDado2";
             this.txtIdDado2.Size = new System.Drawing.Size(25, 25);
             this.txtIdDado2.TabIndex = 198;
+            this.txtIdDado2.Visible = false;
             // 
             // txtIdDado3
             // 
@@ -687,6 +697,7 @@ namespace ProjetoTokio
             this.txtIdDado3.Name = "txtIdDado3";
             this.txtIdDado3.Size = new System.Drawing.Size(25, 25);
             this.txtIdDado3.TabIndex = 199;
+            this.txtIdDado3.Visible = false;
             // 
             // txtIdDado4
             // 
@@ -695,6 +706,7 @@ namespace ProjetoTokio
             this.txtIdDado4.Name = "txtIdDado4";
             this.txtIdDado4.Size = new System.Drawing.Size(25, 25);
             this.txtIdDado4.TabIndex = 200;
+            this.txtIdDado4.Visible = false;
             // 
             // lblVezJog
             // 
