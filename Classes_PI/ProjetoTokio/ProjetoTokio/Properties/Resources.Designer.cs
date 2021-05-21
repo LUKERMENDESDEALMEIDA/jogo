@@ -153,11 +153,6 @@ namespace ProjetoTokio.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap baseVerde {
             get {
                 object obj = ResourceManager.GetObject("baseVerde", resourceCulture);
