@@ -762,7 +762,7 @@ namespace ProjetoTokio
             // 
             // pct7_final
             // 
-            this.pct7_final.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct7_final.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct7_final.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct7_final.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct7_final.InitialImage = null;
@@ -774,7 +774,7 @@ namespace ProjetoTokio
             // 
             // pct7_12
             // 
-            this.pct7_12.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct7_12.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct7_12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct7_12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct7_12.Location = new System.Drawing.Point(515, 90);
@@ -785,7 +785,7 @@ namespace ProjetoTokio
             // 
             // pct8_final
             // 
-            this.pct8_final.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct8_final.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct8_final.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct8_final.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct8_final.Location = new System.Drawing.Point(565, 130);
@@ -796,7 +796,7 @@ namespace ProjetoTokio
             // 
             // pct9_final
             // 
-            this.pct9_final.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct9_final.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct9_final.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct9_final.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct9_final.Location = new System.Drawing.Point(615, 210);
@@ -807,7 +807,7 @@ namespace ProjetoTokio
             // 
             // pct10_final
             // 
-            this.pct10_final.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct10_final.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct10_final.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct10_final.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct10_final.Location = new System.Drawing.Point(665, 290);
@@ -818,7 +818,7 @@ namespace ProjetoTokio
             // 
             // pct11_final
             // 
-            this.pct11_final.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct11_final.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct11_final.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct11_final.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct11_final.Location = new System.Drawing.Point(715, 370);
@@ -829,7 +829,7 @@ namespace ProjetoTokio
             // 
             // pct12_final
             // 
-            this.pct12_final.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct12_final.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct12_final.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct12_final.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct12_final.Location = new System.Drawing.Point(765, 450);
@@ -840,7 +840,7 @@ namespace ProjetoTokio
             // 
             // pct6_final
             // 
-            this.pct6_final.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct6_final.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct6_final.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct6_final.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct6_final.Location = new System.Drawing.Point(465, 130);
@@ -851,7 +851,7 @@ namespace ProjetoTokio
             // 
             // pct5_final
             // 
-            this.pct5_final.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct5_final.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct5_final.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct5_final.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct5_final.Location = new System.Drawing.Point(415, 210);
@@ -862,7 +862,7 @@ namespace ProjetoTokio
             // 
             // pct4_final
             // 
-            this.pct4_final.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct4_final.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct4_final.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct4_final.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct4_final.Location = new System.Drawing.Point(365, 290);
@@ -873,7 +873,7 @@ namespace ProjetoTokio
             // 
             // pct3_final
             // 
-            this.pct3_final.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct3_final.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct3_final.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct3_final.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct3_final.Location = new System.Drawing.Point(315, 370);
@@ -884,7 +884,7 @@ namespace ProjetoTokio
             // 
             // pct2_final
             // 
-            this.pct2_final.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct2_final.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct2_final.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct2_final.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct2_final.Location = new System.Drawing.Point(265, 450);
@@ -895,7 +895,7 @@ namespace ProjetoTokio
             // 
             // pct7_11
             // 
-            this.pct7_11.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct7_11.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct7_11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct7_11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct7_11.Location = new System.Drawing.Point(515, 130);
@@ -906,7 +906,7 @@ namespace ProjetoTokio
             // 
             // pct6_10
             // 
-            this.pct6_10.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct6_10.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct6_10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct6_10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct6_10.Location = new System.Drawing.Point(465, 170);
@@ -917,7 +917,7 @@ namespace ProjetoTokio
             // 
             // pct8_10
             // 
-            this.pct8_10.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct8_10.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct8_10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct8_10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct8_10.Location = new System.Drawing.Point(565, 170);
@@ -928,7 +928,7 @@ namespace ProjetoTokio
             // 
             // pct7_10
             // 
-            this.pct7_10.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct7_10.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct7_10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct7_10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct7_10.Location = new System.Drawing.Point(515, 170);
@@ -939,7 +939,7 @@ namespace ProjetoTokio
             // 
             // pct6_9
             // 
-            this.pct6_9.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct6_9.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct6_9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct6_9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct6_9.Location = new System.Drawing.Point(465, 210);
@@ -950,7 +950,7 @@ namespace ProjetoTokio
             // 
             // pct8_9
             // 
-            this.pct8_9.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct8_9.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct8_9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct8_9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct8_9.Location = new System.Drawing.Point(565, 210);
@@ -961,7 +961,7 @@ namespace ProjetoTokio
             // 
             // pct7_9
             // 
-            this.pct7_9.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct7_9.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct7_9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct7_9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct7_9.Location = new System.Drawing.Point(515, 210);
@@ -972,7 +972,7 @@ namespace ProjetoTokio
             // 
             // pct6_8
             // 
-            this.pct6_8.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct6_8.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct6_8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct6_8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct6_8.Location = new System.Drawing.Point(465, 250);
@@ -983,7 +983,7 @@ namespace ProjetoTokio
             // 
             // pct5_8
             // 
-            this.pct5_8.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct5_8.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct5_8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct5_8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct5_8.Location = new System.Drawing.Point(415, 250);
@@ -994,7 +994,7 @@ namespace ProjetoTokio
             // 
             // pct9_8
             // 
-            this.pct9_8.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct9_8.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct9_8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct9_8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct9_8.Location = new System.Drawing.Point(615, 250);
@@ -1005,7 +1005,7 @@ namespace ProjetoTokio
             // 
             // pct8_8
             // 
-            this.pct8_8.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct8_8.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct8_8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct8_8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct8_8.Location = new System.Drawing.Point(565, 250);
@@ -1016,7 +1016,7 @@ namespace ProjetoTokio
             // 
             // pct7_8
             // 
-            this.pct7_8.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct7_8.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct7_8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct7_8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct7_8.Location = new System.Drawing.Point(515, 250);
@@ -1027,7 +1027,7 @@ namespace ProjetoTokio
             // 
             // pct6_7
             // 
-            this.pct6_7.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct6_7.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct6_7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct6_7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct6_7.Location = new System.Drawing.Point(465, 290);
@@ -1038,7 +1038,7 @@ namespace ProjetoTokio
             // 
             // pct5_7
             // 
-            this.pct5_7.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct5_7.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct5_7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct5_7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct5_7.Location = new System.Drawing.Point(415, 290);
@@ -1049,7 +1049,7 @@ namespace ProjetoTokio
             // 
             // pct9_7
             // 
-            this.pct9_7.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct9_7.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct9_7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct9_7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct9_7.Location = new System.Drawing.Point(615, 290);
@@ -1060,7 +1060,7 @@ namespace ProjetoTokio
             // 
             // pct8_7
             // 
-            this.pct8_7.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct8_7.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct8_7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct8_7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct8_7.Location = new System.Drawing.Point(565, 290);
@@ -1071,7 +1071,7 @@ namespace ProjetoTokio
             // 
             // pct7_7
             // 
-            this.pct7_7.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct7_7.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct7_7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct7_7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct7_7.Location = new System.Drawing.Point(515, 290);
@@ -1082,7 +1082,7 @@ namespace ProjetoTokio
             // 
             // pct6_6
             // 
-            this.pct6_6.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct6_6.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct6_6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct6_6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct6_6.Location = new System.Drawing.Point(465, 330);
@@ -1093,7 +1093,7 @@ namespace ProjetoTokio
             // 
             // pct5_6
             // 
-            this.pct5_6.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct5_6.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct5_6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct5_6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct5_6.Location = new System.Drawing.Point(415, 330);
@@ -1104,7 +1104,7 @@ namespace ProjetoTokio
             // 
             // pct4_6
             // 
-            this.pct4_6.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct4_6.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct4_6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct4_6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct4_6.Location = new System.Drawing.Point(365, 330);
@@ -1115,7 +1115,7 @@ namespace ProjetoTokio
             // 
             // pct10_6
             // 
-            this.pct10_6.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct10_6.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct10_6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct10_6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct10_6.Location = new System.Drawing.Point(665, 330);
@@ -1126,7 +1126,7 @@ namespace ProjetoTokio
             // 
             // pct9_6
             // 
-            this.pct9_6.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct9_6.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct9_6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct9_6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct9_6.Location = new System.Drawing.Point(615, 330);
@@ -1137,7 +1137,7 @@ namespace ProjetoTokio
             // 
             // pct8_6
             // 
-            this.pct8_6.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct8_6.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct8_6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct8_6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct8_6.Location = new System.Drawing.Point(565, 330);
@@ -1148,7 +1148,7 @@ namespace ProjetoTokio
             // 
             // pct7_6
             // 
-            this.pct7_6.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct7_6.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct7_6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct7_6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct7_6.Location = new System.Drawing.Point(515, 330);
@@ -1159,7 +1159,7 @@ namespace ProjetoTokio
             // 
             // pct6_5
             // 
-            this.pct6_5.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct6_5.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct6_5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct6_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct6_5.Location = new System.Drawing.Point(465, 370);
@@ -1170,7 +1170,7 @@ namespace ProjetoTokio
             // 
             // pct5_5
             // 
-            this.pct5_5.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct5_5.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct5_5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct5_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct5_5.Location = new System.Drawing.Point(415, 370);
@@ -1181,7 +1181,7 @@ namespace ProjetoTokio
             // 
             // pct4_5
             // 
-            this.pct4_5.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct4_5.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct4_5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct4_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct4_5.Location = new System.Drawing.Point(365, 370);
@@ -1192,7 +1192,7 @@ namespace ProjetoTokio
             // 
             // pct10_5
             // 
-            this.pct10_5.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct10_5.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct10_5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct10_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct10_5.Location = new System.Drawing.Point(665, 370);
@@ -1203,7 +1203,7 @@ namespace ProjetoTokio
             // 
             // pct9_5
             // 
-            this.pct9_5.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct9_5.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct9_5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct9_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct9_5.Location = new System.Drawing.Point(615, 370);
@@ -1214,7 +1214,7 @@ namespace ProjetoTokio
             // 
             // pct8_5
             // 
-            this.pct8_5.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct8_5.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct8_5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct8_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct8_5.Location = new System.Drawing.Point(565, 370);
@@ -1225,7 +1225,7 @@ namespace ProjetoTokio
             // 
             // pct7_5
             // 
-            this.pct7_5.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct7_5.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct7_5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct7_5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct7_5.Location = new System.Drawing.Point(515, 370);
@@ -1236,7 +1236,7 @@ namespace ProjetoTokio
             // 
             // pct6_4
             // 
-            this.pct6_4.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct6_4.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct6_4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct6_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct6_4.Location = new System.Drawing.Point(465, 410);
@@ -1247,7 +1247,7 @@ namespace ProjetoTokio
             // 
             // pct5_4
             // 
-            this.pct5_4.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct5_4.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct5_4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct5_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct5_4.Location = new System.Drawing.Point(415, 410);
@@ -1258,7 +1258,7 @@ namespace ProjetoTokio
             // 
             // pct4_4
             // 
-            this.pct4_4.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct4_4.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct4_4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct4_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct4_4.Location = new System.Drawing.Point(365, 410);
@@ -1269,7 +1269,7 @@ namespace ProjetoTokio
             // 
             // pct3_4
             // 
-            this.pct3_4.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct3_4.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct3_4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct3_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct3_4.Location = new System.Drawing.Point(315, 410);
@@ -1280,7 +1280,7 @@ namespace ProjetoTokio
             // 
             // pct11_4
             // 
-            this.pct11_4.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct11_4.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct11_4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct11_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct11_4.Location = new System.Drawing.Point(715, 410);
@@ -1291,7 +1291,7 @@ namespace ProjetoTokio
             // 
             // pct10_4
             // 
-            this.pct10_4.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct10_4.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct10_4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct10_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct10_4.Location = new System.Drawing.Point(665, 410);
@@ -1302,7 +1302,7 @@ namespace ProjetoTokio
             // 
             // pct9_4
             // 
-            this.pct9_4.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct9_4.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct9_4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct9_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct9_4.Location = new System.Drawing.Point(615, 410);
@@ -1313,7 +1313,7 @@ namespace ProjetoTokio
             // 
             // pct8_4
             // 
-            this.pct8_4.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct8_4.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct8_4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct8_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct8_4.Location = new System.Drawing.Point(565, 410);
@@ -1324,7 +1324,7 @@ namespace ProjetoTokio
             // 
             // pct7_4
             // 
-            this.pct7_4.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct7_4.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct7_4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct7_4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct7_4.Location = new System.Drawing.Point(515, 410);
@@ -1335,7 +1335,7 @@ namespace ProjetoTokio
             // 
             // pct6_3
             // 
-            this.pct6_3.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct6_3.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct6_3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct6_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct6_3.Location = new System.Drawing.Point(465, 450);
@@ -1346,7 +1346,7 @@ namespace ProjetoTokio
             // 
             // pct5_3
             // 
-            this.pct5_3.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct5_3.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct5_3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct5_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct5_3.Location = new System.Drawing.Point(415, 450);
@@ -1357,7 +1357,7 @@ namespace ProjetoTokio
             // 
             // pct4_3
             // 
-            this.pct4_3.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct4_3.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct4_3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct4_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct4_3.Location = new System.Drawing.Point(365, 450);
@@ -1368,7 +1368,7 @@ namespace ProjetoTokio
             // 
             // pct3_3
             // 
-            this.pct3_3.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct3_3.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct3_3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct3_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct3_3.Location = new System.Drawing.Point(315, 450);
@@ -1379,7 +1379,7 @@ namespace ProjetoTokio
             // 
             // pct11_3
             // 
-            this.pct11_3.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct11_3.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct11_3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct11_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct11_3.Location = new System.Drawing.Point(715, 450);
@@ -1390,7 +1390,7 @@ namespace ProjetoTokio
             // 
             // pct10_3
             // 
-            this.pct10_3.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct10_3.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct10_3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct10_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct10_3.Location = new System.Drawing.Point(665, 450);
@@ -1401,7 +1401,7 @@ namespace ProjetoTokio
             // 
             // pct9_3
             // 
-            this.pct9_3.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct9_3.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct9_3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct9_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct9_3.Location = new System.Drawing.Point(615, 450);
@@ -1412,7 +1412,7 @@ namespace ProjetoTokio
             // 
             // pct8_3
             // 
-            this.pct8_3.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct8_3.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct8_3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct8_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct8_3.Location = new System.Drawing.Point(565, 450);
@@ -1423,7 +1423,7 @@ namespace ProjetoTokio
             // 
             // pct7_3
             // 
-            this.pct7_3.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct7_3.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct7_3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct7_3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct7_3.Location = new System.Drawing.Point(515, 450);
@@ -1434,7 +1434,7 @@ namespace ProjetoTokio
             // 
             // pct6_2
             // 
-            this.pct6_2.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct6_2.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct6_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct6_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct6_2.Location = new System.Drawing.Point(465, 490);
@@ -1445,7 +1445,7 @@ namespace ProjetoTokio
             // 
             // pct5_2
             // 
-            this.pct5_2.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct5_2.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct5_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct5_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct5_2.Location = new System.Drawing.Point(415, 490);
@@ -1456,7 +1456,7 @@ namespace ProjetoTokio
             // 
             // pct4_2
             // 
-            this.pct4_2.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct4_2.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct4_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct4_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct4_2.Location = new System.Drawing.Point(365, 490);
@@ -1467,7 +1467,7 @@ namespace ProjetoTokio
             // 
             // pct3_2
             // 
-            this.pct3_2.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct3_2.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct3_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct3_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct3_2.Location = new System.Drawing.Point(315, 490);
@@ -1478,7 +1478,7 @@ namespace ProjetoTokio
             // 
             // pct2_2
             // 
-            this.pct2_2.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct2_2.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct2_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct2_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct2_2.Location = new System.Drawing.Point(265, 490);
@@ -1489,7 +1489,7 @@ namespace ProjetoTokio
             // 
             // pct12_2
             // 
-            this.pct12_2.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct12_2.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct12_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct12_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct12_2.Location = new System.Drawing.Point(765, 490);
@@ -1500,7 +1500,7 @@ namespace ProjetoTokio
             // 
             // pct11_2
             // 
-            this.pct11_2.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct11_2.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct11_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct11_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct11_2.Location = new System.Drawing.Point(715, 490);
@@ -1511,7 +1511,7 @@ namespace ProjetoTokio
             // 
             // pct10_2
             // 
-            this.pct10_2.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct10_2.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct10_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct10_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct10_2.Location = new System.Drawing.Point(665, 490);
@@ -1522,7 +1522,7 @@ namespace ProjetoTokio
             // 
             // pct9_2
             // 
-            this.pct9_2.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct9_2.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct9_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct9_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct9_2.Location = new System.Drawing.Point(615, 490);
@@ -1533,7 +1533,7 @@ namespace ProjetoTokio
             // 
             // pct8_2
             // 
-            this.pct8_2.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct8_2.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct8_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct8_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct8_2.Location = new System.Drawing.Point(565, 490);
@@ -1544,7 +1544,7 @@ namespace ProjetoTokio
             // 
             // pct7_2
             // 
-            this.pct7_2.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct7_2.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct7_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct7_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct7_2.Location = new System.Drawing.Point(515, 490);
@@ -1555,7 +1555,7 @@ namespace ProjetoTokio
             // 
             // pct12_1
             // 
-            this.pct12_1.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct12_1.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct12_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct12_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct12_1.Location = new System.Drawing.Point(765, 530);
@@ -1566,7 +1566,7 @@ namespace ProjetoTokio
             // 
             // pct11_1
             // 
-            this.pct11_1.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct11_1.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct11_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct11_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct11_1.Location = new System.Drawing.Point(715, 530);
@@ -1577,7 +1577,7 @@ namespace ProjetoTokio
             // 
             // pct10_1
             // 
-            this.pct10_1.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct10_1.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct10_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct10_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct10_1.Location = new System.Drawing.Point(665, 530);
@@ -1588,7 +1588,7 @@ namespace ProjetoTokio
             // 
             // pct9_1
             // 
-            this.pct9_1.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct9_1.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct9_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct9_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct9_1.Location = new System.Drawing.Point(615, 530);
@@ -1599,7 +1599,7 @@ namespace ProjetoTokio
             // 
             // pct8_1
             // 
-            this.pct8_1.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct8_1.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct8_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct8_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct8_1.Location = new System.Drawing.Point(565, 530);
@@ -1610,7 +1610,7 @@ namespace ProjetoTokio
             // 
             // pct7_1
             // 
-            this.pct7_1.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct7_1.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct7_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct7_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct7_1.Location = new System.Drawing.Point(515, 530);
@@ -1621,7 +1621,7 @@ namespace ProjetoTokio
             // 
             // pct6_1
             // 
-            this.pct6_1.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct6_1.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct6_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct6_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct6_1.Location = new System.Drawing.Point(465, 530);
@@ -1632,7 +1632,7 @@ namespace ProjetoTokio
             // 
             // pct5_1
             // 
-            this.pct5_1.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct5_1.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct5_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct5_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct5_1.Location = new System.Drawing.Point(415, 530);
@@ -1643,7 +1643,7 @@ namespace ProjetoTokio
             // 
             // pct4_1
             // 
-            this.pct4_1.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct4_1.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct4_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct4_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct4_1.Location = new System.Drawing.Point(365, 530);
@@ -1654,7 +1654,7 @@ namespace ProjetoTokio
             // 
             // pct3_1
             // 
-            this.pct3_1.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct3_1.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct3_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct3_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct3_1.Location = new System.Drawing.Point(315, 530);
@@ -1665,7 +1665,7 @@ namespace ProjetoTokio
             // 
             // pct2_1
             // 
-            this.pct2_1.BackColor = System.Drawing.Color.ForestGreen;
+            this.pct2_1.BackColor = System.Drawing.Color.LavenderBlush;
             this.pct2_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pct2_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pct2_1.Location = new System.Drawing.Point(265, 530);
