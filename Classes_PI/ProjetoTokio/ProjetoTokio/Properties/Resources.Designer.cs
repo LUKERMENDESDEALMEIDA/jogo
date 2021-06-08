@@ -63,26 +63,6 @@ namespace ProjetoTokio.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap alpinista {
-            get {
-                object obj = ResourceManager.GetObject("alpinista", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap alpinista1 {
-            get {
-                object obj = ResourceManager.GetObject("alpinista1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap alpinistasol {
             get {
                 object obj = ResourceManager.GetObject("alpinistasol", resourceCulture);
@@ -93,9 +73,19 @@ namespace ProjetoTokio.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap alpinistasol1 {
+        internal static System.Drawing.Bitmap amar {
             get {
-                object obj = ResourceManager.GetObject("alpinistasol1", resourceCulture);
+                object obj = ResourceManager.GetObject("amar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap amar_verde {
+            get {
+                object obj = ResourceManager.GetObject("amar_verde", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +103,9 @@ namespace ProjetoTokio.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap azul1 {
+        internal static System.Drawing.Bitmap azul_amar {
             get {
-                object obj = ResourceManager.GetObject("azul1", resourceCulture);
+                object obj = ResourceManager.GetObject("azul_amar", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +113,9 @@ namespace ProjetoTokio.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap baseAmarela {
+        internal static System.Drawing.Bitmap azul_verd {
             get {
-                object obj = ResourceManager.GetObject("baseAmarela", resourceCulture);
+                object obj = ResourceManager.GetObject("azul_verd", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +123,9 @@ namespace ProjetoTokio.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap baseAmarela1 {
+        internal static System.Drawing.Bitmap azul_verd_amar {
             get {
-                object obj = ResourceManager.GetObject("baseAmarela1", resourceCulture);
+                object obj = ResourceManager.GetObject("azul_verd_amar", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,139 +133,9 @@ namespace ProjetoTokio.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap baseAmareloAzul {
+        internal static System.Drawing.Bitmap azul2 {
             get {
-                object obj = ResourceManager.GetObject("baseAmareloAzul", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap baseAmareloAzulVerde {
-            get {
-                object obj = ResourceManager.GetObject("baseAmareloAzulVerde", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap baseAmareloVermelhoVerde {
-            get {
-                object obj = ResourceManager.GetObject("baseAmareloVermelhoVerde", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap baseAzul {
-            get {
-                object obj = ResourceManager.GetObject("baseAzul", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap baseAzulVerde {
-            get {
-                object obj = ResourceManager.GetObject("baseAzulVerde", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap baseTotal {
-            get {
-                object obj = ResourceManager.GetObject("baseTotal", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap baseVerde {
-            get {
-                object obj = ResourceManager.GetObject("baseVerde", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap baseVerde1 {
-            get {
-                object obj = ResourceManager.GetObject("baseVerde1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap baseVermelho {
-            get {
-                object obj = ResourceManager.GetObject("baseVermelho", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap baseVermelhoAmarelo {
-            get {
-                object obj = ResourceManager.GetObject("baseVermelhoAmarelo", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap baseVermelhoAzul {
-            get {
-                object obj = ResourceManager.GetObject("baseVermelhoAzul", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap baseVermelhoAzulAmarelo {
-            get {
-                object obj = ResourceManager.GetObject("baseVermelhoAzulAmarelo", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap baseVermelhoAzulVerde {
-            get {
-                object obj = ResourceManager.GetObject("baseVermelhoAzulVerde", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap baseVermelhoVerde {
-            get {
-                object obj = ResourceManager.GetObject("baseVermelhoVerde", resourceCulture);
+                object obj = ResourceManager.GetObject("azul2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -343,9 +203,9 @@ namespace ProjetoTokio.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap fundo_linha_coluna {
+        internal static System.Drawing.Bitmap todos {
             get {
-                object obj = ResourceManager.GetObject("fundo_linha-coluna", resourceCulture);
+                object obj = ResourceManager.GetObject("todos", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -353,9 +213,9 @@ namespace ProjetoTokio.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap fundo_linha_coluna1 {
+        internal static System.Drawing.Bitmap verde {
             get {
-                object obj = ResourceManager.GetObject("fundo_linha-coluna1", resourceCulture);
+                object obj = ResourceManager.GetObject("verde", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -363,9 +223,9 @@ namespace ProjetoTokio.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap layoutJogo {
+        internal static System.Drawing.Bitmap verm_amar {
             get {
-                object obj = ResourceManager.GetObject("layoutJogo", resourceCulture);
+                object obj = ResourceManager.GetObject("verm_amar", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -373,9 +233,9 @@ namespace ProjetoTokio.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap tons_de_azul_das_montanhas_paisagem_23_2148273707 {
+        internal static System.Drawing.Bitmap verm_azul {
             get {
-                object obj = ResourceManager.GetObject("tons-de-azul-das-montanhas-paisagem_23-2148273707", resourceCulture);
+                object obj = ResourceManager.GetObject("verm-azul", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -383,9 +243,49 @@ namespace ProjetoTokio.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap vermelholala {
+        internal static System.Drawing.Bitmap verm_azul_amar {
             get {
-                object obj = ResourceManager.GetObject("vermelholala", resourceCulture);
+                object obj = ResourceManager.GetObject("verm_azul_amar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap verm_verd_ {
+            get {
+                object obj = ResourceManager.GetObject("verm_verd-", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap verm_verd_Amar {
+            get {
+                object obj = ResourceManager.GetObject("verm_verd_Amar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap verm_verde_azul {
+            get {
+                object obj = ResourceManager.GetObject("verm_verde_azul", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vermelho {
+            get {
+                object obj = ResourceManager.GetObject("vermelho", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

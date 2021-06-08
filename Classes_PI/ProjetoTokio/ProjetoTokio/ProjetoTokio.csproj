@@ -110,27 +110,6 @@
     <None Include="layoutJogo.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\tons-de-azul-das-montanhas-paisagem_23-2148273707.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\alpinista.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\alpinista1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\baseAmarela.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\baseAzul.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\baseVerde.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\baseVermelho.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\dado11.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -149,43 +128,52 @@
     <None Include="Resources\dado61.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\vermelholala.png" />
+    <None Include="Resources\alpinistasol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\amar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\amar_verde.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\azul.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\alpinistasol.png" />
+    <None Include="Resources\azul_amar.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\baseTotal.png" />
+    <None Include="Resources\azul_verd.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\baseAmareloAzul.png" />
+    <None Include="Resources\azul_verd_amar.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\baseAmareloAzulVerde.png" />
+    <None Include="Resources\todos.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\baseAmareloVermelhoVerde.png" />
+    <None Include="Resources\verde.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\baseAzulVerde.png" />
+    <None Include="Resources\verm_amar.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\baseVermelhoAmarelo.png" />
+    <None Include="Resources\verm_azul_amar.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\baseVermelhoAzul.png" />
+    <None Include="Resources\verm_verd-.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\baseVermelhoAzulAmarelo.png" />
+    <None Include="Resources\verm_verd_Amar.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\baseVermelhoAzulVerde.png" />
+    <None Include="Resources\verm_verde_azul.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\baseVermelhoVerde.png" />
+    <None Include="Resources\verm-azul.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vermelho.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
